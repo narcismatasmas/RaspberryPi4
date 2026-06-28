@@ -1,0 +1,35 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: Dashboard
+theme: dark # or light
+color: gray
+language: cat
+
+headerStyle: boxedWidgets
+cardWidth: sm
+favicon: /icons/LogoWhite1024.png
+
+background:
+  image: /imgs/Wallpaper1.png
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 80 # 0-100
+
+fullWidth: false
+layout:
+  Multimedia:
+    style: rows
+    columns: 1
+  Herramientas Globales:
+    style: cols
+    columns: 2
+    list:
+      - Custom
+      - Control
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

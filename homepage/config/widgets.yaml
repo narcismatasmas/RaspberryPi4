@@ -1,0 +1,26 @@
+- logo:
+    icon: /icons/LogoWhite1024.png
+
+- greeting:
+    text_size: xl
+    text: Bona tarda!
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
+      dateStyle: long
+      locale: es-ES
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    cputemp: true
+
+- openmeteo:
+    label: Current
+    latitude: 41.38
+    longitude: 2.17
+    units: metric
+    cache: 5

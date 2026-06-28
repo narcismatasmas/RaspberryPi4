@@ -1,0 +1,888 @@
+Jun 28, 2026 15:51:59.490 [547646619128] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jun 28, 2026 15:51:59.490 [547646619128] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jun 28, 2026 15:51:59.490 [547646619128] INFO - Processor: 4-core ARM Cortex-A72
+Jun 28, 2026 15:51:59.490 [547646619128] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 3,4,5,6,7,8,9,10,11
+Jun 28, 2026 15:51:59.490 [547742314552] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jun 28, 2026 15:51:59.720 [547742314552] DEBUG - Analyzing media parts for item 3 (Nosotros es nosotros): 1
+Jun 28, 2026 15:51:59.722 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:51:59.722 [547742314552] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:51:59.724 [547637005816] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:51:59.725 [547742314552] DEBUG - Updating metadata item (save) (Nosotros es nosotros) with ID 3
+Jun 28, 2026 15:51:59.728 [547635990008] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:51:59.729 [547742314552] DEBUG - [ID 1] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:51:59.729 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:51:59.729 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:51:59.729 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:51:59.730 [547637005816] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:51:59.730 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11712
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11775
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.732 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.733 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:51:59.734 [547742314552] INFO - CodecManager: obtaining decoder 'hevc'
+Jun 28, 2026 15:51:59.734 [547742314552] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/codecs/hevc_decoder?build=linux-aarch64-standard&deviceId=508aa91d-86a9-489b-ade7-715c571dba50&oldestPreviousVersion=1%2E43%2E2%2E10687-563d026ea&version=c75335c-a7cfb6836f3ed63280a7eb83
+Jun 28, 2026 15:52:00.144 [547637005816] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.4s) 200 response from GET https://plex.tv/api/codecs/hevc_decoder?build=linux-aarch64-standard&deviceId=508aa91d-86a9-489b-ade7-715c571dba50&oldestPreviousVersion=1%2E43%2E2%2E10687-563d026ea&version=c75335c-a7cfb6836f3ed63280a7eb83
+Jun 28, 2026 15:52:00.144 [547636514296] DEBUG - [GetFile/HCl#4] HTTP requesting GET https://downloads.plex.tv/codecs/c75335c-a7cfb6836f3ed63280a7eb83/linux-aarch64-standard/libhevc_decoder.so
+Jun 28, 2026 15:52:00.323 [547637005816] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/c75335c-a7cfb6836f3ed63280a7eb83/linux-aarch64-standard/libhevc_decoder.so
+Jun 28, 2026 15:52:00.385 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 11890 bytes read:47056 seeks:2 nb_streams:44
+Jun 28, 2026 15:52:00.387 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.396 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.399 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.401 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64215 bytes read:112592 seeks:2 frames:19
+Jun 28, 2026 15:52:00.413 [547742314552] DEBUG - [MI]  * 5d39da72fdda1b4b594560298f64e7014536a0a4 [mkv hevc/eac3] Duration: 3388385ms, 1920x804 (2.388060) 23.976fps, bitrate=4774kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.413 [547742314552] DEBUG - [MI] Importing 2 media chapters.
+Jun 28, 2026 15:52:00.414 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.417 [547742314552] DEBUG - Committing media stream changes for part 1
+Jun 28, 2026 15:52:00.425 [547742314552] DEBUG - Updating media item 1, size=2022322999, metadata_item_id=3
+Jun 28, 2026 15:52:00.425 [547742314552] DEBUG - Updating part with ID=1 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.426 [547635990008] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.428 [547637005816] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.428 [547635990008] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.430 [547637005816] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.447 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.448 [547742314552] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.450 [547637005816] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.450 [547742314552] DEBUG - Updating metadata item (save) (Nosotros es nosotros) with ID 3
+Jun 28, 2026 15:52:00.454 [547635990008] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.456 [547637005816] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.456 [547742314552] DEBUG - Doing expensive tags write for 'Nosotros es nosotros' because something changed.
+Jun 28, 2026 15:52:00.463 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.463 [547742314552] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.465 [547637005816] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.466 [547742314552] DEBUG - Updating metadata item (save) (Nosotros es nosotros) with ID 3
+Jun 28, 2026 15:52:00.468 [547635990008] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.470 [547637005816] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.476 [547742314552] DEBUG - Analyzing media parts for item 4 (La pirata): 2
+Jun 28, 2026 15:52:00.478 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.479 [547742314552] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.481 [547637005816] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.481 [547742314552] DEBUG - Updating metadata item (save) (La pirata) with ID 4
+Jun 28, 2026 15:52:00.484 [547635990008] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.486 [547742314552] DEBUG - [ID 2] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.486 [547637005816] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.487 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.487 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.487 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.488 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.491 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11798
+Jun 28, 2026 15:52:00.491 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11853
+Jun 28, 2026 15:52:00.491 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11914
+Jun 28, 2026 15:52:00.491 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11977
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.492 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.493 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.494 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.494 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.494 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.494 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.495 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12092 bytes read:47377 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.497 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.512 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.516 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.518 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64419 bytes read:112913 seeks:2 frames:19
+Jun 28, 2026 15:52:00.519 [547742314552] DEBUG - [MI]  * b5f1b070474b4cdb8aaa4f1dcde3c78c5e527780 [mkv hevc/eac3] Duration: 3724846ms, 1920x804 (2.388060) 23.976fps, bitrate=4774kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.519 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.519 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.520 [547742314552] DEBUG - Committing media stream changes for part 2
+Jun 28, 2026 15:52:00.524 [547742314552] DEBUG - Updating media item 2, size=2222803900, metadata_item_id=4
+Jun 28, 2026 15:52:00.524 [547742314552] DEBUG - Updating part with ID=2 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.525 [547635990008] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.526 [547637005816] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.527 [547635990008] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.528 [547637005816] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.534 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.534 [547742314552] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.535 [547637005816] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.536 [547742314552] DEBUG - Updating metadata item (save) (La pirata) with ID 4
+Jun 28, 2026 15:52:00.537 [547635990008] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.538 [547742314552] DEBUG - Doing expensive tags write for 'La pirata' because something changed.
+Jun 28, 2026 15:52:00.538 [547637005816] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.540 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.540 [547742314552] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.542 [547637005816] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.542 [547742314552] DEBUG - Updating metadata item (save) (La pirata) with ID 4
+Jun 28, 2026 15:52:00.543 [547635990008] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.544 [547637005816] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.547 [547742314552] DEBUG - Analyzing media parts for item 5 (La granada): 3
+Jun 28, 2026 15:52:00.548 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.548 [547742314552] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.549 [547637005816] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.549 [547742314552] DEBUG - Updating metadata item (save) (La granada) with ID 5
+Jun 28, 2026 15:52:00.550 [547635990008] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.551 [547742314552] DEBUG - [ID 3] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.551 [547637005816] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.552 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.552 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.552 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.552 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.553 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11797
+Jun 28, 2026 15:52:00.553 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11852
+Jun 28, 2026 15:52:00.553 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11913
+Jun 28, 2026 15:52:00.553 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11976
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.554 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.555 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.555 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.555 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.555 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.555 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12091 bytes read:47374 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.556 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.564 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.566 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.568 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64420 bytes read:112910 seeks:2 frames:19
+Jun 28, 2026 15:52:00.569 [547742314552] DEBUG - [MI]  * f0676c1b4a34f967e35b2b34a39a9ba03b67f2e3 [mkv hevc/eac3] Duration: 2581996ms, 1920x804 (2.388060) 23.976fps, bitrate=4771kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.569 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.570 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.571 [547742314552] DEBUG - Committing media stream changes for part 3
+Jun 28, 2026 15:52:00.574 [547742314552] DEBUG - Updating media item 3, size=1539956356, metadata_item_id=5
+Jun 28, 2026 15:52:00.574 [547742314552] DEBUG - Updating part with ID=3 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.575 [547635990008] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.576 [547637005816] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.576 [547635990008] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.577 [547637005816] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.584 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.584 [547742314552] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.585 [547637005816] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.585 [547742314552] DEBUG - Updating metadata item (save) (La granada) with ID 5
+Jun 28, 2026 15:52:00.587 [547635990008] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.588 [547742314552] DEBUG - Doing expensive tags write for 'La granada' because something changed.
+Jun 28, 2026 15:52:00.588 [547637005816] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.589 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.589 [547742314552] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.591 [547637005816] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.591 [547742314552] DEBUG - Updating metadata item (save) (La granada) with ID 5
+Jun 28, 2026 15:52:00.592 [547635990008] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.593 [547637005816] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.596 [547742314552] DEBUG - Analyzing media parts for item 6 (Por favor, Carol): 4
+Jun 28, 2026 15:52:00.597 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.597 [547742314552] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.598 [547637005816] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.598 [547742314552] DEBUG - Updating metadata item (save) (Por favor, Carol) with ID 6
+Jun 28, 2026 15:52:00.600 [547635990008] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.600 [547742314552] DEBUG - [ID 4] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.601 [547637005816] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.601 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.601 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.601 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.601 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11798
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11853
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11914
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11977
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.603 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.604 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.605 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12092 bytes read:47374 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.606 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.613 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.614 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.614 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.616 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.617 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64425 bytes read:112910 seeks:2 frames:19
+Jun 28, 2026 15:52:00.618 [547742314552] DEBUG - [MI]  * d8307b8daf6e75842ba0c30f4159a01a8ae084a1 [mkv hevc/eac3] Duration: 2716214ms, 1920x804 (2.388060) 23.976fps, bitrate=4775kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.618 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.619 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.620 [547742314552] DEBUG - Committing media stream changes for part 4
+Jun 28, 2026 15:52:00.623 [547742314552] DEBUG - Updating media item 4, size=1621457559, metadata_item_id=6
+Jun 28, 2026 15:52:00.623 [547742314552] DEBUG - Updating part with ID=4 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.624 [547635990008] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.625 [547637005816] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.625 [547635990008] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.627 [547637005816] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.633 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.633 [547742314552] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.635 [547637005816] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.635 [547742314552] DEBUG - Updating metadata item (save) (Por favor, Carol) with ID 6
+Jun 28, 2026 15:52:00.636 [547635990008] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.637 [547742314552] DEBUG - Doing expensive tags write for 'Por favor, Carol' because something changed.
+Jun 28, 2026 15:52:00.637 [547637005816] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.639 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.639 [547742314552] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.640 [547637005816] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.640 [547742314552] DEBUG - Updating metadata item (save) (Por favor, Carol) with ID 6
+Jun 28, 2026 15:52:00.641 [547635990008] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.642 [547637005816] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.645 [547742314552] DEBUG - Analyzing media parts for item 7 (La leche): 5
+Jun 28, 2026 15:52:00.646 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.646 [547742314552] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.648 [547637005816] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.648 [547742314552] DEBUG - Updating metadata item (save) (La leche) with ID 7
+Jun 28, 2026 15:52:00.649 [547635990008] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.650 [547742314552] DEBUG - [ID 5] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.650 [547637005816] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.650 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.650 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.650 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.651 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11708
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11763
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11824
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11887
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.652 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.653 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.654 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12002 bytes read:47019 seeks:2 nb_streams:44
+Jun 28, 2026 15:52:00.655 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.662 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.663 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.665 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.666 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64331 bytes read:112555 seeks:2 frames:19
+Jun 28, 2026 15:52:00.667 [547742314552] DEBUG - [MI]  * 1289262cdb756e5f65b3974bae7f56d1c1395424 [mkv hevc/eac3] Duration: 2759590ms, 1920x804 (2.388060) 23.976fps, bitrate=4768kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.667 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.668 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.669 [547742314552] DEBUG - Committing media stream changes for part 5
+Jun 28, 2026 15:52:00.672 [547742314552] DEBUG - Updating media item 5, size=1644725096, metadata_item_id=7
+Jun 28, 2026 15:52:00.672 [547742314552] DEBUG - Updating part with ID=5 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.673 [547635990008] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.674 [547637005816] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.675 [547635990008] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.676 [547637005816] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.682 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.682 [547742314552] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.684 [547637005816] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.684 [547742314552] DEBUG - Updating metadata item (save) (La leche) with ID 7
+Jun 28, 2026 15:52:00.686 [547635990008] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.687 [547742314552] DEBUG - Doing expensive tags write for 'La leche' because something changed.
+Jun 28, 2026 15:52:00.687 [547637005816] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.688 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.688 [547742314552] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.689 [547637005816] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.690 [547742314552] DEBUG - Updating metadata item (save) (La leche) with ID 7
+Jun 28, 2026 15:52:00.691 [547635990008] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.692 [547637005816] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.695 [547742314552] DEBUG - Analyzing media parts for item 8 (HDP): 6
+Jun 28, 2026 15:52:00.696 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.696 [547742314552] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.697 [547637005816] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.697 [547742314552] DEBUG - Updating metadata item (save) (HDP) with ID 8
+Jun 28, 2026 15:52:00.698 [547635990008] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.699 [547742314552] DEBUG - [ID 6] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.699 [547637005816] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.700 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.700 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.700 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.700 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.701 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11778
+Jun 28, 2026 15:52:00.701 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11833
+Jun 28, 2026 15:52:00.701 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11894
+Jun 28, 2026 15:52:00.701 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11957
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.702 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.703 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12072 bytes read:47375 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.704 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.712 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.714 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.716 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64401 bytes read:112911 seeks:2 frames:19
+Jun 28, 2026 15:52:00.717 [547742314552] DEBUG - [MI]  * 1824ad46f48cebdc2ccf3e7953145bacf605adde [mkv hevc/eac3] Duration: 2958789ms, 1920x804 (2.388060) 23.976fps, bitrate=4774kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.717 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.717 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.718 [547742314552] DEBUG - Committing media stream changes for part 6
+Jun 28, 2026 15:52:00.839 [547742314552] DEBUG - Updating media item 6, size=1765802401, metadata_item_id=8
+Jun 28, 2026 15:52:00.839 [547742314552] DEBUG - Updating part with ID=6 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.885 [547635990008] DEBUG - [HCl#2d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.886 [547637005816] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.886 [547635990008] DEBUG - [HCl#2e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.888 [547637005816] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.894 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.894 [547742314552] DEBUG - [HCl#2f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.896 [547637005816] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.896 [547742314552] DEBUG - Updating metadata item (save) (HDP) with ID 8
+Jun 28, 2026 15:52:00.897 [547635990008] DEBUG - [HCl#30] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.898 [547742314552] DEBUG - Doing expensive tags write for 'HDP' because something changed.
+Jun 28, 2026 15:52:00.898 [547637005816] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.900 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.900 [547742314552] DEBUG - [HCl#31] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.901 [547637005816] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.901 [547742314552] DEBUG - Updating metadata item (save) (HDP) with ID 8
+Jun 28, 2026 15:52:00.903 [547635990008] DEBUG - [HCl#32] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.904 [547637005816] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.906 [547742314552] DEBUG - Analyzing media parts for item 9 (El intervalo): 7
+Jun 28, 2026 15:52:00.907 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.907 [547742314552] DEBUG - [HCl#33] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.909 [547637005816] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.909 [547742314552] DEBUG - Updating metadata item (save) (El intervalo) with ID 9
+Jun 28, 2026 15:52:00.910 [547635990008] DEBUG - [HCl#34] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.911 [547742314552] DEBUG - [ID 7] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.911 [547637005816] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.911 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.912 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.912 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.912 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.913 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11782
+Jun 28, 2026 15:52:00.913 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11837
+Jun 28, 2026 15:52:00.913 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11898
+Jun 28, 2026 15:52:00.913 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11961
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.914 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.915 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12076 bytes read:47341 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.916 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.924 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.926 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.928 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64406 bytes read:112877 seeks:2 frames:19
+Jun 28, 2026 15:52:00.929 [547742314552] DEBUG - [MI]  * 3a7e6f3790182dc27e3fce000aed93bd55b7c70b [mkv hevc/eac3] Duration: 2738945ms, 1920x804 (2.388060) 23.976fps, bitrate=4772kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.929 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.929 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.931 [547742314552] DEBUG - Committing media stream changes for part 7
+Jun 28, 2026 15:52:00.935 [547742314552] DEBUG - Updating media item 7, size=1633789770, metadata_item_id=9
+Jun 28, 2026 15:52:00.935 [547742314552] DEBUG - Updating part with ID=7 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.936 [547635990008] DEBUG - [HCl#35] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.937 [547637005816] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.937 [547635990008] DEBUG - [HCl#36] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.938 [547637005816] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.945 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.945 [547742314552] DEBUG - [HCl#37] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.946 [547637005816] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.946 [547742314552] DEBUG - Updating metadata item (save) (El intervalo) with ID 9
+Jun 28, 2026 15:52:00.948 [547635990008] DEBUG - [HCl#38] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.949 [547742314552] DEBUG - Doing expensive tags write for 'El intervalo' because something changed.
+Jun 28, 2026 15:52:00.949 [547637005816] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.950 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.950 [547742314552] DEBUG - [HCl#39] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.952 [547637005816] DEBUG - [HttpClient/HCl#39] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.952 [547742314552] DEBUG - Updating metadata item (save) (El intervalo) with ID 9
+Jun 28, 2026 15:52:00.953 [547635990008] DEBUG - [HCl#3a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.954 [547637005816] DEBUG - [HttpClient/HCl#3a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.957 [547742314552] DEBUG - Analyzing media parts for item 10 (Ofensiva con encanto): 8
+Jun 28, 2026 15:52:00.958 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.958 [547742314552] DEBUG - [HCl#3b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.959 [547637005816] DEBUG - [HttpClient/HCl#3b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.959 [547742314552] DEBUG - Updating metadata item (save) (Ofensiva con encanto) with ID 10
+Jun 28, 2026 15:52:00.961 [547635990008] DEBUG - [HCl#3c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.961 [547742314552] DEBUG - [ID 8] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:00.962 [547637005816] DEBUG - [HttpClient/HCl#3c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:00.962 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.962 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:00.962 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:00.962 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:00.963 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11778
+Jun 28, 2026 15:52:00.963 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11833
+Jun 28, 2026 15:52:00.963 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11894
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11957
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.964 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:00.965 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12072 bytes read:47377 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:00.967 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:00.974 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:00.976 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:00.978 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64401 bytes read:112913 seeks:2 frames:19
+Jun 28, 2026 15:52:00.979 [547742314552] DEBUG - [MI]  * dd4f32b9963e8f11850b7d276330b850eaa4028a [mkv hevc/eac3] Duration: 2578910ms, 1920x804 (2.388060) 23.976fps, bitrate=4772kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:00.979 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:00.979 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:00.981 [547742314552] DEBUG - Committing media stream changes for part 8
+Jun 28, 2026 15:52:00.984 [547742314552] DEBUG - Updating media item 8, size=1538405592, metadata_item_id=10
+Jun 28, 2026 15:52:00.984 [547742314552] DEBUG - Updating part with ID=8 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:00.985 [547635990008] DEBUG - [HCl#3d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:00.986 [547637005816] DEBUG - [HttpClient/HCl#3d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:00.986 [547635990008] DEBUG - [HCl#3e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:00.988 [547637005816] DEBUG - [HttpClient/HCl#3e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:00.994 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.994 [547742314552] DEBUG - [HCl#3f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:00.996 [547637005816] DEBUG - [HttpClient/HCl#3f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:00.996 [547742314552] DEBUG - Updating metadata item (save) (Ofensiva con encanto) with ID 10
+Jun 28, 2026 15:52:00.997 [547635990008] DEBUG - [HCl#40] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:00.998 [547742314552] DEBUG - Doing expensive tags write for 'Ofensiva con encanto' because something changed.
+Jun 28, 2026 15:52:00.998 [547637005816] DEBUG - [HttpClient/HCl#40] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:01.000 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.000 [547742314552] DEBUG - [HCl#41] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.001 [547637005816] DEBUG - [HttpClient/HCl#41] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:01.001 [547742314552] DEBUG - Updating metadata item (save) (Ofensiva con encanto) with ID 10
+Jun 28, 2026 15:52:01.002 [547635990008] DEBUG - [HCl#42] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:01.003 [547637005816] DEBUG - [HttpClient/HCl#42] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:01.006 [547742314552] DEBUG - Analyzing media parts for item 11 (La chica o el mundo): 9
+Jun 28, 2026 15:52:01.007 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.007 [547742314552] DEBUG - [HCl#43] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.008 [547637005816] DEBUG - [HttpClient/HCl#43] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:01.009 [547742314552] DEBUG - Updating metadata item (save) (La chica o el mundo) with ID 11
+Jun 28, 2026 15:52:01.010 [547635990008] DEBUG - [HCl#44] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:01.010 [547742314552] DEBUG - [ID 9] Media part analysis: /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv
+Jun 28, 2026 15:52:01.011 [547637005816] DEBUG - [HttpClient/HCl#44] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:01.011 [547742314552] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:01.011 [547742314552] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 28, 2026 15:52:01.011 [547742314552] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 28, 2026 15:52:01.012 [547742314552] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 28, 2026 15:52:01.012 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 198
+Jun 28, 2026 15:52:01.012 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 247
+Jun 28, 2026 15:52:01.012 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 302
+Jun 28, 2026 15:52:01.012 [547742314552] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 359
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.013 [547742314552] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.014 [547742314552] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 28, 2026 15:52:01.015 [547742314552] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12054 bytes read:47372 seeks:2 nb_streams:45
+Jun 28, 2026 15:52:01.016 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Decoding VPS
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Decoding SPS
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Decoding VUI
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Decoding PPS
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 28, 2026 15:52:01.024 [547742314552] DEBUG - [FFMPEG] - Decoding SEI
+Jun 28, 2026 15:52:01.026 [547742314552] DEBUG - [FFMPEG] - All info found
+Jun 28, 2026 15:52:01.027 [547742314552] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64381 bytes read:112908 seeks:2 frames:19
+Jun 28, 2026 15:52:01.028 [547742314552] DEBUG - [MI]  * 9f4e557acee676317b3eafa787d30b9db11b6174 [mkv hevc/eac3] Duration: 3432805ms, 1920x804 (2.388060) 23.976fps, bitrate=4773kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv")
+Jun 28, 2026 15:52:01.028 [547742314552] DEBUG - [MI] Importing 4 media chapters.
+Jun 28, 2026 15:52:01.029 [547742314552] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 28, 2026 15:52:01.030 [547742314552] DEBUG - Committing media stream changes for part 9
+Jun 28, 2026 15:52:01.033 [547742314552] DEBUG - Updating media item 9, size=2048269599, metadata_item_id=11
+Jun 28, 2026 15:52:01.033 [547742314552] DEBUG - Updating part with ID=9 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jun 28, 2026 15:52:01.034 [547635990008] DEBUG - [HCl#45] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jun 28, 2026 15:52:01.035 [547637005816] DEBUG - [HttpClient/HCl#45] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jun 28, 2026 15:52:01.036 [547635990008] DEBUG - [HCl#46] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jun 28, 2026 15:52:01.037 [547637005816] DEBUG - [HttpClient/HCl#46] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jun 28, 2026 15:52:01.043 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.043 [547742314552] DEBUG - [HCl#47] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.045 [547637005816] DEBUG - [HttpClient/HCl#47] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:01.045 [547742314552] DEBUG - Updating metadata item (save) (La chica o el mundo) with ID 11
+Jun 28, 2026 15:52:01.047 [547635990008] DEBUG - [HCl#48] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:01.048 [547637005816] DEBUG - [HttpClient/HCl#48] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jun 28, 2026 15:52:01.048 [547742314552] DEBUG - Doing expensive tags write for 'La chica o el mundo' because something changed.
+Jun 28, 2026 15:52:01.049 [547742314552] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.049 [547742314552] DEBUG - [HCl#49] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jun 28, 2026 15:52:01.050 [547637005816] DEBUG - [HttpClient/HCl#49] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jun 28, 2026 15:52:01.051 [547742314552] DEBUG - Updating metadata item (save) (La chica o el mundo) with ID 11
+Jun 28, 2026 15:52:01.052 [547635990008] DEBUG - [HCl#4a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jun 28, 2026 15:52:01.053 [547637005816] DEBUG - [HttpClient/HCl#4a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)

@@ -1,0 +1,800 @@
+[2026-06-28T17:29:50.841Z] info: kubernetes.yaml was copied to the config folder
+[2026-06-28T17:29:53.441Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.641Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.656Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.685Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.730Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.761Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.793Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.814Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.835Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.865Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.881Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:29:54.891Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:22.915Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:22.925Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:22.941Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.666Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.714Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.724Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.738Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.748Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.757Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.764Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.772Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.782Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.794Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.802Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.818Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:23.839Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.864Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.897Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.906Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.915Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.922Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.929Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.945Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.954Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.961Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.968Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.975Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:24.990Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.008Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.222Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.257Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.264Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.271Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.278Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.286Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.313Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.329Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.336Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.343Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.352Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.365Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.388Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.559Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.592Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.600Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.608Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.623Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.635Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.659Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.684Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.697Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.709Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.722Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.735Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.753Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.879Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.918Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.925Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.932Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.939Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.952Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.962Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.972Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.979Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.986Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:25.997Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.012Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.033Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.055Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.090Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.097Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.104Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.111Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.121Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.132Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.140Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.146Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.155Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.180Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.187Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.206Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.243Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.250Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.257Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.269Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.279Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.287Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.294Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.302Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.310Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.326Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.334Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.378Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.416Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.424Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.431Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.439Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.455Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.468Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.477Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.484Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.492Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.498Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.522Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.546Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.578Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.585Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.591Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.598Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.610Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.620Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.631Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.638Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.644Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.651Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.663Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.680Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.705Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.738Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.746Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.753Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.759Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.769Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.779Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.787Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.794Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.801Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.807Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.853Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.890Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.939Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.946Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.955Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.962Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.971Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.981Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.991Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:26.998Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.007Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.014Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.037Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.062Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.094Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.102Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.113Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.121Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.128Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.136Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.144Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.154Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.163Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.184Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.193Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.206Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.238Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.246Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.256Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.268Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.276Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.283Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.290Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.302Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.311Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.319Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.333Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.374Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.406Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.414Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.421Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.430Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.440Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.447Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.454Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.461Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.468Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.492Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.504Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.525Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.551Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.585Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.593Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.599Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.606Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.622Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.632Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.642Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.649Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.656Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.668Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.679Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.697Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.718Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.751Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.758Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.765Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.778Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.788Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.796Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.802Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.810Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.816Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.827Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.841Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.869Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.892Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.925Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.932Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.938Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.945Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.954Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.964Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.972Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.979Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:27.986Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.003Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.011Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.025Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.073Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.112Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.118Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.125Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.133Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.143Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.153Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.161Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.167Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.174Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.189Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.195Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.223Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.247Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.281Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.288Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.294Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.304Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.316Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.327Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.334Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.341Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.348Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.360Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.372Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.387Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.431Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.465Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.474Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.482Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.491Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.498Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.507Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.521Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.528Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.534Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.541Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.547Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.567Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.589Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.622Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.629Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.638Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.644Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.653Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.662Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.670Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.677Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.683Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.692Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.710Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.736Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.767Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.775Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.784Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.792Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.799Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.807Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.813Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.832Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.842Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.851Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.863Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:28.878Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:30:31.021Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:17.131Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:17.147Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:17.171Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:22.583Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:22.598Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:31:22.621Z] error: Host validation failed for: 192.168.1.137:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-28T17:35:20.495Z] info: docker.yaml was copied to the config folder
+[2026-06-28T17:35:20.502Z] info: bookmarks.yaml was copied to the config folder
+[2026-06-28T17:35:20.506Z] info: custom.css was copied to the config folder
+[2026-06-28T17:35:20.508Z] info: custom.js was copied to the config folder
+[2026-06-28T17:35:20.554Z] info: proxmox.yaml was copied to the config folder
+[2026-06-28T17:35:21.914Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:24.885Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:28.061Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:31.754Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:35.471Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:38.544Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:43.036Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:48.282Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:51.374Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:54.474Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:35:57.579Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:37:58.574Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:38:20.826Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:38:21.283Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:03.840Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:04.397Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:07.319Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:10.394Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:17.250Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:31.020Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:31.431Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:37.120Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:37.495Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:48.036Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:48.349Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:39:51.362Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:09.912Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:12.786Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:27.884Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:28.415Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:40.069Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:40:40.383Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:41:04.218Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:41:04.636Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:41:33.689Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:42:33.303Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:42:41.765Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:43:51.820Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:43:52.146Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:17.289Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:17.632Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:20.625Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:23.830Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:26.747Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:27.095Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:30.059Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:33.210Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:33.526Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:49.622Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:49.907Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:52.935Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:55.792Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:44:56.109Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:35.095Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:35.406Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:38.379Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:41.508Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:44.598Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:47.737Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:50.825Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:53.960Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:45:57.054Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:00.143Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:03.232Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:06.356Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:09.502Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:12.674Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:15.852Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:18.966Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:22.061Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:25.145Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:28.270Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:31.365Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:46:34.500Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:49:26.041Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:49:38.893Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:11.390Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:11.718Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:14.715Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:16.736Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:40.557Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:40.903Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:43.786Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:46.889Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:50:50.001Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:51:41.365Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:51:41.684Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:21.336Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T17:52:21.337Z] error: bad indentation of a mapping entry (17:5)
+
+ 14 |     disk: /data
+ 15 |     cputemp: true
+ 16 | 
+ 17 |     - Plex:
+----------^
+ 18 |     icon: plex.png
+ 19 |     href: https://plex.my.host
+[2026-06-28T17:52:21.398Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:21.452Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T17:52:21.453Z] error: bad indentation of a mapping entry (17:5)
+
+ 14 |     disk: /data
+ 15 |     cputemp: true
+ 16 | 
+ 17 |     - Plex:
+----------^
+ 18 |     icon: plex.png
+ 19 |     href: https://plex.my.host
+[2026-06-28T17:52:21.638Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T17:52:21.639Z] error: bad indentation of a mapping entry (17:5)
+
+ 14 |     disk: /data
+ 15 |     cputemp: true
+ 16 | 
+ 17 |     - Plex:
+----------^
+ 18 |     icon: plex.png
+ 19 |     href: https://plex.my.host
+[2026-06-28T17:52:30.849Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:33.879Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:36.961Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:40.036Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:43.129Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:46.214Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:49.125Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:49.369Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:52.407Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:55.492Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:58.583Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:52:59.710Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:02.684Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:05.786Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:07.133Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:10.138Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:13.236Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:24.767Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:25.091Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:28.076Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:56.276Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:53:58.718Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:22.919Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:24.196Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:26.125Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:29.088Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:32.175Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:35.294Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:38.417Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:41.505Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:44.607Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:47.700Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:50.829Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T17:58:53.939Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:11.841Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:12.220Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:15.165Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:17.643Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:17.999Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:50.574Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:50.994Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:53.920Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:01:57.214Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:02:00.285Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:03:57.112Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:03:58.250Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:04:09.000Z] warn: <resources> Drive not found for target: /data
+[2026-06-28T18:17:25.939Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:17:25.978Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:17:25.980Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:17:25.984Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:17:39.344Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-28T18:17:39.737Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2026-06-28T18:18:01.690Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:01.696Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:01.698Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:01.700Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:18:02.048Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:02.052Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:02.052Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:02.053Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:18:07.060Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:07.065Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:07.066Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:07.069Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:18:17.014Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:17.019Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:17.020Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:17.022Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:18:17.518Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:17.521Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:17.522Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:17.523Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:18:17.553Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.137:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-06-28T18:18:22.261Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:18:22.268Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:18:22.269Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:18:22.271Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:19:04.935Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.137:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-06-28T18:19:04.943Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:19:04.948Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:19:04.949Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:19:04.952Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:19:05.329Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.137:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-06-28T18:19:05.332Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:19:05.336Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:19:05.337Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:19:05.338Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:19:25.934Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:19:25.940Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:19:25.941Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:19:25.943Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:19:26.417Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:19:26.420Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:19:26.421Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:19:26.422Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:21:31.925Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:21:31.929Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:21:31.930Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:21:31.931Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:21:50.660Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:21:50.663Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:21:50.664Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:21:50.665Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:21:54.610Z] error: <httpProxy> Error calling http://localhost:32400/status/sessions...
+[2026-06-28T18:21:54.613Z] error: <httpProxy> [
+  500,
+  AggregateError: 
+      at ignore-listed frames {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2026-06-28T18:21:54.614Z] error: <plexProxyHandler> HTTP 500 communicating with Plex. Data: [object Object]
+[2026-06-28T18:21:54.615Z] error: <servicesProxy> TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (node:buffer:328:9)
+    at p (/app/.next/server/pages/api/services/proxy.js:79:38277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async l (/app/.next/server/pages/api/services/proxy.js:18:32116)
+    at async tM (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:102454)
+    at async tH.render (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:103169)
+    at async Module.n (/app/.next/server/pages/api/services/proxy.js:79:43715)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:695:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/next-server.js:335:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:935:17)
+[2026-06-28T18:44:36.524Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T18:44:36.529Z] error: bad indentation of a mapping entry (6:57)
+
+ 3 |  ... 
+ 4 |  ... 
+ 5 |  ... 
+ 6 |  ... user }}! Avui és {{ date | date: "%A, %d de %B de %Y" }} i són  ...
+-----------------------------------------^
+ 7 |  ... 
+ 8 |  ... 
+[2026-06-28T18:44:36.788Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T18:44:36.790Z] error: bad indentation of a mapping entry (6:57)
+
+ 3 |  ... 
+ 4 |  ... 
+ 5 |  ... 
+ 6 |  ... user }}! Avui és {{ date | date: "%A, %d de %B de %Y" }} i són  ...
+-----------------------------------------^
+ 7 |  ... 
+ 8 |  ... 
+[2026-06-28T18:44:37.040Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-28T18:44:37.041Z] error: bad indentation of a mapping entry (6:57)
+
+ 3 |  ... 
+ 4 |  ... 
+ 5 |  ... 
+ 6 |  ... user }}! Avui és {{ date | date: "%A, %d de %B de %Y" }} i són  ...
+-----------------------------------------^
+ 7 |  ... 
+ 8 |  ... 

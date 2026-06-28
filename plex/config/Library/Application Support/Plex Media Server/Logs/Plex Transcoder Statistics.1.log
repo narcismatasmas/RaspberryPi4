@@ -1,0 +1,97 @@
+<SessionReport version="2" startTime="0" startTimestamp="Jun 28, 2026 17:35:29.428" key="/library/metadata/3" session="519c0cc880a156d5-com-plexapp-android" transcode="519c0cc880a156d5-com-plexapp-android">
+<User id="1" thumb="https://plex.tv/users/8393d6f0caef818e/avatar?c=1782654669" title="narcsm" />
+<Player address="192.168.1.143" device="MiTV-MOOR2" machineIdentifier="519c0cc880a156d5-com-plexapp-android" platform="Android" platformVersion="11" product="Plex for Android (TV)" remotePublicAddress="37.15.102.100" version="10.30.8.4222" local="1" relayed="0" secure="1" userID="1" />
+<Variants>
+<Variant id="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" targetBitrate="10028" context="streaming" sourceVideoCodec="hevc" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="copy" protocol="hls" container="mkv" videoCodec="hevc" audioCodec="eac3" audioChannels="6" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="dolby digital plus + dolby atmos" id="1" videoProfile="main 10" audioChannels="6" audioCodec="eac3" bitrate="4775" container="mkv" duration="3388385" height="804" protocol="hls" videoCodec="hevc" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
+<Part audioProfile="dolby digital plus + dolby atmos" id="1" videoProfile="main 10" bitrate="4775" container="mkv" duration="3388385" height="804" protocol="hls" width="1920" decision="transcode" selected="1">
+<Stream bitDepth="10" bitrate="4007" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="808" codedWidth="1920" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" displayTitle="1080p" extendedDisplayTitle="1080p (HEVC Main 10)" frameRate="23.975999832153320" height="804" id="1" language="English" languageCode="eng" languageTag="en-US" level="120" profile="main 10" refFrames="1" streamType="1" width="1920" decision="copy" location="segments-av" />
+<Stream audioChannelLayout="5.1(side)" bitrate="768" bitrateMode="cbr" channels="6" codec="eac3" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="Surround 5.1 w/Atmos (English EAC3)" id="2" language="English" languageCode="eng" languageTag="en-US" profile="dolby digital plus + dolby atmos" samplingRate="48000" selected="1" streamType="2" title="Surround 5.1 w/Atmos" decision="copy" location="segments-av" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="10301" startOffset="0" endOffset="10301">
+<File name="media-00000.ts" type="av">
+<FileVariant size="3386542" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="82" endTime="120" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+<Download startTime="194" endTime="1223" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="10301" startOffset="10427" endOffset="20728">
+<File name="media-00001.ts" type="av">
+<FileVariant size="5228409" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="120" endTime="162" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="10218" startOffset="20854" endOffset="31072">
+<File name="media-00002.ts" type="av">
+<FileVariant size="5563405" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="162" endTime="217" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="17892" startOffset="31281" endOffset="49173">
+<File name="media-00003.ts" type="av">
+<FileVariant size="9825051" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="217" endTime="295" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="2794" startOffset="49299" endOffset="52093">
+<File name="media-00004.ts" type="av">
+<FileVariant size="701971" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="295" endTime="306" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="13637" startOffset="52094" endOffset="65732">
+<File name="media-00005.ts" type="av">
+<FileVariant size="10767751" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="306" endTime="386" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="12679" startOffset="65732" endOffset="78411">
+<File name="media-00006.ts" type="av">
+<FileVariant size="8511070" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="386" endTime="452" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="5420" startOffset="78412" endOffset="83833">
+<File name="media-00007.ts" type="av">
+<FileVariant size="5207022" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="452" endTime="490" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+<Segment duration="6338" startOffset="83834" endOffset="90173">
+<File name="media-00008.ts" type="av">
+<FileVariant size="5261371" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</File>
+<Timelines>
+<Transcode startTime="490" endTime="529" complete="1" fileType="av" variant="52b56eb6-6d2c-4cb5-947f-227e87aef9f1" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports>
+<Playback startTime="1246" endTime="1424" state="playing" progress="0" />
+<Playback startTime="1424" endTime="1424" state="stopped" progress="0" />
+</PlaybackReports>
+<StateReports />
+<StateReports type="sloth">
+<State startTime="585" endTime="1424" slothMode="1" />
+</StateReports>
+</SessionReport>

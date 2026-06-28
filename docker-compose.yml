@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  brightnesscontrol:
+    build: ./brightnesscontrol
+    container_name: brightnesscontrol
+    privileged: true
+    volumes:
+      - /sys/class/backlight:/sys/class/backlight:rw
+    restart: unless-stopped
+
+  nowplaying:
+    build: ./nowplaying
+    container_name: nowplaying
+    ports:
+      - "8000:8000"
+    devices:
+      - "/dev/snd:/dev/snd"
+    restart: unless-stopped
+
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - VERSION=docker
+    volumes:
+      - /home/nmatas/docker/plex/config:/config
+      - /home/nmatas/Medios:/data/medios
+    restart: unless-stopped
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    command: -H unix:///var/run/docker.sock
+    ports:
+      - "9443:9443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/nmatas/docker/portainer/data:/data
+    restart: unless-stopped
+
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - "3000:3000"
+    environment:
+      - HOMEPAGE_ALLOWED_HOSTS=192.168.1.137,192.168.1.137:3000,localhost,127.0.0.1
+    volumes:
+      - /home/nmatas/docker/homepage/config:/app/config
+      - /home/nmatas/docker/homepage/icons:/app/public/icons
+      - /home/nmatas/docker/homepage/imgs:/app/public/imgs
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /sys:/sys:ro
+    restart: unless-stopped

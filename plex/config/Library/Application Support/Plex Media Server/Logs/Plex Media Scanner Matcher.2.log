@@ -1,0 +1,6 @@
+Jun 28, 2026 15:52:01.171 [548338224632] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jun 28, 2026 15:52:01.172 [548338224632] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jun 28, 2026 15:52:01.172 [548338224632] INFO - Processor: 4-core ARM Cortex-A72
+Jun 28, 2026 15:52:01.172 [548338224632] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 1 --content-type=application/json
+Jun 28, 2026 15:52:01.172 [548433920056] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jun 28, 2026 15:52:01.402 [548433920056] DEBUG - Matcher: found 0 auxiliary files for Pluribus

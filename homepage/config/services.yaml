@@ -1,0 +1,26 @@
+- Multimedia:
+    - Plex:
+        icon: plex.png
+        href: http://192.168.1.137:32400/
+        description: Servidor de Películas y Series
+        container: plex
+
+- Custom:
+    - Now Playing:
+        icon: /icons/Now-Playing.png
+        href: http://192.168.1.137:8000/
+        description: Dashboard de Reconocimiento de Audio
+        container: nowplaying
+        
+    - BrightnessControl:
+        icon: /icons/BrightnessControl.png
+        description: Control de Brillo de Pantalla
+        container: brightnesscontrol
+    
+
+- Control:
+    - Portainer:
+        icon: portainer.png
+        href: https://192.168.1.137:9443/
+        description: Gestión de Contenedores Docker
+        container: portainer

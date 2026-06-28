@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+shazamio
+sounddevice
+numpy
+scipy
+requests
+flask
+pyaudio

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0b0f19;
+    color: #f3f4f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dashboard-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(10, 10, 10, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 46px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.cover-area {
+    height: 100%;
+    aspect-ratio: 1 / 1; /* Forzamos que el contenedor también sea un cuadrado perfecto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-area img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    aspect-ratio: 1 / 1;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.5s ease;
+
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out, transform 0.5s ease;
+}
+
+.info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* ¡Ahora sí! Empuja el grupo de texto arriba y el badge abajo */
+    height: 100%;
+    width: 100%;
+    gap: 8px;
+    flex: 1;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Controla la separación exclusiva entre el título y el artista */
+}
+
+#track-title {
+    font-size: 2.0rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+#track-artist {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9ca3af;
+    margin-bottom: 0; /* Cambiado de 12px a 0 */
+}
+
+.status-badge {
+    display: inline-block; /* Asegura que el badge solo ocupe el ancho de su propio texto */
+    margin-left: auto;     /* 🚀 ¡LA MAGIA! Empuja el badge por completo hacia la derecha */
+    align-self: flex-end;  /* Mantiene el anclaje abajo/derecha en el eje cruzado */
+    padding: 6px 14px;
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-badge.searching {
+    background: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
