@@ -3,18 +3,26 @@ import os
 from datetime import datetime, timezone
 
 DB_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "current_track.json"))
+DB_HISTORY_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "history.json"))
 MARGEN_MINUTOS = 2
 
+# ==========================================
+# GESTIÓN DE LA CANCIÓN ACTUAL
+# ==========================================
+
 def save_current_track(track_data):
-    """Guarda la canción junto con la hora actual en formato ISO"""
-    # Añadimos la hora actual en la que se registra el evento
+    """Guarda la canción o el fallo. Si es un éxito, lo añade al historial."""
     track_data["timestamp"] = datetime.now(timezone.utc).isoformat()
     
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(track_data, f, indent=4, ensure_ascii=False)
+        
+    # 🆕 Si la canción ha sido un éxito, intentamos guardarla en el historial
+    if track_data.get("success") is True:
+        add_to_history(track_data)
 
 def get_current_track():
-    """Lee la canción actual y aplica el margen de 2 minutos si no se detecta nada"""
+    """Lee la canción actual y aplica el margen si no se detecta nada"""
     estado_vacio = {
         "success": False,
         "title": "Ninguna canción",
@@ -29,24 +37,60 @@ def get_current_track():
     with open(DB_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Si la última lectura de Shazam fue exitosa, la mostramos siempre
     if data.get("success") is True:
         return data
 
-    # Si la última lectura fue un fallo ("success": False), comprobamos cuándo ocurrió
-    # por si tenemos que mantener la canción anterior en la pantalla
     last_time_str = data.get("timestamp")
     if not last_time_str:
         return estado_vacio
 
-    # Calculamos la diferencia de tiempo
     last_time = datetime.fromisoformat(last_time_str)
     ahora = datetime.now(timezone.utc)
     diferencia = (ahora - last_time).total_seconds() / 60
 
-    # Si han pasado más de 2 minutos desde el último registro de "no detectado",
-    # entonces ya mostramos el estado vacío oficialmente
     if diferencia > MARGEN_MINUTOS:
         return estado_vacio
         
     return data
+
+# ==========================================
+# 🆕 GESTIÓN DEL HISTORIAL (Últimas 10)
+# ==========================================
+
+def get_history():
+    """Devuelve la lista del historial. Crea el archivo si no existe."""
+    if not os.path.exists(DB_HISTORY_FILE):
+        with open(DB_HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump([], f)
+        return []
+        
+    with open(DB_HISTORY_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def add_to_history(track_data):
+    """Añade la canción al historial sin duplicar la última y manteniendo máximo 10."""
+    history = get_history()
+    
+    # Comprobar que no sea exactamente la misma que la última añadida
+    if len(history) > 0:
+        last_track = history[0]
+        if last_track.get("title") == track_data.get("title") and last_track.get("artist") == track_data.get("artist"):
+            return # Es la misma, no la duplicamos
+            
+    # Preparamos los datos limpios para el historial
+    historial_entry = {
+        "title": track_data.get("title"),
+        "artist": track_data.get("artist"),
+        "album_art": track_data.get("album_art"),
+        "timestamp": track_data.get("timestamp")
+    }
+    
+    # Insertar al principio de la lista
+    history.insert(0, historial_entry)
+    
+    # Recortar a las últimas 10
+    history = history[:10]
+    
+    # Guardar en el archivo JSON
+    with open(DB_HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=4, ensure_ascii=False)

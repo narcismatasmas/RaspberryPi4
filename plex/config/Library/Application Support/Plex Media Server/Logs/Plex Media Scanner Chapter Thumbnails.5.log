@@ -1,0 +1,687 @@
+Jun 29, 2026 02:10:04.905 [548396031480] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jun 29, 2026 02:10:04.906 [548396031480] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jun 29, 2026 02:10:04.906 [548396031480] INFO - Processor: 4-core ARM Cortex-A72
+Jun 29, 2026 02:10:04.906 [548396031480] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 10 --log-file-suffix  Chapter Thumbnails --force
+Jun 29, 2026 02:10:04.906 [548491726904] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jun 29, 2026 02:10:05.156 [548491726904] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 29, 2026 02:10:05.157 [548491726904] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
+Jun 29, 2026 02:10:05.157 [548491726904] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jun 29, 2026 02:10:05.162 [548491726904] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11778
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11833
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11894
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11957
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.164 [548491726904] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.165 [548491726904] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
+Jun 29, 2026 02:10:05.166 [548491726904] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12072 bytes read:47377 seeks:2 nb_streams:45
+Jun 29, 2026 02:10:05.167 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.175 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.178 [548491726904] DEBUG - [FFMPEG] - All info found
+Jun 29, 2026 02:10:05.179 [548491726904] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64401 bytes read:112913 seeks:2 frames:19
+Jun 29, 2026 02:10:05.179 [548491726904] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter1.jpg (0.1%, 1280x720).
+Jun 29, 2026 02:10:05.181 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.189 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.234 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.234 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.234 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.234 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.234 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.242 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.242 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.255 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.255 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.255 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.255 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.256 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.256 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:05.272 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jun 29, 2026 02:10:05.272 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.291 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 9.
+Jun 29, 2026 02:10:05.291 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.298 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jun 29, 2026 02:10:05.315 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jun 29, 2026 02:10:05.449 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:05.572 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.579 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.580 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.588 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.588 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.601 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.601 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.601 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.601 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.601 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.602 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:05.617 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jun 29, 2026 02:10:05.618 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.637 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 9.
+Jun 29, 2026 02:10:05.637 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.644 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jun 29, 2026 02:10:05.661 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jun 29, 2026 02:10:05.794 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:05.919 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.936 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:05.936 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:05.950 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:05.967 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jun 29, 2026 02:10:05.967 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.987 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 9.
+Jun 29, 2026 02:10:05.988 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:05.994 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jun 29, 2026 02:10:06.011 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jun 29, 2026 02:10:06.145 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:06.249 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.257 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:06.258 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.258 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.258 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.258 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.258 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.265 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.265 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.279 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.279 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.279 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.279 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.279 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:06.280 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:06.295 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jun 29, 2026 02:10:06.296 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.315 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 9.
+Jun 29, 2026 02:10:06.315 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.322 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jun 29, 2026 02:10:06.339 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jun 29, 2026 02:10:06.473 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:06.586 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.602 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.602 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:06.616 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:06.632 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jun 29, 2026 02:10:06.632 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.652 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 9.
+Jun 29, 2026 02:10:06.652 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.659 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jun 29, 2026 02:10:06.676 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jun 29, 2026 02:10:06.811 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:06.926 [548491726904] DEBUG - Skipped thumbnail for metadata item 10, media item 8 for chapter number 1:0
+Jun 29, 2026 02:10:06.927 [548491726904] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter2.jpg (7.2%, 1280x720).
+Jun 29, 2026 02:10:06.928 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.935 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.935 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.936 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:06.952 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.952 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.952 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.952 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:06.960 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:06.960 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.973 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:06.974 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:06.974 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:06.974 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:06.974 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:07.084 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -15.
+Jun 29, 2026 02:10:07.085 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 9(RASL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.085 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.085 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.085 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.146 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -8.
+Jun 29, 2026 02:10:07.147 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.147 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -15.
+Jun 29, 2026 02:10:07.193 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -11.
+Jun 29, 2026 02:10:07.327 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:07.442 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.449 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.450 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.458 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:07.458 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.472 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:07.472 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.472 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:07.472 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:07.473 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:07.583 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -15.
+Jun 29, 2026 02:10:07.583 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 9(RASL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.583 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.583 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.584 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.645 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -8.
+Jun 29, 2026 02:10:07.645 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.645 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -15.
+Jun 29, 2026 02:10:07.690 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -11.
+Jun 29, 2026 02:10:07.823 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:07.950 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.958 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:07.959 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.959 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.959 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.959 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:07.967 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:07.967 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.981 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:07.981 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:07.981 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:07.981 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:07.981 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:08.091 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -15.
+Jun 29, 2026 02:10:08.092 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 9(RASL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.092 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.092 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.092 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.153 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -8.
+Jun 29, 2026 02:10:08.154 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.154 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -15.
+Jun 29, 2026 02:10:08.201 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -11.
+Jun 29, 2026 02:10:08.337 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:08.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.461 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:08.462 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.462 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.462 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.462 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.469 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:08.470 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.483 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:08.483 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.483 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:08.483 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:08.484 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:08.594 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -15.
+Jun 29, 2026 02:10:08.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 9(RASL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.594 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.595 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.656 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -8.
+Jun 29, 2026 02:10:08.656 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.656 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -15.
+Jun 29, 2026 02:10:08.701 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -11.
+Jun 29, 2026 02:10:08.835 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:08.957 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.965 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:08.966 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.966 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.966 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.966 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:08.974 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:08.974 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.988 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:08.988 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:08.988 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:08.988 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:08.988 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:09.098 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -15.
+Jun 29, 2026 02:10:09.098 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 9(RASL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.098 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.098 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 8(RASL_N), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.099 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.160 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -8.
+Jun 29, 2026 02:10:09.160 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.160 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -15.
+Jun 29, 2026 02:10:09.206 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -11.
+Jun 29, 2026 02:10:09.340 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:09.468 [548491726904] DEBUG - Created chapter thumbnail for metadata item 10, media item 8 for chapter number 2:183804 at "/config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter2.jpg"
+Jun 29, 2026 02:10:09.468 [548491726904] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter3.jpg (8.0%, 1280x720).
+Jun 29, 2026 02:10:09.469 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.477 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:09.478 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.478 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:09.490 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.490 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.490 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.490 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.498 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:09.498 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.512 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:09.512 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.512 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:09.512 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:09.513 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:09.580 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 65.
+Jun 29, 2026 02:10:09.585 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.621 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 69.
+Jun 29, 2026 02:10:09.622 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.622 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 65.
+Jun 29, 2026 02:10:09.671 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 67.
+Jun 29, 2026 02:10:09.807 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:09.927 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.935 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:09.943 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:09.943 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.957 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:09.957 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:09.957 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:09.957 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:09.958 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:10.025 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 65.
+Jun 29, 2026 02:10:10.026 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.062 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 69.
+Jun 29, 2026 02:10:10.062 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.062 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 65.
+Jun 29, 2026 02:10:10.111 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 67.
+Jun 29, 2026 02:10:10.245 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:10.366 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.373 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:10.373 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.373 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.374 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.382 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:10.382 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.396 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:10.396 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.396 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:10.396 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:10.396 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:10.464 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 65.
+Jun 29, 2026 02:10:10.464 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.502 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 69.
+Jun 29, 2026 02:10:10.502 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.502 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 65.
+Jun 29, 2026 02:10:10.552 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 67.
+Jun 29, 2026 02:10:10.687 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:10.799 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.807 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.815 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:10.815 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.829 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:10.829 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:10.829 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:10.829 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:10.830 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:10.905 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 65.
+Jun 29, 2026 02:10:10.906 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.943 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 69.
+Jun 29, 2026 02:10:10.943 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:10.943 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 65.
+Jun 29, 2026 02:10:10.993 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 67.
+Jun 29, 2026 02:10:11.126 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:11.251 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.259 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.267 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:11.267 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.281 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:11.281 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.281 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:11.281 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:11.282 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:11.349 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 65.
+Jun 29, 2026 02:10:11.350 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.386 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 69.
+Jun 29, 2026 02:10:11.387 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.387 [548491726904] DEBUG - [FFMPEG] - Output frame with POC 65.
+Jun 29, 2026 02:10:11.436 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC 67.
+Jun 29, 2026 02:10:11.570 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:11.694 [548491726904] DEBUG - Created chapter thumbnail for metadata item 10, media item 8 for chapter number 3:205284 at "/config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter3.jpg"
+Jun 29, 2026 02:10:11.695 [548491726904] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/d/d4f32b9963e8f11850b7d276330b850eaa4028a.bundle/Contents/Chapters/chapter4.jpg (96.5%, 1280x720).
+Jun 29, 2026 02:10:11.696 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.704 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:11.720 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.720 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.720 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.720 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.728 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:11.728 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.743 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:11.743 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:11.743 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:11.743 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:11.743 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:11.795 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -72.
+Jun 29, 2026 02:10:11.796 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.815 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -67.
+Jun 29, 2026 02:10:11.815 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:11.816 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -72.
+Jun 29, 2026 02:10:11.832 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -69.
+Jun 29, 2026 02:10:11.966 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:12.086 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.094 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.102 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.102 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.116 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.116 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.116 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.116 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.116 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:12.168 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -72.
+Jun 29, 2026 02:10:12.168 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.188 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -67.
+Jun 29, 2026 02:10:12.188 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.188 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -72.
+Jun 29, 2026 02:10:12.205 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -69.
+Jun 29, 2026 02:10:12.338 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:12.445 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.453 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.461 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.461 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.475 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.475 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.475 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.475 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.475 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:12.527 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -72.
+Jun 29, 2026 02:10:12.527 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.547 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -67.
+Jun 29, 2026 02:10:12.547 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.547 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -72.
+Jun 29, 2026 02:10:12.564 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -69.
+Jun 29, 2026 02:10:12.698 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:12.824 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.833 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.842 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:12.842 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.855 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:12.855 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:12.855 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:12.855 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:12.856 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:12.909 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -72.
+Jun 29, 2026 02:10:12.910 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.929 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -67.
+Jun 29, 2026 02:10:12.929 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:12.930 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -72.
+Jun 29, 2026 02:10:12.946 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -69.
+Jun 29, 2026 02:10:13.080 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:13.201 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - Decoding SEI
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.209 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.217 [548491726904] DEBUG - [FFMPEG] - Decoding VPS
+Jun 29, 2026 02:10:13.217 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:13.231 [548491726904] DEBUG - [FFMPEG] - Decoding SPS
+Jun 29, 2026 02:10:13.231 [548491726904] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jun 29, 2026 02:10:13.231 [548491726904] DEBUG - [FFMPEG] - Decoding VUI
+Jun 29, 2026 02:10:13.231 [548491726904] DEBUG - [FFMPEG] - Decoding PPS
+Jun 29, 2026 02:10:13.231 [548491726904] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jun 29, 2026 02:10:13.283 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -72.
+Jun 29, 2026 02:10:13.284 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.303 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -67.
+Jun 29, 2026 02:10:13.303 [548491726904] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jun 29, 2026 02:10:13.304 [548491726904] DEBUG - [FFMPEG] - Output frame with POC -72.
+Jun 29, 2026 02:10:13.320 [548491726904] DEBUG - [FFMPEG] - Decoded frame with POC -69.
+Jun 29, 2026 02:10:13.454 [548491726904] DEBUG - Loaded memory image of size 1920x804.
+Jun 29, 2026 02:10:13.560 [548491726904] DEBUG - Skipped thumbnail for metadata item 10, media item 8 for chapter number 4:2487810
+Jun 29, 2026 02:10:13.560 [548491726904] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv"
+Jun 29, 2026 02:10:13.564 [548491726904] DEBUG - Generated new chapter thumbnails for Ofensiva con encanto.

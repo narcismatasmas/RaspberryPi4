@@ -14,9 +14,13 @@ services:
     container_name: nowplaying
     ports:
       - "8000:8000"
+    volumes:
+      - ./nowplaying:/app
+    working_dir: /app
     devices:
       - "/dev/snd:/dev/snd"
     restart: unless-stopped
+    command: /bin/bash -c "python3 -m uvicorn api.main:app --host 0.0.0.0 --port 8000 & sleep 2 && python3 main.py"
 
   plex:
     image: lscr.io/linuxserver/plex:latest
@@ -35,7 +39,7 @@ services:
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
-    command: -H unix:///var/run/docker.sock
+    command: -H unix:///var/run/docker.sock --tunnel-port 0
     ports:
       - "9443:9443"
     volumes:

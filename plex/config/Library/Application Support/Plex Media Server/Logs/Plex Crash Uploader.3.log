@@ -1,5 +1,5 @@
-Jun 28, 2026 15:59:54.435 [547594386128] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1782654589 Duration: 605 UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
-Jun 28, 2026 15:59:54.437 [547625957520] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jun 28, 2026 15:59:54.645 [547594210000] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jun 28, 2026 15:59:54.646 [547625957520] INFO - Successfully reported session health
-Jun 28, 2026 15:59:54.646 [547625957520] INFO - Crash Uploader - Processing Complete.
+Jun 29, 2026 09:38:45.370 [548601543376] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1782718531 Duration: 194 UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
+Jun 29, 2026 09:38:45.368 [548633114768] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Jun 29, 2026 09:38:45.580 [548601359056] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Jun 29, 2026 09:38:45.580 [548633114768] INFO - Successfully reported session health
+Jun 29, 2026 09:38:45.580 [548633114768] INFO - Crash Uploader - Processing Complete.

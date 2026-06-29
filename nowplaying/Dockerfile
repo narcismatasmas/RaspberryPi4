@@ -19,8 +19,15 @@ ENV PYTHONUNBUFFERED=1
 # Copiar el resto del código del proyecto
 COPY . .
 
+# ¡ESTO ES LO QUE FALTA! 
+# Darle permiso de ejecución al script antes de usarlo
+RUN chmod +x entrypoint.sh
+
+# Asegurar que los logs salgan a la consola (importante en Docker)
+ENV PYTHONUNBUFFERED=1
+
 # Exponer el puerto en el que corre tu API (asumo que es el 5000, si es otro cámbialo)
-EXPOSE 5000
+EXPOSE 8000
 
 # Ejecutar el script principal
 CMD ["./entrypoint.sh"]
