@@ -1,142 +1,1311 @@
-Jun 29, 2026 02:08:46.325 [548165135864] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 29, 2026 02:08:46.325 [548165135864] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 29, 2026 02:08:46.325 [548165135864] INFO - Processor: 4-core ARM Cortex-A72
-Jun 29, 2026 02:08:46.325 [548165135864] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 3 --log-file-suffix  Deep Analysis
-Jun 29, 2026 02:08:46.324 [548260782136] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 29, 2026 02:08:46.560 [548260782136] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv"
-Jun 29, 2026 02:08:46.560 [548260782136] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
-Jun 29, 2026 02:08:46.560 [548260782136] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 29, 2026 02:08:46.572 [548260782136] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jun 29, 2026 02:08:46.573 [548260782136] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11712
-Jun 29, 2026 02:08:46.573 [548260782136] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11775
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.582 [548260782136] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.583 [548260782136] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
-Jun 29, 2026 02:08:46.584 [548260782136] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 11890 bytes read:47056 seeks:2 nb_streams:44
-Jun 29, 2026 02:08:46.585 [548260782136] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Decoding VPS
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Decoding SPS
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Decoding VUI
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Decoding PPS
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:08:46.593 [548260782136] DEBUG - [FFMPEG] - Decoding SEI
-Jun 29, 2026 02:08:46.595 [548260782136] DEBUG - [FFMPEG] - All info found
-Jun 29, 2026 02:08:46.597 [548260782136] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64215 bytes read:112592 seeks:2 frames:19
-Jun 29, 2026 02:08:49.866 [548260782136] DEBUG - Deep Analysis: Read 10000 packets at 161.760000
-Jun 29, 2026 02:08:53.943 [548260782136] DEBUG - Deep Analysis: Read 20000 packets at 319.611000
-Jun 29, 2026 02:08:56.670 [548260782136] DEBUG - Deep Analysis: Read 30000 packets at 467.872000
-Jun 29, 2026 02:08:59.504 [548260782136] DEBUG - Deep Analysis: Read 40000 packets at 614.176000
-Jun 29, 2026 02:09:02.130 [548260782136] DEBUG - Deep Analysis: Read 50000 packets at 764.256000
-Jun 29, 2026 02:09:05.443 [548260782136] DEBUG - Deep Analysis: Read 60000 packets at 917.056000
-Jun 29, 2026 02:09:08.205 [548260782136] DEBUG - Deep Analysis: Read 70000 packets at 1091.507000
-Jun 29, 2026 02:09:11.331 [548260782136] DEBUG - Deep Analysis: Read 80000 packets at 1260.677000
-Jun 29, 2026 02:09:13.169 [548260782136] DEBUG - Deep Analysis: Read 90000 packets at 1410.367000
-Jun 29, 2026 02:09:15.374 [548260782136] DEBUG - Deep Analysis: Read 100000 packets at 1561.920000
-Jun 29, 2026 02:09:18.038 [548260782136] DEBUG - Deep Analysis: Read 110000 packets at 1723.072000
-Jun 29, 2026 02:09:21.296 [548260782136] DEBUG - Deep Analysis: Read 120000 packets at 1891.723000
-Jun 29, 2026 02:09:25.040 [548260782136] DEBUG - Deep Analysis: Read 130000 packets at 2063.687000
-Jun 29, 2026 02:09:28.534 [548260782136] DEBUG - Deep Analysis: Read 140000 packets at 2231.980000
-Jun 29, 2026 02:09:31.865 [548260782136] DEBUG - Deep Analysis: Read 150000 packets at 2407.405000
-Jun 29, 2026 02:09:33.932 [548260782136] DEBUG - Deep Analysis: Read 160000 packets at 2585.632000
-Jun 29, 2026 02:09:36.975 [548260782136] DEBUG - Deep Analysis: Read 170000 packets at 2754.752000
-Jun 29, 2026 02:09:39.791 [548260782136] DEBUG - Deep Analysis: Read 180000 packets at 2928.968000
-Jun 29, 2026 02:09:42.493 [548260782136] DEBUG - Deep Analysis: Read 190000 packets at 3073.376000
-Jun 29, 2026 02:09:45.341 [548260782136] DEBUG - Deep Analysis: Read 200000 packets at 3217.881000
-Jun 29, 2026 02:09:46.713 [548260782136] DEBUG - Deep Analysis: Read 210000 packets at 3386.400000
-Jun 29, 2026 02:09:46.734 [548260782136] DEBUG - Deep Analysis: Sorting packets
-Jun 29, 2026 02:09:46.766 [548260782136] DEBUG - Deep Analysis: Performing file bitrate analysis
-Jun 29, 2026 02:09:46.869 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
-Jun 29, 2026 02:09:46.901 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
-Jun 29, 2026 02:09:46.923 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
-Jun 29, 2026 02:09:46.924 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
-Jun 29, 2026 02:09:46.925 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
-Jun 29, 2026 02:09:46.926 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
-Jun 29, 2026 02:09:46.927 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
-Jun 29, 2026 02:09:46.927 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
-Jun 29, 2026 02:09:46.928 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
-Jun 29, 2026 02:09:46.929 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
-Jun 29, 2026 02:09:46.930 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
-Jun 29, 2026 02:09:46.931 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
-Jun 29, 2026 02:09:46.932 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
-Jun 29, 2026 02:09:46.932 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
-Jun 29, 2026 02:09:46.933 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
-Jun 29, 2026 02:09:46.934 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
-Jun 29, 2026 02:09:46.935 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
-Jun 29, 2026 02:09:46.936 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
-Jun 29, 2026 02:09:46.937 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
-Jun 29, 2026 02:09:46.937 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
-Jun 29, 2026 02:09:46.938 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 20
-Jun 29, 2026 02:09:46.939 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 21
-Jun 29, 2026 02:09:46.940 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 22
-Jun 29, 2026 02:09:46.941 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 23
-Jun 29, 2026 02:09:46.942 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 24
-Jun 29, 2026 02:09:46.942 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 25
-Jun 29, 2026 02:09:46.943 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 26
-Jun 29, 2026 02:09:46.944 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 27
-Jun 29, 2026 02:09:46.945 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 28
-Jun 29, 2026 02:09:46.946 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 29
-Jun 29, 2026 02:09:46.947 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 30
-Jun 29, 2026 02:09:46.947 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 31
-Jun 29, 2026 02:09:46.948 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 32
-Jun 29, 2026 02:09:46.949 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 33
-Jun 29, 2026 02:09:46.950 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 34
-Jun 29, 2026 02:09:46.951 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 35
-Jun 29, 2026 02:09:46.952 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 36
-Jun 29, 2026 02:09:46.952 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 37
-Jun 29, 2026 02:09:46.953 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 38
-Jun 29, 2026 02:09:46.954 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 39
-Jun 29, 2026 02:09:46.955 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 40
-Jun 29, 2026 02:09:46.956 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 41
-Jun 29, 2026 02:09:46.956 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 42
-Jun 29, 2026 02:09:46.957 [548260782136] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 43
-Jun 29, 2026 02:09:46.959 [548260782136] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
-Jun 29, 2026 02:09:46.960 [548260782136] DEBUG - Deep Analysis: Saving bitrate analysis
-Jun 29, 2026 02:09:46.960 [548260782136] DEBUG - Updating part with ID=1 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv]
-Jun 29, 2026 02:09:47.234 [548260782136] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv"
-Jun 29, 2026 02:09:47.236 [548260782136] DEBUG - Updating media item 1, size=2022322999, metadata_item_id=3
-Jun 29, 2026 02:09:47.236 [548260782136] DEBUG - Updating part with ID=1 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jul 11, 2026 02:18:32.401 [547621268984] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jul 11, 2026 02:18:32.402 [547621268984] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jul 11, 2026 02:18:32.402 [547621268984] INFO - Processor: 4-core ARM Cortex-A72
+Jul 11, 2026 02:18:32.402 [547621268984] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 15 --log-file-suffix  Deep Analysis
+Jul 11, 2026 02:18:32.403 [547716964408] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jul 11, 2026 02:18:32.644 [547716964408] DEBUG - [MI] Opening input file: "/data/medios/Pelis/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp]/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp].mkv"
+Jul 11, 2026 02:18:32.644 [547716964408] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp]/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp].mkv' for reading
+Jul 11, 2026 02:18:32.644 [547716964408] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6047
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6099
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6151
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6202
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6255
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6308
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6361
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6414
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6467
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6520
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6573
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6626
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6679
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6732
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6785
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6838
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6891
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6944
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6997
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7050
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.645 [547716964408] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jul 11, 2026 02:18:32.646 [547716964408] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 7162 bytes read:35661 seeks:2 nb_streams:7
+Jul 11, 2026 02:18:32.647 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.647 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:32.647 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.648 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.648 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:32.648 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.648 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:32.649 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.649 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.649 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 11, 2026 02:18:32.649 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 11, 2026 02:18:32.649 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:32.650 [547716964408] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 11, 2026 02:18:32.655 [547716964408] DEBUG - [FFMPEG] - no picture 
+Jul 11, 2026 02:18:32.685 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:18:32.690 [547716964408] DEBUG - [FFMPEG] - no picture 
+Jul 11, 2026 02:18:32.714 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:18:32.739 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:18:32.763 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:18:32.779 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:18:32.803 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:18:32.822 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:18:32.839 [547716964408] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:18:32.852 [547716964408] DEBUG - [FFMPEG] - All info found
+Jul 11, 2026 02:18:32.857 [547716964408] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 329449 bytes read:375319 seeks:2 frames:58
+Jul 11, 2026 02:18:33.293 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:33.753 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:34.135 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:34.700 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:35.497 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:36.113 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:36.830 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:37.007 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:38.285 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:38.879 [547716964408] DEBUG - Deep Analysis: Read 10000 packets at 84.668000
+Jul 11, 2026 02:18:39.325 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:39.538 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:40.513 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:41.673 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:42.883 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:43.966 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:45.051 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:45.205 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:46.092 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:47.254 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:47.899 [547716964408] DEBUG - Deep Analysis: Read 20000 packets at 169.248000
+Jul 11, 2026 02:18:48.358 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:49.574 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:49.725 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:49.901 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:50.856 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:52.204 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:53.406 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:53.545 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:53.797 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:54.830 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:55.913 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:57.084 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:57.531 [547716964408] DEBUG - Deep Analysis: Read 30000 packets at 253.696000
+Jul 11, 2026 02:18:58.166 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:59.180 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:59.508 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:18:59.654 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:00.426 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:01.287 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:02.667 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:03.714 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:04.807 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:06.030 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:06.389 [547716964408] DEBUG - Deep Analysis: Read 40000 packets at 338.176000
+Jul 11, 2026 02:19:07.356 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:08.581 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:09.842 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:10.940 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:11.207 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:12.307 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:13.195 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:14.048 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:14.936 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:15.323 [547716964408] DEBUG - Deep Analysis: Read 50000 packets at 422.624000
+Jul 11, 2026 02:19:15.887 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:16.069 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:16.188 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:17.374 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:18.402 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:19.395 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:20.364 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:21.543 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:22.467 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:23.773 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:23.950 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:24.425 [547716964408] DEBUG - Deep Analysis: Read 60000 packets at 507.232000
+Jul 11, 2026 02:19:24.839 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:25.708 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:26.829 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:27.914 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:28.951 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:29.993 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:31.147 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:32.308 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:33.357 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:33.358 [547716964408] DEBUG - Deep Analysis: Read 70000 packets at 592.128000
+Jul 11, 2026 02:19:34.540 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:35.672 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:36.907 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:37.895 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:38.853 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:39.973 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:40.860 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:41.557 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:41.801 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:41.855 [547716964408] DEBUG - Deep Analysis: Read 80000 packets at 676.608000
+Jul 11, 2026 02:19:42.624 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:43.688 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:44.652 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:44.953 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:45.830 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:46.372 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:47.163 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:47.403 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:47.789 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:47.939 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:48.235 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:48.428 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:49.035 [547716964408] DEBUG - Deep Analysis: Read 90000 packets at 761.248000
+Jul 11, 2026 02:19:49.301 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:49.479 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.101 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.193 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.515 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.576 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.663 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.752 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.841 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:50.929 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:51.589 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:52.270 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:52.894 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:53.015 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:53.549 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:54.139 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:54.297 [547716964408] DEBUG - Deep Analysis: Read 100000 packets at 845.664000
+Jul 11, 2026 02:19:54.400 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:54.487 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:54.753 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:55.136 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:55.765 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:55.885 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:55.974 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:56.065 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:56.218 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:56.637 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:57.034 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:57.214 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:57.278 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:57.453 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:58.120 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:58.879 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:59.063 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:19:59.634 [547716964408] DEBUG - Deep Analysis: Read 110000 packets at 930.464000
+Jul 11, 2026 02:19:59.698 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:00.529 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:01.109 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:01.671 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:01.817 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:01.906 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:02.582 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:03.396 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:04.222 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:04.701 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:05.572 [547716964408] DEBUG - Deep Analysis: Read 120000 packets at 1014.784000
+Jul 11, 2026 02:20:05.637 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:05.701 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:06.394 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:06.790 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:07.353 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:07.620 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:08.161 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:08.248 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:08.867 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:09.381 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:09.858 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:10.463 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:10.554 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:10.643 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:10.904 [547716964408] DEBUG - Deep Analysis: Read 130000 packets at 1099.584000
+Jul 11, 2026 02:20:11.024 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:11.206 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:11.670 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:11.878 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:12.304 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:12.393 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:12.786 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:13.346 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:13.437 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:13.663 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:13.798 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:14.333 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:14.450 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:14.773 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:14.980 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:15.130 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:15.365 [547716964408] DEBUG - Deep Analysis: Read 140000 packets at 1184.704000
+Jul 11, 2026 02:20:15.604 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:15.843 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:15.930 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:16.373 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:16.905 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:17.081 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:17.319 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:17.583 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:17.733 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:18.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:19.117 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:19.890 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:20.782 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:21.072 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:21.238 [547716964408] DEBUG - Deep Analysis: Read 150000 packets at 1269.226000
+Jul 11, 2026 02:20:21.993 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:23.054 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:24.119 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:24.238 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:24.628 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:25.371 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:26.086 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:26.753 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:27.608 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:28.375 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:28.462 [547716964408] DEBUG - Deep Analysis: Read 160000 packets at 1353.920000
+Jul 11, 2026 02:20:28.612 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:28.877 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:29.589 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:30.357 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:31.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:31.740 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:31.877 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:32.530 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:32.621 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:33.277 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:34.044 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:34.466 [547716964408] DEBUG - Deep Analysis: Read 170000 packets at 1438.624000
+Jul 11, 2026 02:20:34.736 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:35.332 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:35.574 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:35.844 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:35.932 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:36.054 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:36.888 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:37.356 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:37.534 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:38.321 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:38.600 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:38.835 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:39.143 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:39.350 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:40.002 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:40.449 [547716964408] DEBUG - Deep Analysis: Read 180000 packets at 1522.816000
+Jul 11, 2026 02:20:40.717 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:41.048 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:41.670 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:42.332 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:42.496 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.015 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.099 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.249 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.309 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.457 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.580 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.638 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.786 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.879 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:43.993 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:44.292 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:44.649 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:44.828 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:44.917 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:45.063 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:45.273 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:45.568 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:46.379 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:46.438 [547716964408] DEBUG - Deep Analysis: Read 190000 packets at 1607.264000
+Jul 11, 2026 02:20:46.588 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:47.484 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:47.935 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:48.052 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:48.897 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:49.792 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:50.570 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:51.067 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:51.834 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:52.133 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:52.635 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:52.880 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:52.998 [547716964408] DEBUG - Deep Analysis: Read 200000 packets at 1691.648000
+Jul 11, 2026 02:20:53.677 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:54.510 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:54.799 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:55.650 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:56.335 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:56.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:56.810 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:57.339 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:57.818 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:58.677 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:58.991 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:20:59.354 [547716964408] DEBUG - Deep Analysis: Read 210000 packets at 1776.416000
+Jul 11, 2026 02:20:59.717 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:00.319 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:00.441 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:01.071 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:01.647 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:02.037 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:02.521 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:02.763 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:02.976 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:03.303 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:03.518 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:03.635 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:03.814 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:04.189 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:04.219 [547716964408] DEBUG - Deep Analysis: Read 220000 packets at 1861.504000
+Jul 11, 2026 02:21:04.705 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:04.967 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:05.083 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:05.291 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:05.467 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:06.302 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:06.394 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:06.748 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:07.430 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:08.349 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:08.583 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:09.632 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:09.967 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:10.894 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:11.068 [547716964408] DEBUG - Deep Analysis: Read 230000 packets at 1945.694000
+Jul 11, 2026 02:21:11.159 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:11.338 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:11.940 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:12.242 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:12.484 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:13.324 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:13.584 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:13.730 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:14.124 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:14.941 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:15.125 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:15.334 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:16.391 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:16.860 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:17.466 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:17.910 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:18.061 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:18.622 [547716964408] DEBUG - Deep Analysis: Read 240000 packets at 2030.496000
+Jul 11, 2026 02:21:18.979 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:19.244 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:19.450 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:20.249 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:20.458 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:20.664 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:21.590 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:21.827 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:22.423 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:22.575 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:22.781 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:22.959 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:23.639 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:23.849 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:24.180 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:24.693 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:25.145 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:25.824 [547716964408] DEBUG - Deep Analysis: Read 250000 packets at 2115.008000
+Jul 11, 2026 02:21:26.026 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:26.898 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:27.707 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:27.824 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:28.819 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:29.752 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:30.568 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:31.275 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:31.415 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:31.928 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:32.077 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:32.196 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:32.586 [547716964408] DEBUG - Deep Analysis: Read 260000 packets at 2199.197000
+Jul 11, 2026 02:21:32.999 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:33.666 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:34.082 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:34.490 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:34.640 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:35.403 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:35.466 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:36.200 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:36.976 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:37.787 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:38.055 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:38.233 [547716964408] DEBUG - Deep Analysis: Read 270000 packets at 2284.157000
+Jul 11, 2026 02:21:38.623 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:39.044 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:39.194 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:39.527 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:40.278 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:41.205 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:41.848 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:41.937 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:42.830 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:43.600 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:43.836 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:44.576 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:45.021 [547716964408] DEBUG - Deep Analysis: Read 280000 packets at 2368.832000
+Jul 11, 2026 02:21:45.199 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:45.870 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:46.957 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:47.133 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:47.846 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:48.752 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:48.988 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:49.911 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:50.334 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:50.636 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:50.911 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:51.665 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:52.027 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:52.267 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:52.422 [547716964408] DEBUG - Deep Analysis: Read 290000 packets at 2453.568000
+Jul 11, 2026 02:21:52.510 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:53.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:53.769 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:54.102 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:54.702 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:55.339 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:55.666 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:55.785 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:55.992 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:56.170 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:56.320 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:56.898 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.075 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.251 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.516 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.653 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.853 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:57.885 [547716964408] DEBUG - Deep Analysis: Read 300000 packets at 2538.368000
+Jul 11, 2026 02:21:58.032 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:58.360 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:58.510 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:58.981 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:59.277 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:59.398 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:59.575 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:21:59.783 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:00.050 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:00.438 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:00.586 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:00.741 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:01.319 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:01.499 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:01.676 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:01.795 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:01.917 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:02.454 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:02.636 [547716964408] DEBUG - Deep Analysis: Read 310000 packets at 2623.392000
+Jul 11, 2026 02:22:02.852 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:03.178 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:03.755 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:04.052 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:04.713 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:05.253 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:05.582 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:05.763 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:05.946 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:06.554 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:06.838 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:06.958 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:07.138 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:07.339 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:07.484 [547716964408] DEBUG - Deep Analysis: Read 320000 packets at 2708.416000
+Jul 11, 2026 02:22:08.151 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:08.983 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:09.743 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:10.021 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:10.527 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:10.911 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:10.966 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:11.086 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:11.119 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:11.176 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:11.263 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:11.747 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.283 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.429 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.609 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.700 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.729 [547716964408] DEBUG - Deep Analysis: Read 330000 packets at 2793.248000
+Jul 11, 2026 02:22:12.785 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:12.873 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.085 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.292 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.383 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.472 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.590 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.827 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:13.947 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:14.124 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:14.843 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:15.110 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:15.321 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:16.038 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:16.281 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:16.978 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:17.728 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:18.089 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:18.210 [547716964408] DEBUG - Deep Analysis: Read 340000 packets at 2877.856000
+Jul 11, 2026 02:22:18.418 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:18.597 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:18.806 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:20.090 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:21.021 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:21.110 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:21.437 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:21.997 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:22.829 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:23.005 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:23.536 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:23.805 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:24.255 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:24.373 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:24.404 [547716964408] DEBUG - Deep Analysis: Read 350000 packets at 2962.293000
+Jul 11, 2026 02:22:24.912 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:25.509 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:25.981 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:26.128 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:26.661 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:26.873 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:27.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:28.188 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:28.912 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:29.060 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:29.392 [547716964408] DEBUG - Deep Analysis: Read 360000 packets at 3047.232000
+Jul 11, 2026 02:22:29.572 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:30.200 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:30.940 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:31.455 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:31.971 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:32.456 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:32.985 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:33.532 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:34.147 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:34.236 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:34.266 [547716964408] DEBUG - Deep Analysis: Read 370000 packets at 3131.420000
+Jul 11, 2026 02:22:34.855 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:35.480 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:36.233 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:36.410 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:36.499 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:36.649 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:36.796 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:37.088 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:37.730 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:37.823 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:38.299 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:38.419 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:38.569 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:38.689 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:39.283 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:39.792 [547716964408] DEBUG - Deep Analysis: Read 380000 packets at 3216.256000
+Jul 11, 2026 02:22:39.998 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:40.968 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:41.926 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:42.954 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:43.559 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:43.678 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:44.403 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:45.362 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:45.507 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:45.598 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:45.805 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:46.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:46.692 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:46.780 [547716964408] DEBUG - Deep Analysis: Read 390000 packets at 3301.024000
+Jul 11, 2026 02:22:47.414 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.031 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.268 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.444 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.531 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.590 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:48.857 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:49.329 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:49.535 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:49.626 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:50.400 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:50.639 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:51.233 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:51.324 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:51.440 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:52.061 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:52.422 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:52.486 [547716964408] DEBUG - Deep Analysis: Read 400000 packets at 3385.824000
+Jul 11, 2026 02:22:52.540 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:52.631 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:52.776 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.260 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.351 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.440 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.714 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.802 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.837 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.926 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:53.958 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:54.624 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:54.688 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:54.870 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:55.233 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:55.392 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:55.494 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:55.618 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:56.097 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:56.640 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:57.273 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:57.474 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:57.604 [547716964408] DEBUG - Deep Analysis: Read 410000 packets at 3470.688000
+Jul 11, 2026 02:22:57.763 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:58.055 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:58.599 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:59.163 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:22:59.695 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:00.166 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:00.285 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:00.847 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:01.025 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:01.292 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:01.440 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:01.645 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:02.180 [547716964408] DEBUG - Deep Analysis: Read 420000 packets at 3554.968000
+Jul 11, 2026 02:23:02.388 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:02.477 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:02.782 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:03.434 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:04.381 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:05.312 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:06.270 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:07.438 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:08.351 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:09.348 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:10.010 [547716964408] DEBUG - Deep Analysis: Read 430000 packets at 3639.968000
+Jul 11, 2026 02:23:10.487 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:11.441 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:12.336 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:13.037 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:14.051 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:14.942 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:16.040 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:16.961 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:17.874 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:17.905 [547716964408] DEBUG - Deep Analysis: Read 440000 packets at 3724.640000
+Jul 11, 2026 02:23:18.936 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:19.833 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:20.618 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:20.682 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:21.489 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:21.849 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:21.998 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:22.747 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:22.836 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:23.201 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:23.986 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:24.160 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:24.193 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:24.338 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:24.963 [547716964408] DEBUG - Deep Analysis: Read 450000 packets at 3809.440000
+Jul 11, 2026 02:23:25.022 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:25.081 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:26.031 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:26.172 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:26.306 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:27.104 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:27.761 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:28.359 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:29.095 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:29.668 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:30.116 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:30.741 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:30.951 [547716964408] DEBUG - Deep Analysis: Read 460000 packets at 3893.920000
+Jul 11, 2026 02:23:31.284 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:32.139 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:32.555 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:32.588 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:33.339 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:33.487 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:33.760 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:33.851 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:33.943 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:34.523 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:35.133 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:35.191 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:35.343 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:35.633 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:35.887 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:36.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:36.079 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:36.204 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:36.381 [547716964408] DEBUG - Deep Analysis: Read 470000 packets at 3978.464000
+Jul 11, 2026 02:23:36.858 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:37.423 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:37.927 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:38.109 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:38.196 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:38.431 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:38.490 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.019 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.189 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.405 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.493 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.640 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.729 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.846 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:39.937 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.086 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.176 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.275 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.364 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.396 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.572 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.660 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:40.931 [547716964408] DEBUG - Deep Analysis: Read 480000 packets at 4063.104000
+Jul 11, 2026 02:23:41.048 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:41.165 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:41.750 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:41.838 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:41.956 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:42.577 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:43.115 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:43.948 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:44.189 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:44.427 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:44.492 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:44.642 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:44.831 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:45.039 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:45.164 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:45.411 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:45.684 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:45.926 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:46.019 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:46.077 [547716964408] DEBUG - Deep Analysis: Read 490000 packets at 4147.616000
+Jul 11, 2026 02:23:46.441 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:47.047 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:47.778 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:48.452 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:48.683 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:48.803 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:49.309 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:49.429 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:49.576 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:49.961 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:50.623 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:50.906 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:51.540 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:51.789 [547716964408] DEBUG - Deep Analysis: Read 500000 packets at 4232.192000
+Jul 11, 2026 02:23:52.304 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:53.369 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:54.276 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:55.142 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:55.864 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:56.611 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:57.243 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:58.052 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:58.860 [547716964408] DEBUG - Deep Analysis: Read 510000 packets at 4316.812000
+Jul 11, 2026 02:23:58.923 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:23:59.579 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:00.207 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:00.778 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:01.342 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:02.308 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:03.253 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:04.111 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:05.064 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:05.538 [547716964408] DEBUG - Deep Analysis: Read 520000 packets at 4401.824000
+Jul 11, 2026 02:24:06.018 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:06.879 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:07.733 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:08.619 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:09.919 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:10.924 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:11.629 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:12.988 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:13.744 [547716964408] DEBUG - Deep Analysis: Read 530000 packets at 4486.400000
+Jul 11, 2026 02:24:13.831 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:14.863 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:15.815 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:16.712 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:17.540 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:18.427 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:18.575 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:18.724 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:19.691 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:19.961 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:20.614 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:21.119 [547716964408] DEBUG - Deep Analysis: Read 540000 packets at 4571.200000
+Jul 11, 2026 02:24:21.417 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:22.293 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:22.414 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:23.289 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:23.467 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:24.315 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:24.656 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:25.143 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:25.268 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:25.786 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:26.265 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:26.833 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:26.937 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:26.966 [547716964408] DEBUG - Deep Analysis: Read 550000 packets at 4655.904000
+Jul 11, 2026 02:24:27.202 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:27.482 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:27.659 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:28.046 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:28.284 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:28.844 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:29.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:29.744 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:30.421 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:30.510 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:30.807 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:31.379 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:31.466 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:31.618 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:31.735 [547716964408] DEBUG - Deep Analysis: Read 560000 packets at 4740.480000
+Jul 11, 2026 02:24:31.827 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:32.384 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:32.715 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:33.308 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:33.544 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:34.111 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:34.262 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:34.717 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:34.836 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:35.167 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:35.380 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:35.709 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:36.187 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:36.503 [547716964408] DEBUG - Deep Analysis: Read 570000 packets at 4825.152000
+Jul 11, 2026 02:24:36.933 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:37.623 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:38.227 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:38.915 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:39.564 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:39.960 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.107 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.199 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.375 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.492 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.552 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.643 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:40.996 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:42.070 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:43.012 [547716964408] DEBUG - Deep Analysis: Read 580000 packets at 4910.048000
+Jul 11, 2026 02:24:43.160 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:43.341 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:43.554 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:43.669 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:44.085 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:44.296 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:44.476 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:44.711 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:44.890 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:45.398 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.052 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.376 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.526 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.704 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.795 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:46.881 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.061 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.241 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.392 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.574 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.697 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.789 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:47.888 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:48.023 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:48.421 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:48.716 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:48.957 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:49.541 [547716964408] DEBUG - Deep Analysis: Read 590000 packets at 4994.720000
+Jul 11, 2026 02:24:49.645 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:50.736 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:51.515 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:51.665 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:51.815 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:52.751 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:53.076 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:53.214 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:53.515 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:54.076 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:54.993 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:55.818 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:56.684 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:57.367 [547716964408] DEBUG - Deep Analysis: Read 600000 packets at 5079.324000
+Jul 11, 2026 02:24:57.752 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:57.871 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:58.107 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:58.242 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:24:59.083 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:00.115 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:00.295 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:01.229 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:02.096 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:02.548 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:02.976 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:03.157 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:03.261 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:03.704 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:04.590 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:05.192 [547716964408] DEBUG - Deep Analysis: Read 610000 packets at 5164.192000
+Jul 11, 2026 02:25:05.359 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:06.082 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:06.467 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:06.680 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:06.746 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:07.302 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:07.896 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:08.190 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:08.507 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:09.096 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:09.646 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:10.306 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:10.523 [547716964408] DEBUG - Deep Analysis: Read 620000 packets at 5248.493000
+Jul 11, 2026 02:25:10.888 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:11.454 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:11.691 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:11.897 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:12.016 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:12.492 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:13.001 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:13.753 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:14.386 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:14.563 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:15.080 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:15.172 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:15.231 [547716964408] DEBUG - Deep Analysis: Read 630000 packets at 5333.408000
+Jul 11, 2026 02:25:15.833 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:16.166 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:16.251 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:16.406 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:16.529 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:17.157 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:17.816 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:18.392 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:18.572 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:19.051 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:19.642 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:19.748 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:19.955 [547716964408] DEBUG - Deep Analysis: Read 640000 packets at 5418.144000
+Jul 11, 2026 02:25:20.351 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:20.969 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:21.326 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:21.564 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:22.074 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:22.613 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:23.029 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:23.651 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:24.272 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:24.876 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:24.981 [547716964408] DEBUG - Deep Analysis: Read 650000 packets at 5502.688000
+Jul 11, 2026 02:25:25.403 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:25.799 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:25.857 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:26.265 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:26.626 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:26.659 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:27.109 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:27.563 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:27.620 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:28.013 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:28.071 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:28.161 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:28.494 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:28.495 [547716964408] DEBUG - Deep Analysis: Read 660000 packets at 5587.392000
+Jul 11, 2026 02:25:29.276 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:29.617 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:30.709 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:31.707 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:32.329 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:32.387 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:32.477 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:32.892 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:33.364 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:33.868 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:34.313 [547716964408] DEBUG - Deep Analysis: Read 670000 packets at 5672.128000
+Jul 11, 2026 02:25:34.491 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:35.459 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:35.667 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:36.726 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:36.990 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:38.196 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:39.513 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:40.678 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:41.488 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:41.576 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:42.224 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:42.721 [547716964408] DEBUG - Deep Analysis: Read 680000 packets at 5756.626000
+Jul 11, 2026 02:25:42.848 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:43.382 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:44.190 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:44.278 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:44.399 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:44.959 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:45.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:45.646 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:46.332 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:46.494 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:47.041 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:47.487 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:47.962 [547716964408] DEBUG - Deep Analysis: Read 690000 packets at 5841.502000
+Jul 11, 2026 02:25:48.321 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:48.946 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:49.538 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:49.955 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:50.657 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:51.399 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:52.274 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:52.910 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:53.660 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:53.813 [547716964408] DEBUG - Deep Analysis: Read 700000 packets at 5926.336000
+Jul 11, 2026 02:25:54.321 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:55.171 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:55.969 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:56.712 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:57.450 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:58.075 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:58.191 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:58.548 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:59.201 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:59.971 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:25:59.972 [547716964408] DEBUG - Deep Analysis: Read 710000 packets at 6011.168000
+Jul 11, 2026 02:26:00.567 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:00.684 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:01.455 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:02.341 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:03.229 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:04.013 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:04.761 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:05.544 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:06.326 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:06.629 [547716964408] DEBUG - Deep Analysis: Read 720000 packets at 6095.648000
+Jul 11, 2026 02:26:07.100 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:07.851 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:08.671 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:09.332 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:10.468 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:10.618 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:11.505 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:12.226 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:13.090 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:14.109 [547716964408] DEBUG - Deep Analysis: Read 730000 packets at 6180.320000
+Jul 11, 2026 02:26:14.350 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:15.382 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:16.281 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:17.185 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:18.152 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:19.305 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:20.210 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:21.106 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:22.070 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:22.364 [547716964408] DEBUG - Deep Analysis: Read 740000 packets at 6265.216000
+Jul 11, 2026 02:26:23.014 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:23.973 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:24.685 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:25.217 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:25.815 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:26.528 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:27.266 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:27.996 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:28.623 [547716964408] DEBUG - Deep Analysis: Read 750000 packets at 6349.856000
+Jul 11, 2026 02:26:28.833 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:29.496 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:30.191 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:31.281 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:32.422 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:33.629 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:34.401 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:35.422 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:36.451 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:36.804 [547716964408] DEBUG - Deep Analysis: Read 760000 packets at 6434.688000
+Jul 11, 2026 02:26:37.624 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:37.832 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:38.069 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:38.868 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:39.847 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:40.615 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:41.516 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:42.288 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:43.108 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:44.010 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:44.315 [547716964408] DEBUG - Deep Analysis: Read 770000 packets at 6519.488000
+Jul 11, 2026 02:26:45.095 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:45.968 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:46.930 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:47.344 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:48.205 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:49.014 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:49.456 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:49.870 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:50.049 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:50.346 [547716964408] DEBUG - Deep Analysis: Read 780000 packets at 6604.352000
+Jul 11, 2026 02:26:50.374 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:50.700 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:51.084 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:51.145 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:51.296 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:51.626 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:51.980 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:52.042 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:52.365 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:52.718 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:52.936 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.090 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.270 [547716964408] DEBUG - Deep Analysis: Read 790000 packets at 6689.248000
+Jul 11, 2026 02:26:53.355 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.387 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.444 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.834 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:53.926 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:54.011 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:54.129 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:54.370 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:54.671 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:55.032 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:55.562 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:56.251 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:56.311 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:56.910 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:57.426 [547716964408] DEBUG - Deep Analysis: Read 800000 packets at 6773.952000
+Jul 11, 2026 02:26:57.515 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:57.788 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:58.353 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:59.062 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:59.259 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:26:59.947 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:00.598 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:00.659 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:01.202 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:01.734 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:01.931 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:02.527 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:02.586 [547716964408] DEBUG - Deep Analysis: Read 810000 packets at 6858.643000
+Jul 11, 2026 02:27:02.794 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:03.030 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:03.207 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:03.769 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:04.273 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:04.783 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:05.347 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:05.998 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:06.628 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:06.810 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:07.440 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:07.530 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:07.624 [547716964408] DEBUG - Deep Analysis: Read 820000 packets at 6943.520000
+Jul 11, 2026 02:27:08.163 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:08.908 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:09.791 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:10.656 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:11.254 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:12.181 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:12.485 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:13.348 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:13.926 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:14.401 [547716964408] DEBUG - Deep Analysis: Read 830000 packets at 7027.854000
+Jul 11, 2026 02:27:14.523 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:14.729 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:15.003 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:15.212 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:15.899 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:16.077 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:16.165 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:16.410 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:17.064 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:17.272 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:17.839 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:18.020 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:18.256 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:18.432 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:18.963 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:19.087 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:19.234 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:19.960 [547716964408] DEBUG - Deep Analysis: Read 840000 packets at 7112.928000
+Jul 11, 2026 02:27:19.988 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:20.111 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:20.776 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:20.984 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:21.138 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:21.320 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:22.012 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:22.584 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:23.241 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:23.844 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:24.475 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:25.074 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:25.462 [547716964408] DEBUG - Deep Analysis: Read 850000 packets at 7197.760000
+Jul 11, 2026 02:27:25.638 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:25.785 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:26.055 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:26.617 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:27.177 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:27.743 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:27.802 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:28.252 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:28.483 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:28.789 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:29.064 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:29.332 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:29.599 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:29.867 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:30.283 [547716964408] DEBUG - Deep Analysis: Read 860000 packets at 7282.720000
+Jul 11, 2026 02:27:30.399 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:30.458 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:30.992 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:31.081 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:31.315 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:31.639 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:31.939 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:32.242 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:32.787 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:32.933 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:33.441 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:33.742 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:34.011 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:34.641 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:34.851 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:35.030 [547716964408] DEBUG - Deep Analysis: Read 870000 packets at 7367.648000
+Jul 11, 2026 02:27:35.393 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:35.783 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:36.055 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:36.353 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:36.626 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:36.975 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:37.270 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:37.610 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:37.936 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:38.320 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:38.829 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:38.920 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:39.244 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:39.479 [547716964408] DEBUG - Deep Analysis: Read 880000 packets at 7452.704000
+Jul 11, 2026 02:27:39.539 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:40.104 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:40.490 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:41.083 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:41.116 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:41.379 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:41.631 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:41.867 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:42.401 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:43.065 [547716964408] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:27:43.657 [547716964408] DEBUG - Deep Analysis: Read 890000 packets at 7553.120000
+Jul 11, 2026 02:27:44.398 [547716964408] DEBUG - Deep Analysis: Read 900000 packets at 7713.120000
+Jul 11, 2026 02:27:44.538 [547716964408] DEBUG - Deep Analysis: Sorting packets
+Jul 11, 2026 02:27:44.630 [547716964408] DEBUG - Deep Analysis: Performing file bitrate analysis
+Jul 11, 2026 02:27:44.952 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Jul 11, 2026 02:27:45.029 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Jul 11, 2026 02:27:45.080 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Jul 11, 2026 02:27:45.131 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Jul 11, 2026 02:27:45.181 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Jul 11, 2026 02:27:45.185 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Jul 11, 2026 02:27:45.189 [547716964408] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Jul 11, 2026 02:27:45.195 [547716964408] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Jul 11, 2026 02:27:45.198 [547716964408] DEBUG - Deep Analysis: Saving bitrate analysis
+Jul 11, 2026 02:27:45.198 [547716964408] DEBUG - Updating part with ID=14 [/data/medios/Pelis/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp]/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp].mkv]
+Jul 11, 2026 02:27:45.201 [547716964408] DEBUG - [MI] Closing input file: "/data/medios/Pelis/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp]/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp].mkv"
+Jul 11, 2026 02:27:45.227 [547716964408] DEBUG - Updating media item 14, size=18958066566, metadata_item_id=15
+Jul 11, 2026 02:27:45.227 [547716964408] DEBUG - Updating part with ID=14 [/data/medios/Pelis/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp]/Como entrenar a tu dragon (2025) [Bluray 1080p][Esp].mkv]

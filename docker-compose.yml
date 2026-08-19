@@ -61,3 +61,14 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /sys:/sys:ro
     restart: unless-stopped
+
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    ports:
+      - 8096:8096
+    volumes:
+      - /home/nmatas/docker/jellyfin/config:/config
+      - /home/nmatas/docker/jellyfin/cache:/cache
+      - /home/nmatas/Medios:/data/media:ro  # <--- Tu carpeta de medios intacta (en modo lectura para seguridad)
+    restart: "unless-stopped"

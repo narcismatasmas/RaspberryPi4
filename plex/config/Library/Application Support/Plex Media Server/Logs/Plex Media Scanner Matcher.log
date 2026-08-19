@@ -1,48 +1,14 @@
-Jun 28, 2026 15:52:14.923 [548106051064] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 28, 2026 15:52:14.924 [548106051064] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 28, 2026 15:52:14.924 [548106051064] INFO - Processor: 4-core ARM Cortex-A72
-Jun 28, 2026 15:52:14.924 [548106051064] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 13 --content-type=application/json --match-tag-mode=all
-Jun 28, 2026 15:52:14.925 [548201746488] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 28, 2026 15:52:15.153 [548201746488] DEBUG - Matcher: found 0 auxiliary files for Awaken
-Jun 28, 2026 15:52:15.153 [548201746488] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:15.153 [548201746488] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:15.153 [548201746488] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:15.154 [548201746488] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:15.154 [548201746488] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:15.154 [548201746488] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:15.155 [548201746488] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:15.156 [548201746488] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:15.156 [548201746488] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:15.157 [548201746488] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.159 [548201746488] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.160 [548201746488] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:15.179 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.179 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.188 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.188 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.197 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.197 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.206 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.206 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.211 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.211 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.216 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.216 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.221 [548201746488] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:15.224 [548201746488] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:15.225 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.225 [548201746488] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.225 [548201746488] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.226 [548201746488] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:15.226 [548201746488] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Otros/Awaken.mp4
+Aug 18, 2026 04:45:14.054 [548140891640] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Aug 18, 2026 04:45:14.054 [548140891640] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Aug 18, 2026 04:45:14.055 [548140891640] INFO - Processor: 4-core ARM Cortex-A72
+Aug 18, 2026 04:45:14.055 [548140891640] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 19 --content-type=application/json
+Aug 18, 2026 04:45:14.056 [548236587064] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Aug 18, 2026 04:45:14.293 [548236587064] DEBUG - Matcher: found 2 auxiliary files for Michael
+Aug 18, 2026 04:45:14.293 [548236587064] DEBUG - Scanner: found local sidecar subtitle "/data/medios/Pelis/Michael (2026)/Michael (2026).es.srt"
+Aug 18, 2026 04:45:14.293 [548236587064] DEBUG - Scanner: found local sidecar subtitle "/data/medios/Pelis/Michael (2026)/Michael (2026).en.srt"
+Aug 18, 2026 04:45:14.293 [548236587064] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Michael (2026)/Michael (2026).es.srt' for reading
+Aug 18, 2026 04:45:14.293 [548236587064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Aug 18, 2026 04:45:14.389 [548236587064] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Aug 18, 2026 04:45:14.446 [548236587064] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Michael (2026)/Michael (2026).en.srt' for reading
+Aug 18, 2026 04:45:14.446 [548236587064] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Aug 18, 2026 04:45:14.457 [548236587064] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

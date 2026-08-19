@@ -1,93 +1,75 @@
-Jun 28, 2026 15:52:15.293 [548176408056] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 28, 2026 15:52:15.294 [548176408056] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 28, 2026 15:52:15.294 [548176408056] INFO - Processor: 4-core ARM Cortex-A72
-Jun 28, 2026 15:52:15.294 [548176408056] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 13
-Jun 28, 2026 15:52:15.295 [548272054328] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 28, 2026 15:52:15.539 [548272054328] DEBUG - Analyzing media parts for item 13 (Awaken): 13
-Jun 28, 2026 15:52:15.541 [548272054328] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.541 [548272054328] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.543 [548164443640] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.543 [548272054328] DEBUG - Updating metadata item (save) (Awaken) with ID 13
-Jun 28, 2026 15:52:15.546 [548272054328] DEBUG - [ID 13] Media part analysis: /data/medios/Otros/Awaken.mp4
-Jun 28, 2026 15:52:15.546 [548272054328] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:15.546 [548272054328] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:15.546 [548272054328] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:15.547 [548272054328] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:15.547 [548272054328] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:15.547 [548272054328] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:15.548 [548272054328] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:15.549 [548272054328] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:15.549 [548272054328] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:15.550 [548272054328] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.552 [548272054328] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:15.553 [548272054328] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:15.572 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.572 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.581 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.581 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.590 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.590 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.600 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.600 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.605 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.605 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.610 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:15.610 [548272054328] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:15.616 [548272054328] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found trak atom of size 22595 at offset 140
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found trak atom of size 37590 at offset 22735
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found mdia atom of size 22459 at offset 276
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found minf atom of size 22355 at offset 380
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found stbl atom of size 22240 at offset 495
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found mdia atom of size 37454 at offset 22871
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found minf atom of size 37346 at offset 22979
-Jun 28, 2026 15:52:15.619 [548272054328] DEBUG - Mp4AtomParser: Found stbl atom of size 37235 at offset 23090
-Jun 28, 2026 15:52:15.631 [548272054328] DEBUG - [MI]  * 20f95e85034e3b69f642f0fc4bcafd92ce8af007 [mp4 h264/aac] Duration: 165417ms, 2048x858 (2.386946) 24.000fps, bitrate=8669kbps, audio channels=2, optimizedForStreaming=1 ("/data/medios/Otros/Awaken.mp4")
-Jun 28, 2026 15:52:15.631 [548272054328] DEBUG - [MI] Chapters had generic titles, clearing.
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found udta atom of size 58 at offset 60325
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found ©TIM atom of size 23 at offset 60333
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found ©TSC atom of size 14 at offset 60356
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Mp4AtomParser: Found ©TSZ atom of size 13 at offset 60370
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.632 [548272054328] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.634 [548164443640] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jun 28, 2026 15:52:15.634 [548272054328] DEBUG - Updating metadata item (save) (Awaken) with ID 13
-Jun 28, 2026 15:52:15.635 [548272054328] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:15.636 [548272054328] DEBUG - Streams didn't change in analysis, not saving.
-Jun 28, 2026 15:52:15.636 [548272054328] DEBUG - Updating media item 13, size=179258674, metadata_item_id=13
-Jun 28, 2026 15:52:15.636 [548272054328] DEBUG - Updating part with ID=13 [/data/medios/Otros/Awaken.mp4]
-Jun 28, 2026 15:52:15.637 [548163251704] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jun 28, 2026 15:52:15.638 [548164443640] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jun 28, 2026 15:52:15.639 [548163251704] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
-Jun 28, 2026 15:52:15.639 [548272054328] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.639 [548272054328] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.640 [548164443640] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
-Jun 28, 2026 15:52:15.641 [548164443640] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.641 [548272054328] DEBUG - Updating metadata item (save) (Awaken) with ID 13
-Jun 28, 2026 15:52:15.643 [548163251704] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jun 28, 2026 15:52:15.644 [548164443640] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jun 28, 2026 15:52:15.648 [548272054328] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.648 [548272054328] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:15.649 [548164443640] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jun 28, 2026 15:52:15.649 [548272054328] DEBUG - Updating metadata item (save) (Awaken) with ID 13
+Jul 10, 2026 19:12:27.052 [547778833912] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jul 10, 2026 19:12:27.052 [547778833912] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jul 10, 2026 19:12:27.053 [547778833912] INFO - Processor: 4-core ARM Cortex-A72
+Jul 10, 2026 19:12:27.053 [547778833912] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 19
+Jul 10, 2026 19:12:27.054 [547874529336] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jul 10, 2026 19:12:27.348 [547874529336] DEBUG - Analyzing media parts for item 19 (Michael): 18
+Jul 10, 2026 19:12:27.350 [547874529336] DEBUG - [ID 18] Media part analysis: /data/medios/Pelis/Michael (2026)/Michael (2026).mkv
+Jul 10, 2026 19:12:27.351 [547874529336] DEBUG - [MI] Opening input file: "/data/medios/Pelis/Michael (2026)/Michael (2026).mkv"
+Jul 10, 2026 19:12:27.352 [547874529336] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Michael (2026)/Michael (2026).mkv' for reading
+Jul 10, 2026 19:12:27.352 [547874529336] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 10, 2026 19:12:27.352 [547874529336] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6065
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6117
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6169
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6222
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6275
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6328
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6381
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6434
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6487
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6540
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6593
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6646
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6699
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6752
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6805
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6858
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.353 [547874529336] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.354 [547874529336] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.354 [547874529336] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.354 [547874529336] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:27.354 [547874529336] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6970 bytes read:35660 seeks:2 nb_streams:7
+Jul 10, 2026 19:12:27.356 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:27.357 [547874529336] DEBUG - [FFMPEG] - Decoding VUI
+Jul 10, 2026 19:12:27.357 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:27.357 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:27.358 [547874529336] DEBUG - [FFMPEG] - Decoding VUI
+Jul 10, 2026 19:12:27.358 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:27.358 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 10, 2026 19:12:27.358 [547874529336] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 10, 2026 19:12:27.367 [547874529336] DEBUG - [FFMPEG] - no picture 
+Jul 10, 2026 19:12:27.374 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:27.382 [547874529336] DEBUG - [FFMPEG] - no picture 
+Jul 10, 2026 19:12:27.390 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:27.406 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:27.421 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:27.436 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:27.443 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:27.452 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:27.462 [547874529336] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:27.471 [547874529336] DEBUG - [FFMPEG] - All info found
+Jul 10, 2026 19:12:27.475 [547874529336] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 130994 bytes read:166732 seeks:2 frames:58
+Jul 10, 2026 19:12:27.488 [547874529336] DEBUG - [MI]  * 01353a300efe2298345894899c10ce2adde47d67 [mkv h264/eac3] Duration: 7724736ms, 1920x1040 (1.850000) 23.976fps, bitrate=11054kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Pelis/Michael (2026)/Michael (2026).mkv")
+Jul 10, 2026 19:12:27.488 [547874529336] DEBUG - [MI] Importing 16 media chapters.
+Jul 10, 2026 19:12:27.489 [547874529336] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 10, 2026 19:12:27.489 [547874529336] DEBUG - [MI] Closing input file: "/data/medios/Pelis/Michael (2026)/Michael (2026).mkv"
+Jul 10, 2026 19:12:27.490 [547874529336] DEBUG - Committing media stream changes for part 18
+Jul 10, 2026 19:12:27.493 [547874529336] DEBUG - Updating media item 18, size=10674410264, metadata_item_id=19
+Jul 10, 2026 19:12:27.493 [547874529336] DEBUG - Updating part with ID=18 [/data/medios/Pelis/Michael (2026)/Michael (2026).mkv]
+Jul 10, 2026 19:12:27.494 [547746881016] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=19&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 10, 2026 19:12:27.498 [547745963512] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=19&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 10, 2026 19:12:27.499 [547746881016] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=19&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 10, 2026 19:12:27.502 [547745963512] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=19&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 10, 2026 19:12:27.503 [547874529336] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:27.503 [547874529336] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:27.505 [547745963512] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 10, 2026 19:12:27.506 [547874529336] DEBUG - Updating metadata item (save) (Michael) with ID 19
+Jul 10, 2026 19:12:27.513 [547874529336] DEBUG - Doing expensive tags write for 'Michael' because something changed.
+Jul 10, 2026 19:12:27.516 [547874529336] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:27.516 [547874529336] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:27.518 [547745963512] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 10, 2026 19:12:27.519 [547874529336] DEBUG - Updating metadata item (save) (Michael) with ID 19

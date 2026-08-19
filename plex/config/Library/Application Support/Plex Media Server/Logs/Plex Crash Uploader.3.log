@@ -1,5 +1,4 @@
-Jun 29, 2026 09:38:45.370 [548601543376] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1782718531 Duration: 194 UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
-Jun 29, 2026 09:38:45.368 [548633114768] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jun 29, 2026 09:38:45.580 [548601359056] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jun 29, 2026 09:38:45.580 [548633114768] INFO - Successfully reported session health
-Jun 29, 2026 09:38:45.580 [548633114768] INFO - Crash Uploader - Processing Complete.
+Jul 03, 2026 13:03:53.705 [547977706192] INFO - Crash Uploader - Platform: Linux ServerUUID: 852d69654ed685d07d2d7f072dec0b61ea7d12ba UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
+Jul 03, 2026 13:03:53.706 [547977706192] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.2.10687-563d026ea
+Jul 03, 2026 13:03:53.706 [547977706192] INFO - Post-processed minidump directory: /run/plex-temp
+Jul 03, 2026 13:03:53.706 [548009277584] INFO - Crash Uploader - Processing Complete.

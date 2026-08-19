@@ -1,98 +1,989 @@
-<SessionReport version="2" startTime="0" startTimestamp="Jun 28, 2026 17:47:35.134" key="/library/metadata/3" session="519c0cc880a156d5-com-plexapp-android" transcode="519c0cc880a156d5-com-plexapp-android">
-<User id="1" thumb="https://plex.tv/users/8393d6f0caef818e/avatar?c=1782654669" title="narcsm" />
-<Player address="192.168.1.143" device="MiTV-MOOR2" machineIdentifier="519c0cc880a156d5-com-plexapp-android" platform="Android" platformVersion="11" product="Plex for Android (TV)" remotePublicAddress="37.15.102.100" version="10.30.8.4222" local="1" relayed="0" secure="1" userID="1" />
+<SessionReport version="2" startTime="0" startTimestamp="Jul 03, 2026 12:38:36.176" key="/library/metadata/4" session="ujilewotx3dnzmy4dldwjfxl" transcode="kdh25vt39v1tx5pxm1gyzeup">
+<User id="1" thumb="https://plex.tv/users/8393d6f0caef818e/avatar?c=1783005290" title="narcsm" />
+<Player address="192.168.1.129" device="Linux" machineIdentifier="asvbxc4lsqubn1not4osda3m" model="bundled" platform="Chrome" platformVersion="150.0" product="Plex Web" remotePublicAddress="37.15.102.100" title="Chrome" version="4.159.0" local="1" relayed="0" secure="1" userID="1" />
 <Variants>
-<Variant id="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" targetBitrate="10028" context="streaming" sourceVideoCodec="hevc" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="copy" protocol="hls" container="mkv" videoCodec="hevc" audioCodec="eac3" audioChannels="6" transcodeHwRequested="0" transcodeHwFullPipeline="0">
-<Media audioProfile="dolby digital plus + dolby atmos" id="1" videoProfile="main 10" audioChannels="6" audioCodec="eac3" bitrate="4775" container="mkv" duration="3388385" height="804" protocol="hls" videoCodec="hevc" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
-<Part audioProfile="dolby digital plus + dolby atmos" id="1" videoProfile="main 10" bitrate="4775" container="mkv" duration="3388385" height="804" protocol="hls" width="1920" decision="transcode" selected="1">
-<Stream bitDepth="10" bitrate="4007" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="808" codedWidth="1920" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" displayTitle="1080p" extendedDisplayTitle="1080p (HEVC Main 10)" frameRate="23.975999832153320" height="804" id="1" language="English" languageCode="eng" languageTag="en-US" level="120" profile="main 10" refFrames="1" streamType="1" width="1920" decision="copy" location="segments-av" />
-<Stream audioChannelLayout="5.1(side)" bitrate="768" bitrateMode="cbr" channels="6" codec="eac3" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="Surround 5.1 w/Atmos (English EAC3)" id="2" language="English" languageCode="eng" languageTag="en-US" profile="dolby digital plus + dolby atmos" samplingRate="48000" selected="1" streamType="2" title="Surround 5.1 w/Atmos" decision="copy" location="segments-av" />
+<Variant id="a1fbffb2-5960-49ac-b917-a95d19261a5e" targetBitrate="5628" context="streaming" sourceVideoCodec="hevc" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="hevc" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main 10" audioChannels="2" audioCodec="aac" bitrate="4256" container="mp4" duration="3724845" height="804" optimizedForStreaming="1" protocol="dash" videoCodec="hevc" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
+<Part audioProfile="dolby digital plus + dolby atmos" deepAnalysisVersion="6" id="2" requiredBandwidths="12835,9088,6890,5857,5857,5857,5857,5857" videoProfile="main 10" bitrate="4256" container="mp4" duration="3724845" height="804" optimizedForStreaming="1" protocol="dash" width="1920" decision="transcode" selected="1">
+<Stream bitDepth="10" bitrate="4000" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="808" codedWidth="1920" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" displayTitle="1080p" extendedDisplayTitle="1080p (HEVC Main 10)" frameRate="23.975999832153320" height="804" id="45" language="English" languageCode="eng" languageTag="en-US" level="120" profile="main 10" refFrames="1" requiredBandwidths="12065,8319,6121,5104,5104,5104,5104,5104" streamType="1" width="1920" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="Surround 5.1 w/Atmos (English EAC3)" id="46" language="English" languageCode="eng" languageTag="en-US" requiredBandwidths="768,768,768,768,768,768,768,768" selected="1" streamType="2" decision="transcode" location="segments-audio" />
 </Part>
 </Media>
 </Variant>
 </Variants>
 <SegmentList>
-<Segment duration="10301" startOffset="0" endOffset="10301">
-<File name="media-00000.ts" type="av">
-<FileVariant size="3386542" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="11094" startOffset="0" endOffset="11094">
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="4426373" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="315747" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="82" endTime="118" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
-<Download startTime="310" endTime="457" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="112" endTime="1618" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="112" endTime="1618" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="1653" endTime="1694" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="1653" endTime="2285" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="10301" startOffset="10427" endOffset="20728">
-<File name="media-00001.ts" type="av">
-<FileVariant size="5228409" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10427" startOffset="11094" endOffset="21521">
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="6232813" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="332687" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="118" endTime="161" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Download startTime="1829" endTime="2737" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e">
+<Pause type="segmentWait" startTime="1829" endTime="2730" />
+</Download>
+<Download startTime="2539" endTime="3596" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e">
+<Pause type="segmentWait" startTime="2539" endTime="2740" />
+</Download>
+<Transcode startTime="1618" endTime="2654" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="1618" endTime="2654" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="10218" startOffset="20854" endOffset="31072">
-<File name="media-00002.ts" type="av">
-<FileVariant size="5563405" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10427" startOffset="21521" endOffset="31948">
+<File name="chunk-stream0-00003.m4s" type="video">
+<FileVariant size="8103075" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00003.m4s" type="audio">
+<FileVariant size="337022" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="161" endTime="206" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Download startTime="2962" endTime="3774" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e">
+<Pause type="segmentWait" startTime="2962" endTime="3763" />
+</Download>
+<Transcode startTime="2654" endTime="3704" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="2654" endTime="3704" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="3871" endTime="4980" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="17892" startOffset="31281" endOffset="49173">
-<File name="media-00003.ts" type="av">
-<FileVariant size="9825051" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10552" startOffset="31948" endOffset="42500">
+<File name="chunk-stream0-00004.m4s" type="video">
+<FileVariant size="7247211" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00004.m4s" type="audio">
+<FileVariant size="345521" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="206" endTime="293" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Download startTime="3877" endTime="5087" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e">
+<Pause type="segmentWait" startTime="3877" endTime="5079" />
+</Download>
+<Transcode startTime="3704" endTime="5041" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="3704" endTime="5041" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="5381" endTime="6257" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e">
+<Pause type="segmentWait" startTime="5381" endTime="5382" />
+</Download>
 </Timelines>
 </Segment>
-<Segment duration="2794" startOffset="49299" endOffset="52093">
-<File name="media-00004.ts" type="av">
-<FileVariant size="701971" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10427" startOffset="42500" endOffset="52927">
+<File name="chunk-stream0-00005.m4s" type="video">
+<FileVariant size="5883470" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00005.m4s" type="audio">
+<FileVariant size="337041" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="293" endTime="303" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="5041" endTime="6150" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="5041" endTime="6150" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="6370" endTime="6378" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="6712" endTime="7482" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="13637" startOffset="52094" endOffset="65732">
-<File name="media-00005.ts" type="av">
-<FileVariant size="10767751" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="6006" startOffset="52927" endOffset="58933">
+<File name="chunk-stream0-00006.m4s" type="video">
+<FileVariant size="3159315" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00006.m4s" type="audio">
+<FileVariant size="192495" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="303" endTime="408" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="6150" endTime="6768" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="6150" endTime="6768" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="7993" endTime="8017" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="9395" endTime="9891" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="12679" startOffset="65732" endOffset="78411">
-<File name="media-00006.ts" type="av">
-<FileVariant size="8511070" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10302" startOffset="58933" endOffset="69235">
+<File name="chunk-stream0-00007.m4s" type="video">
+<FileVariant size="5056551" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00007.m4s" type="audio">
+<FileVariant size="327719" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="408" endTime="489" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="6768" endTime="8744" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="6768" endTime="8744" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="11017" endTime="11050" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="13794" endTime="14456" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="5420" startOffset="78412" endOffset="83833">
-<File name="media-00007.ts" type="av">
-<FileVariant size="5207022" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="10260" startOffset="69235" endOffset="79495">
+<File name="chunk-stream0-00008.m4s" type="video">
+<FileVariant size="2746200" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00008.m4s" type="audio">
+<FileVariant size="332936" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="489" endTime="526" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="8744" endTime="11237" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="8744" endTime="11237" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Download startTime="15692" endTime="15720" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
-<Segment duration="6338" startOffset="83834" endOffset="90173">
-<File name="media-00008.ts" type="av">
-<FileVariant size="5261371" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Segment duration="9260" startOffset="79495" endOffset="88755">
+<File name="chunk-stream0-00009.m4s" type="video">
+<FileVariant size="2858356" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00009.m4s" type="audio">
+<FileVariant size="297348" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </File>
 <Timelines>
-<Transcode startTime="526" endTime="564" complete="1" fileType="av" variant="4d5d0fc6-f582-44f7-9129-74ca51b3bb47" />
+<Transcode startTime="11237" endTime="13514" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="11237" endTime="13514" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="5129" startOffset="88755" endOffset="93885">
+<File name="chunk-stream0-00010.m4s" type="video">
+<FileVariant size="3252227" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00010.m4s" type="audio">
+<FileVariant size="166217" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="13514" endTime="14228" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="13514" endTime="14228" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="5629" startOffset="93885" endOffset="99515">
+<File name="chunk-stream0-00011.m4s" type="video">
+<FileVariant size="3985112" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00011.m4s" type="audio">
+<FileVariant size="182263" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="14228" endTime="15024" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="14228" endTime="15024" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="4629" startOffset="99515" endOffset="104145">
+<File name="chunk-stream0-00012.m4s" type="video">
+<FileVariant size="2840689" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00012.m4s" type="audio">
+<FileVariant size="141036" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="15024" endTime="15784" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="15024" endTime="15784" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="6340" startOffset="104145" endOffset="110485">
+<File name="chunk-stream0-00013.m4s" type="video">
+<FileVariant size="5640061" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00013.m4s" type="audio">
+<FileVariant size="202398" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="15784" endTime="17188" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="15784" endTime="17188" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="10135" startOffset="110484" endOffset="120619">
+<File name="chunk-stream0-00014.m4s" type="video">
+<FileVariant size="6881522" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00014.m4s" type="audio">
+<FileVariant size="328274" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="17188" endTime="18352" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="17188" endTime="18352" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="3837" startOffset="120620" endOffset="124457">
+<File name="chunk-stream0-00015.m4s" type="video">
+<FileVariant size="2282293" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00015.m4s" type="audio">
+<FileVariant size="123356" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="18352" endTime="18692" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="18352" endTime="18692" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="6422" startOffset="124457" endOffset="130880">
+<File name="chunk-stream0-00016.m4s" type="video">
+<FileVariant size="5178423" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00016.m4s" type="audio">
+<FileVariant size="202982" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="18692" endTime="19366" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="18692" endTime="19366" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="3127" startOffset="130880" endOffset="134007">
+<File name="chunk-stream0-00017.m4s" type="video">
+<FileVariant size="1283925" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00017.m4s" type="audio">
+<FileVariant size="96280" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="19366" endTime="19800" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="19366" endTime="19800" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="3753" startOffset="134007" endOffset="137761">
+<File name="chunk-stream0-00018.m4s" type="video">
+<FileVariant size="3053026" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00018.m4s" type="audio">
+<FileVariant size="123128" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="19800" endTime="20203" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="19800" endTime="20203" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="9634" startOffset="137761" endOffset="147396">
+<File name="chunk-stream0-00019.m4s" type="video">
+<FileVariant size="9745401" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00019.m4s" type="audio">
+<FileVariant size="311923" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="20203" endTime="21104" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="20203" endTime="21104" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="7590" startOffset="147396" endOffset="154986">
+<File name="chunk-stream0-00020.m4s" type="video">
+<FileVariant size="5797232" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00020.m4s" type="audio">
+<FileVariant size="243866" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="21104" endTime="62054" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="21104" endTime="62055" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="10260" startOffset="154986" endOffset="165247">
+<File name="chunk-stream0-00021.m4s" type="video">
+<FileVariant size="6387907" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00021.m4s" type="audio">
+<FileVariant size="327328" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="62054" endTime="121097" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="62055" endTime="121097" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</Timelines>
+</Segment>
+<Segment duration="6423" startOffset="165248" endOffset="171671">
+<File name="chunk-stream0-00022.m4s" type="video">
+<FileVariant size="3762107" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<File name="chunk-stream1-00022.m4s" type="audio">
+<FileVariant size="208938" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+</File>
+<Timelines>
+<Transcode startTime="121097" endTime="158977" complete="1" fileType="video" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
+<Transcode startTime="121097" endTime="158977" complete="1" fileType="audio" variant="a1fbffb2-5960-49ac-b917-a95d19261a5e" />
 </Timelines>
 </Segment>
 </SegmentList>
 <PlaybackReports>
-<Playback startTime="277" endTime="1032" state="buffering" progress="0" />
-<Playback startTime="1032" endTime="1151" state="playing" progress="0" />
-<Playback startTime="1151" endTime="1151" state="stopped" progress="0" />
+<Playback startTime="7278" endTime="7297" state="playing" progress="4000" />
+<Playback startTime="7297" endTime="7362" state="paused" progress="4000" />
+<Playback startTime="7362" endTime="7373" state="buffering" progress="4000" />
+<Playback startTime="7373" endTime="7384" state="playing" progress="4000" />
+<Playback startTime="7384" endTime="7412" state="paused" progress="4000" />
+<Playback startTime="7412" endTime="7436" state="paused" progress="4000" />
+<Playback startTime="7436" endTime="7495" state="playing" progress="4000" />
+<Playback startTime="7495" endTime="7503" state="playing" progress="4000" />
+<Playback startTime="7503" endTime="7508" state="playing" progress="4000" />
+<Playback startTime="7508" endTime="7521" state="paused" progress="4000" />
+<Playback startTime="7521" endTime="7530" state="paused" progress="4000" />
+<Playback startTime="7530" endTime="7544" state="playing" progress="4000" />
+<Playback startTime="7544" endTime="7560" state="buffering" progress="4000" />
+<Playback startTime="7560" endTime="7565" state="paused" progress="4000" />
+<Playback startTime="7565" endTime="7596" state="paused" progress="4000" />
+<Playback startTime="7596" endTime="7611" state="paused" progress="4000" />
+<Playback startTime="7611" endTime="7629" state="playing" progress="4000" />
+<Playback startTime="7629" endTime="7640" state="playing" progress="4000" />
+<Playback startTime="7640" endTime="7642" state="playing" progress="4000" />
+<Playback startTime="7642" endTime="7648" state="paused" progress="4000" />
+<Playback startTime="7648" endTime="7667" state="playing" progress="4000" />
+<Playback startTime="7667" endTime="7669" state="paused" progress="4000" />
+<Playback startTime="7669" endTime="7684" state="paused" progress="4000" />
+<Playback startTime="7684" endTime="7694" state="paused" progress="4000" />
+<Playback startTime="7694" endTime="7709" state="playing" progress="4000" />
+<Playback startTime="7709" endTime="7715" state="playing" progress="4000" />
+<Playback startTime="7715" endTime="7722" state="playing" progress="4000" />
+<Playback startTime="7722" endTime="7748" state="paused" progress="4000" />
+<Playback startTime="7748" endTime="7771" state="playing" progress="4000" />
+<Playback startTime="7771" endTime="7782" state="buffering" progress="4000" />
+<Playback startTime="7782" endTime="7785" state="paused" progress="4000" />
+<Playback startTime="7785" endTime="7794" state="paused" progress="4000" />
+<Playback startTime="7794" endTime="7796" state="playing" progress="4000" />
+<Playback startTime="7796" endTime="7800" state="playing" progress="4000" />
+<Playback startTime="7800" endTime="7822" state="paused" progress="4000" />
+<Playback startTime="7822" endTime="7835" state="paused" progress="4000" />
+<Playback startTime="7835" endTime="7848" state="paused" progress="4000" />
+<Playback startTime="7848" endTime="7851" state="paused" progress="4000" />
+<Playback startTime="7851" endTime="7881" state="playing" progress="4000" />
+<Playback startTime="7881" endTime="7887" state="playing" progress="4000" />
+<Playback startTime="7887" endTime="7923" state="paused" progress="4000" />
+<Playback startTime="7923" endTime="7939" state="playing" progress="4000" />
+<Playback startTime="7939" endTime="7957" state="playing" progress="4000" />
+<Playback startTime="7957" endTime="7966" state="paused" progress="4000" />
+<Playback startTime="7966" endTime="7978" state="paused" progress="4000" />
+<Playback startTime="7978" endTime="7983" state="playing" progress="4000" />
+<Playback startTime="7983" endTime="7998" state="paused" progress="4000" />
+<Playback startTime="7998" endTime="8034" state="playing" progress="4000" />
+<Playback startTime="8034" endTime="8045" state="playing" progress="4000" />
+<Playback startTime="8045" endTime="8057" state="paused" progress="4000" />
+<Playback startTime="8057" endTime="8064" state="paused" progress="4000" />
+<Playback startTime="8064" endTime="8071" state="paused" progress="4000" />
+<Playback startTime="8071" endTime="8089" state="playing" progress="4000" />
+<Playback startTime="8089" endTime="8103" state="playing" progress="4000" />
+<Playback startTime="8103" endTime="8114" state="paused" progress="4000" />
+<Playback startTime="8114" endTime="8121" state="paused" progress="4000" />
+<Playback startTime="8121" endTime="8124" state="playing" progress="4000" />
+<Playback startTime="8124" endTime="8146" state="playing" progress="4000" />
+<Playback startTime="8146" endTime="8158" state="paused" progress="4000" />
+<Playback startTime="8158" endTime="8191" state="playing" progress="4000" />
+<Playback startTime="8191" endTime="8213" state="paused" progress="4000" />
+<Playback startTime="8213" endTime="8229" state="paused" progress="4000" />
+<Playback startTime="8229" endTime="8236" state="playing" progress="4000" />
+<Playback startTime="8236" endTime="8264" state="paused" progress="4000" />
+<Playback startTime="8264" endTime="8277" state="playing" progress="4000" />
+<Playback startTime="8277" endTime="8288" state="paused" progress="4000" />
+<Playback startTime="8288" endTime="8297" state="playing" progress="4000" />
+<Playback startTime="8297" endTime="8333" state="paused" progress="4000" />
+<Playback startTime="8333" endTime="8340" state="playing" progress="4000" />
+<Playback startTime="8340" endTime="8342" state="paused" progress="4000" />
+<Playback startTime="8342" endTime="8346" state="playing" progress="4000" />
+<Playback startTime="8346" endTime="8372" state="playing" progress="4000" />
+<Playback startTime="8372" endTime="8378" state="playing" progress="4000" />
+<Playback startTime="8378" endTime="8385" state="paused" progress="4000" />
+<Playback startTime="8385" endTime="8402" state="playing" progress="4000" />
+<Playback startTime="8402" endTime="8411" state="paused" progress="4000" />
+<Playback startTime="8411" endTime="8413" state="paused" progress="4000" />
+<Playback startTime="8413" endTime="8417" state="playing" progress="4000" />
+<Playback startTime="8417" endTime="8423" state="paused" progress="4000" />
+<Playback startTime="8423" endTime="8473" state="paused" progress="4000" />
+<Playback startTime="8473" endTime="8481" state="playing" progress="4000" />
+<Playback startTime="8481" endTime="8492" state="playing" progress="4000" />
+<Playback startTime="8492" endTime="8503" state="paused" progress="4000" />
+<Playback startTime="8503" endTime="8509" state="playing" progress="4000" />
+<Playback startTime="8509" endTime="8530" state="paused" progress="4000" />
+<Playback startTime="8530" endTime="8561" state="playing" progress="4000" />
+<Playback startTime="8561" endTime="8563" state="paused" progress="4000" />
+<Playback startTime="8563" endTime="8567" state="paused" progress="4000" />
+<Playback startTime="8567" endTime="8574" state="paused" progress="4000" />
+<Playback startTime="8574" endTime="8575" state="playing" progress="4000" />
+<Playback startTime="8575" endTime="8583" state="playing" progress="4000" />
+<Playback startTime="8583" endTime="8598" state="playing" progress="4000" />
+<Playback startTime="8598" endTime="8613" state="paused" progress="4000" />
+<Playback startTime="8613" endTime="8621" state="paused" progress="4000" />
+<Playback startTime="8621" endTime="8634" state="paused" progress="4000" />
+<Playback startTime="8634" endTime="8640" state="playing" progress="4000" />
+<Playback startTime="8640" endTime="8654" state="paused" progress="4000" />
+<Playback startTime="8654" endTime="8675" state="playing" progress="4000" />
+<Playback startTime="8675" endTime="8692" state="playing" progress="4000" />
+<Playback startTime="8692" endTime="8710" state="paused" progress="4000" />
+<Playback startTime="8710" endTime="8763" state="playing" progress="4000" />
+<Playback startTime="8763" endTime="8773" state="paused" progress="4000" />
+<Playback startTime="8773" endTime="8786" state="playing" progress="4000" />
+<Playback startTime="8786" endTime="8793" state="paused" progress="4000" />
+<Playback startTime="8793" endTime="8796" state="paused" progress="4000" />
+<Playback startTime="8796" endTime="8801" state="playing" progress="4000" />
+<Playback startTime="8801" endTime="8803" state="playing" progress="4000" />
+<Playback startTime="8803" endTime="8813" state="playing" progress="4000" />
+<Playback startTime="8813" endTime="8818" state="paused" progress="4000" />
+<Playback startTime="8818" endTime="8822" state="paused" progress="4000" />
+<Playback startTime="8822" endTime="8847" state="playing" progress="4000" />
+<Playback startTime="8847" endTime="8867" state="playing" progress="4000" />
+<Playback startTime="8867" endTime="8881" state="playing" progress="4000" />
+<Playback startTime="8881" endTime="8887" state="paused" progress="4000" />
+<Playback startTime="8887" endTime="8910" state="paused" progress="4000" />
+<Playback startTime="8910" endTime="8914" state="paused" progress="4000" />
+<Playback startTime="8914" endTime="8921" state="paused" progress="4000" />
+<Playback startTime="8921" endTime="8936" state="playing" progress="4000" />
+<Playback startTime="8936" endTime="8955" state="playing" progress="4000" />
+<Playback startTime="8955" endTime="8984" state="paused" progress="4000" />
+<Playback startTime="8984" endTime="9005" state="playing" progress="4000" />
+<Playback startTime="9005" endTime="9020" state="paused" progress="4000" />
+<Playback startTime="9020" endTime="9027" state="playing" progress="4000" />
+<Playback startTime="9027" endTime="9048" state="paused" progress="4000" />
+<Playback startTime="9048" endTime="9052" state="playing" progress="4000" />
+<Playback startTime="9052" endTime="9076" state="paused" progress="4000" />
+<Playback startTime="9076" endTime="9087" state="paused" progress="4000" />
+<Playback startTime="9087" endTime="9091" state="playing" progress="4000" />
+<Playback startTime="9091" endTime="9093" state="playing" progress="4000" />
+<Playback startTime="9093" endTime="9132" state="playing" progress="4000" />
+<Playback startTime="9132" endTime="9138" state="paused" progress="4000" />
+<Playback startTime="9138" endTime="9162" state="paused" progress="4000" />
+<Playback startTime="9162" endTime="9174" state="playing" progress="4000" />
+<Playback startTime="9174" endTime="9196" state="playing" progress="4000" />
+<Playback startTime="9196" endTime="9213" state="paused" progress="4000" />
+<Playback startTime="9213" endTime="9217" state="playing" progress="4000" />
+<Playback startTime="9217" endTime="9223" state="paused" progress="4000" />
+<Playback startTime="9223" endTime="9271" state="paused" progress="4000" />
+<Playback startTime="9271" endTime="9276" state="playing" progress="4000" />
+<Playback startTime="9276" endTime="9288" state="playing" progress="4000" />
+<Playback startTime="9288" endTime="9301" state="paused" progress="4000" />
+<Playback startTime="9301" endTime="9310" state="paused" progress="4000" />
+<Playback startTime="9310" endTime="9326" state="playing" progress="4000" />
+<Playback startTime="9326" endTime="9332" state="paused" progress="4000" />
+<Playback startTime="9332" endTime="9347" state="playing" progress="4000" />
+<Playback startTime="9347" endTime="9373" state="paused" progress="4000" />
+<Playback startTime="9373" endTime="9380" state="paused" progress="4000" />
+<Playback startTime="9380" endTime="9393" state="playing" progress="4000" />
+<Playback startTime="9393" endTime="9401" state="playing" progress="4000" />
+<Playback startTime="9401" endTime="9408" state="playing" progress="4000" />
+<Playback startTime="9408" endTime="9469" state="paused" progress="4000" />
+<Playback startTime="9469" endTime="9473" state="playing" progress="4000" />
+<Playback startTime="9473" endTime="9482" state="paused" progress="4000" />
+<Playback startTime="9482" endTime="9512" state="paused" progress="4000" />
+<Playback startTime="9512" endTime="9526" state="playing" progress="4000" />
+<Playback startTime="9526" endTime="9587" state="paused" progress="4000" />
+<Playback startTime="9587" endTime="9590" state="playing" progress="4000" />
+<Playback startTime="9590" endTime="9599" state="playing" progress="4000" />
+<Playback startTime="9599" endTime="9620" state="paused" progress="4000" />
+<Playback startTime="9620" endTime="9640" state="playing" progress="4000" />
+<Playback startTime="9640" endTime="9696" state="paused" progress="4000" />
+<Playback startTime="9696" endTime="9699" state="paused" progress="4000" />
+<Playback startTime="9699" endTime="9713" state="playing" progress="4000" />
+<Playback startTime="9713" endTime="9720" state="paused" progress="4000" />
+<Playback startTime="9720" endTime="9732" state="paused" progress="4000" />
+<Playback startTime="9732" endTime="9777" state="playing" progress="4000" />
+<Playback startTime="9777" endTime="9794" state="playing" progress="4000" />
+<Playback startTime="9794" endTime="9817" state="paused" progress="4000" />
+<Playback startTime="9817" endTime="9822" state="playing" progress="4000" />
+<Playback startTime="9822" endTime="9833" state="playing" progress="4000" />
+<Playback startTime="9833" endTime="9870" state="paused" progress="4000" />
+<Playback startTime="9870" endTime="9879" state="paused" progress="4000" />
+<Playback startTime="9879" endTime="9885" state="paused" progress="4000" />
+<Playback startTime="9885" endTime="9897" state="playing" progress="4000" />
+<Playback startTime="9897" endTime="9918" state="playing" progress="4000" />
+<Playback startTime="9918" endTime="9928" state="paused" progress="4000" />
+<Playback startTime="9928" endTime="9932" state="paused" progress="4000" />
+<Playback startTime="9932" endTime="9958" state="playing" progress="4000" />
+<Playback startTime="9958" endTime="9961" state="playing" progress="4000" />
+<Playback startTime="9961" endTime="9975" state="paused" progress="4000" />
+<Playback startTime="9975" endTime="10038" state="playing" progress="4000" />
+<Playback startTime="10038" endTime="10050" state="paused" progress="4000" />
+<Playback startTime="10050" endTime="10062" state="playing" progress="4000" />
+<Playback startTime="10062" endTime="10076" state="paused" progress="4000" />
+<Playback startTime="10076" endTime="10080" state="playing" progress="4000" />
+<Playback startTime="10080" endTime="10083" state="playing" progress="4000" />
+<Playback startTime="10083" endTime="10127" state="paused" progress="4000" />
+<Playback startTime="10127" endTime="10136" state="playing" progress="4000" />
+<Playback startTime="10136" endTime="10157" state="paused" progress="4000" />
+<Playback startTime="10157" endTime="10180" state="playing" progress="4000" />
+<Playback startTime="10180" endTime="10203" state="paused" progress="4000" />
+<Playback startTime="10203" endTime="10205" state="paused" progress="4000" />
+<Playback startTime="10205" endTime="10275" state="playing" progress="4000" />
+<Playback startTime="10275" endTime="10278" state="playing" progress="4000" />
+<Playback startTime="10278" endTime="10291" state="paused" progress="4000" />
+<Playback startTime="10291" endTime="10306" state="paused" progress="4000" />
+<Playback startTime="10306" endTime="10328" state="playing" progress="4000" />
+<Playback startTime="10328" endTime="10337" state="playing" progress="4000" />
+<Playback startTime="10337" endTime="10393" state="paused" progress="4000" />
+<Playback startTime="10393" endTime="10400" state="paused" progress="4000" />
+<Playback startTime="10400" endTime="10419" state="paused" progress="4000" />
+<Playback startTime="10419" endTime="10427" state="playing" progress="4000" />
+<Playback startTime="10427" endTime="10441" state="playing" progress="4000" />
+<Playback startTime="10441" endTime="10447" state="paused" progress="4000" />
+<Playback startTime="10447" endTime="10462" state="playing" progress="4000" />
+<Playback startTime="10462" endTime="10471" state="paused" progress="4000" />
+<Playback startTime="10471" endTime="10479" state="playing" progress="4000" />
+<Playback startTime="10479" endTime="10526" state="paused" progress="4000" />
+<Playback startTime="10526" endTime="10530" state="paused" progress="4000" />
+<Playback startTime="10530" endTime="10549" state="paused" progress="4000" />
+<Playback startTime="10549" endTime="10557" state="playing" progress="4000" />
+<Playback startTime="10557" endTime="10560" state="playing" progress="4000" />
+<Playback startTime="10560" endTime="10580" state="playing" progress="4000" />
+<Playback startTime="10580" endTime="10585" state="paused" progress="4000" />
+<Playback startTime="10585" endTime="10600" state="playing" progress="4000" />
+<Playback startTime="10600" endTime="10622" state="paused" progress="4000" />
+<Playback startTime="10622" endTime="10626" state="playing" progress="4000" />
+<Playback startTime="10626" endTime="10637" state="paused" progress="4000" />
+<Playback startTime="10637" endTime="10649" state="playing" progress="4000" />
+<Playback startTime="10649" endTime="10668" state="paused" progress="4000" />
+<Playback startTime="10668" endTime="10698" state="playing" progress="4000" />
+<Playback startTime="10698" endTime="10703" state="paused" progress="4000" />
+<Playback startTime="10703" endTime="10710" state="paused" progress="4000" />
+<Playback startTime="10710" endTime="10734" state="playing" progress="4000" />
+<Playback startTime="10734" endTime="10749" state="playing" progress="4000" />
+<Playback startTime="10749" endTime="10775" state="paused" progress="4000" />
+<Playback startTime="10775" endTime="10782" state="playing" progress="4000" />
+<Playback startTime="10782" endTime="10787" state="paused" progress="4000" />
+<Playback startTime="10787" endTime="10798" state="playing" progress="4000" />
+<Playback startTime="10798" endTime="10816" state="paused" progress="4000" />
+<Playback startTime="10816" endTime="10819" state="paused" progress="4000" />
+<Playback startTime="10819" endTime="10822" state="playing" progress="4000" />
+<Playback startTime="10822" endTime="10856" state="paused" progress="4000" />
+<Playback startTime="10856" endTime="10890" state="playing" progress="4000" />
+<Playback startTime="10890" endTime="10902" state="paused" progress="4000" />
+<Playback startTime="10902" endTime="10910" state="paused" progress="4000" />
+<Playback startTime="10910" endTime="10913" state="playing" progress="4000" />
+<Playback startTime="10913" endTime="10921" state="playing" progress="4000" />
+<Playback startTime="10921" endTime="10925" state="playing" progress="4000" />
+<Playback startTime="10925" endTime="10981" state="paused" progress="4000" />
+<Playback startTime="10981" endTime="10991" state="playing" progress="4000" />
+<Playback startTime="10991" endTime="11001" state="paused" progress="4000" />
+<Playback startTime="11001" endTime="11005" state="paused" progress="4000" />
+<Playback startTime="11005" endTime="11018" state="playing" progress="4000" />
+<Playback startTime="11018" endTime="11024" state="playing" progress="4000" />
+<Playback startTime="11024" endTime="11080" state="paused" progress="4000" />
+<Playback startTime="11080" endTime="11086" state="paused" progress="4000" />
+<Playback startTime="11086" endTime="11097" state="paused" progress="4000" />
+<Playback startTime="11097" endTime="11106" state="playing" progress="4000" />
+<Playback startTime="11106" endTime="11115" state="paused" progress="4000" />
+<Playback startTime="11115" endTime="11132" state="playing" progress="4000" />
+<Playback startTime="11132" endTime="11143" state="playing" progress="4000" />
+<Playback startTime="11143" endTime="11174" state="playing" progress="4000" />
+<Playback startTime="11174" endTime="11190" state="playing" progress="4000" />
+<Playback startTime="11190" endTime="11199" state="paused" progress="4000" />
+<Playback startTime="11199" endTime="11201" state="playing" progress="4000" />
+<Playback startTime="11201" endTime="11221" state="paused" progress="4000" />
+<Playback startTime="11221" endTime="11281" state="paused" progress="4000" />
+<Playback startTime="11281" endTime="11290" state="playing" progress="4000" />
+<Playback startTime="11290" endTime="11294" state="playing" progress="4000" />
+<Playback startTime="11294" endTime="11301" state="paused" progress="4000" />
+<Playback startTime="11301" endTime="11307" state="paused" progress="4000" />
+<Playback startTime="11307" endTime="11313" state="playing" progress="4000" />
+<Playback startTime="11313" endTime="11327" state="paused" progress="4000" />
+<Playback startTime="11327" endTime="11341" state="playing" progress="4000" />
+<Playback startTime="11341" endTime="11357" state="paused" progress="4000" />
+<Playback startTime="11357" endTime="11365" state="playing" progress="4000" />
+<Playback startTime="11365" endTime="11382" state="paused" progress="4000" />
+<Playback startTime="11382" endTime="11398" state="playing" progress="4000" />
+<Playback startTime="11398" endTime="11429" state="paused" progress="4000" />
+<Playback startTime="11429" endTime="11444" state="playing" progress="4000" />
+<Playback startTime="11444" endTime="11458" state="paused" progress="4000" />
+<Playback startTime="11458" endTime="11470" state="paused" progress="4000" />
+<Playback startTime="11470" endTime="11482" state="playing" progress="4000" />
+<Playback startTime="11482" endTime="11493" state="playing" progress="4000" />
+<Playback startTime="11493" endTime="11521" state="paused" progress="4000" />
+<Playback startTime="11521" endTime="11530" state="playing" progress="4000" />
+<Playback startTime="11530" endTime="11550" state="playing" progress="4000" />
+<Playback startTime="11550" endTime="11561" state="paused" progress="4000" />
+<Playback startTime="11561" endTime="11594" state="paused" progress="4000" />
+<Playback startTime="11594" endTime="11599" state="playing" progress="4000" />
+<Playback startTime="11599" endTime="11617" state="paused" progress="4000" />
+<Playback startTime="11617" endTime="11635" state="playing" progress="4000" />
+<Playback startTime="11635" endTime="11640" state="paused" progress="4000" />
+<Playback startTime="11640" endTime="11654" state="playing" progress="4000" />
+<Playback startTime="11654" endTime="11686" state="paused" progress="4000" />
+<Playback startTime="11686" endTime="11694" state="playing" progress="4000" />
+<Playback startTime="11694" endTime="11713" state="playing" progress="4000" />
+<Playback startTime="11713" endTime="11716" state="playing" progress="5000" />
+<Playback startTime="11716" endTime="11726" state="paused" progress="4000" />
+<Playback startTime="11726" endTime="11739" state="paused" progress="4000" />
+<Playback startTime="11739" endTime="11770" state="paused" progress="5000" />
+<Playback startTime="11770" endTime="11775" state="playing" progress="5000" />
+<Playback startTime="11775" endTime="11810" state="paused" progress="5000" />
+<Playback startTime="11810" endTime="11811" state="paused" progress="5000" />
+<Playback startTime="11811" endTime="11815" state="playing" progress="5000" />
+<Playback startTime="11815" endTime="11820" state="playing" progress="5000" />
+<Playback startTime="11820" endTime="11841" state="paused" progress="5000" />
+<Playback startTime="11841" endTime="11846" state="playing" progress="5000" />
+<Playback startTime="11846" endTime="11872" state="paused" progress="5000" />
+<Playback startTime="11872" endTime="11885" state="playing" progress="5000" />
+<Playback startTime="11885" endTime="11900" state="playing" progress="5000" />
+<Playback startTime="11900" endTime="11912" state="paused" progress="5000" />
+<Playback startTime="11912" endTime="11929" state="paused" progress="5000" />
+<Playback startTime="11929" endTime="11935" state="paused" progress="5000" />
+<Playback startTime="11935" endTime="11957" state="playing" progress="5000" />
+<Playback startTime="11957" endTime="11972" state="paused" progress="5000" />
+<Playback startTime="11972" endTime="11976" state="playing" progress="5000" />
+<Playback startTime="11976" endTime="12013" state="playing" progress="5000" />
+<Playback startTime="12013" endTime="12015" state="paused" progress="5000" />
+<Playback startTime="12015" endTime="12047" state="paused" progress="5000" />
+<Playback startTime="12047" endTime="12067" state="playing" progress="5000" />
+<Playback startTime="12067" endTime="12070" state="playing" progress="5000" />
+<Playback startTime="12070" endTime="12073" state="paused" progress="5000" />
+<Playback startTime="12073" endTime="12109" state="playing" progress="5000" />
+<Playback startTime="12109" endTime="12120" state="paused" progress="5000" />
+<Playback startTime="12120" endTime="12130" state="playing" progress="5000" />
+<Playback startTime="12130" endTime="12135" state="playing" progress="5000" />
+<Playback startTime="12135" endTime="12145" state="paused" progress="5000" />
+<Playback startTime="12145" endTime="12154" state="paused" progress="5000" />
+<Playback startTime="12154" endTime="12188" state="playing" progress="5000" />
+<Playback startTime="12188" endTime="12205" state="paused" progress="5000" />
+<Playback startTime="12205" endTime="12212" state="playing" progress="5000" />
+<Playback startTime="12212" endTime="12217" state="paused" progress="5000" />
+<Playback startTime="12217" endTime="12237" state="playing" progress="5000" />
+<Playback startTime="12237" endTime="12250" state="paused" progress="5000" />
+<Playback startTime="12250" endTime="12255" state="playing" progress="5000" />
+<Playback startTime="12255" endTime="12260" state="paused" progress="5000" />
+<Playback startTime="12260" endTime="12266" state="playing" progress="5000" />
+<Playback startTime="12266" endTime="12285" state="paused" progress="5000" />
+<Playback startTime="12285" endTime="12307" state="playing" progress="5000" />
+<Playback startTime="12307" endTime="12336" state="paused" progress="5000" />
+<Playback startTime="12336" endTime="12366" state="paused" progress="5000" />
+<Playback startTime="12366" endTime="12370" state="playing" progress="5000" />
+<Playback startTime="12370" endTime="12374" state="playing" progress="5000" />
+<Playback startTime="12374" endTime="12380" state="playing" progress="5000" />
+<Playback startTime="12380" endTime="12402" state="paused" progress="5000" />
+<Playback startTime="12402" endTime="12409" state="paused" progress="5000" />
+<Playback startTime="12409" endTime="12424" state="playing" progress="5000" />
+<Playback startTime="12424" endTime="12431" state="playing" progress="5000" />
+<Playback startTime="12431" endTime="12434" state="paused" progress="5000" />
+<Playback startTime="12434" endTime="12443" state="playing" progress="5000" />
+<Playback startTime="12443" endTime="12502" state="paused" progress="5000" />
+<Playback startTime="12502" endTime="12505" state="playing" progress="5000" />
+<Playback startTime="12505" endTime="12514" state="paused" progress="5000" />
+<Playback startTime="12514" endTime="12517" state="playing" progress="5000" />
+<Playback startTime="12517" endTime="12529" state="paused" progress="5000" />
+<Playback startTime="12529" endTime="12544" state="paused" progress="5000" />
+<Playback startTime="12544" endTime="12589" state="playing" progress="5000" />
+<Playback startTime="12589" endTime="12603" state="playing" progress="5000" />
+<Playback startTime="12603" endTime="12615" state="playing" progress="5000" />
+<Playback startTime="12615" endTime="12622" state="paused" progress="5000" />
+<Playback startTime="12622" endTime="12638" state="paused" progress="5000" />
+<Playback startTime="12638" endTime="12649" state="playing" progress="5000" />
+<Playback startTime="12649" endTime="12652" state="paused" progress="5000" />
+<Playback startTime="12652" endTime="12673" state="paused" progress="5000" />
+<Playback startTime="12673" endTime="12683" state="paused" progress="5000" />
+<Playback startTime="12683" endTime="12690" state="paused" progress="5000" />
+<Playback startTime="12690" endTime="12712" state="playing" progress="5000" />
+<Playback startTime="12712" endTime="12722" state="playing" progress="5000" />
+<Playback startTime="12722" endTime="12740" state="playing" progress="5000" />
+<Playback startTime="12740" endTime="12759" state="paused" progress="5000" />
+<Playback startTime="12759" endTime="12775" state="playing" progress="5000" />
+<Playback startTime="12775" endTime="12788" state="paused" progress="5000" />
+<Playback startTime="12788" endTime="12802" state="playing" progress="5000" />
+<Playback startTime="12802" endTime="12830" state="paused" progress="5000" />
+<Playback startTime="12830" endTime="12838" state="playing" progress="5000" />
+<Playback startTime="12838" endTime="12862" state="paused" progress="5000" />
+<Playback startTime="12862" endTime="12887" state="playing" progress="5000" />
+<Playback startTime="12887" endTime="12892" state="paused" progress="5000" />
+<Playback startTime="12892" endTime="12899" state="paused" progress="5000" />
+<Playback startTime="12899" endTime="12931" state="playing" progress="5000" />
+<Playback startTime="12931" endTime="12949" state="playing" progress="5000" />
+<Playback startTime="12949" endTime="12969" state="paused" progress="5000" />
+<Playback startTime="12969" endTime="12984" state="playing" progress="5000" />
+<Playback startTime="12984" endTime="13004" state="paused" progress="5000" />
+<Playback startTime="13004" endTime="13011" state="paused" progress="5000" />
+<Playback startTime="13011" endTime="13020" state="playing" progress="5000" />
+<Playback startTime="13020" endTime="13050" state="playing" progress="5000" />
+<Playback startTime="13050" endTime="13064" state="playing" progress="5000" />
+<Playback startTime="13064" endTime="13078" state="paused" progress="5000" />
+<Playback startTime="13078" endTime="13096" state="paused" progress="5000" />
+<Playback startTime="13096" endTime="13118" state="paused" progress="5000" />
+<Playback startTime="13118" endTime="13129" state="playing" progress="5000" />
+<Playback startTime="13129" endTime="13141" state="playing" progress="5000" />
+<Playback startTime="13141" endTime="13154" state="paused" progress="5000" />
+<Playback startTime="13154" endTime="13172" state="paused" progress="5000" />
+<Playback startTime="13172" endTime="13200" state="playing" progress="5000" />
+<Playback startTime="13200" endTime="13223" state="playing" progress="5000" />
+<Playback startTime="13223" endTime="13245" state="paused" progress="5000" />
+<Playback startTime="13245" endTime="13253" state="paused" progress="5000" />
+<Playback startTime="13253" endTime="13268" state="playing" progress="5000" />
+<Playback startTime="13268" endTime="13276" state="paused" progress="5000" />
+<Playback startTime="13276" endTime="13309" state="playing" progress="5000" />
+<Playback startTime="13309" endTime="13316" state="playing" progress="5000" />
+<Playback startTime="13316" endTime="13333" state="paused" progress="5000" />
+<Playback startTime="13333" endTime="13346" state="paused" progress="5000" />
+<Playback startTime="13346" endTime="13352" state="paused" progress="5000" />
+<Playback startTime="13352" endTime="13358" state="playing" progress="5000" />
+<Playback startTime="13358" endTime="13392" state="playing" progress="5000" />
+<Playback startTime="13392" endTime="13403" state="paused" progress="5000" />
+<Playback startTime="13403" endTime="13445" state="playing" progress="5000" />
+<Playback startTime="13445" endTime="13453" state="playing" progress="5000" />
+<Playback startTime="13453" endTime="13458" state="playing" progress="5000" />
+<Playback startTime="13458" endTime="13462" state="paused" progress="5000" />
+<Playback startTime="13462" endTime="13465" state="playing" progress="5000" />
+<Playback startTime="13465" endTime="13479" state="paused" progress="5000" />
+<Playback startTime="13479" endTime="13537" state="paused" progress="5000" />
+<Playback startTime="13537" endTime="13554" state="paused" progress="5000" />
+<Playback startTime="13554" endTime="13558" state="playing" progress="5000" />
+<Playback startTime="13558" endTime="13563" state="playing" progress="5000" />
+<Playback startTime="13563" endTime="13596" state="paused" progress="5000" />
+<Playback startTime="13596" endTime="13601" state="playing" progress="5000" />
+<Playback startTime="13601" endTime="13623" state="paused" progress="5000" />
+<Playback startTime="13623" endTime="13631" state="playing" progress="5000" />
+<Playback startTime="13631" endTime="13668" state="paused" progress="5000" />
+<Playback startTime="13668" endTime="13676" state="paused" progress="5000" />
+<Playback startTime="13676" endTime="13699" state="playing" progress="5000" />
+<Playback startTime="13699" endTime="13721" state="playing" progress="5000" />
+<Playback startTime="13721" endTime="13732" state="paused" progress="5000" />
+<Playback startTime="13732" endTime="13738" state="playing" progress="5000" />
+<Playback startTime="13738" endTime="13778" state="paused" progress="5000" />
+<Playback startTime="13778" endTime="13792" state="playing" progress="5000" />
+<Playback startTime="13792" endTime="13806" state="paused" progress="5000" />
+<Playback startTime="13806" endTime="13810" state="paused" progress="5000" />
+<Playback startTime="13810" endTime="13819" state="playing" progress="5000" />
+<Playback startTime="13819" endTime="13828" state="paused" progress="5000" />
+<Playback startTime="13828" endTime="13898" state="playing" progress="5000" />
+<Playback startTime="13898" endTime="13911" state="paused" progress="5000" />
+<Playback startTime="13911" endTime="13923" state="playing" progress="5000" />
+<Playback startTime="13923" endTime="13942" state="playing" progress="5000" />
+<Playback startTime="13942" endTime="13956" state="playing" progress="5000" />
+<Playback startTime="13956" endTime="13990" state="paused" progress="5000" />
+<Playback startTime="13990" endTime="13995" state="paused" progress="5000" />
+<Playback startTime="13995" endTime="14001" state="paused" progress="5000" />
+<Playback startTime="14001" endTime="14023" state="playing" progress="5000" />
+<Playback startTime="14023" endTime="14038" state="paused" progress="5000" />
+<Playback startTime="14038" endTime="14105" state="playing" progress="5000" />
+<Playback startTime="14105" endTime="14115" state="playing" progress="5000" />
+<Playback startTime="14115" endTime="14124" state="playing" progress="5000" />
+<Playback startTime="14124" endTime="14135" state="paused" progress="5000" />
+<Playback startTime="14135" endTime="14140" state="playing" progress="5000" />
+<Playback startTime="14140" endTime="14168" state="paused" progress="5000" />
+<Playback startTime="14168" endTime="14188" state="paused" progress="5000" />
+<Playback startTime="14188" endTime="14238" state="playing" progress="5000" />
+<Playback startTime="14238" endTime="14258" state="paused" progress="5000" />
+<Playback startTime="14258" endTime="14284" state="playing" progress="5000" />
+<Playback startTime="14284" endTime="14289" state="paused" progress="5000" />
+<Playback startTime="14289" endTime="14297" state="playing" progress="5000" />
+<Playback startTime="14297" endTime="14316" state="paused" progress="5000" />
+<Playback startTime="14316" endTime="14325" state="playing" progress="5000" />
+<Playback startTime="14325" endTime="14329" state="paused" progress="5000" />
+<Playback startTime="14329" endTime="14352" state="paused" progress="5000" />
+<Playback startTime="14352" endTime="14358" state="playing" progress="5000" />
+<Playback startTime="14358" endTime="14382" state="playing" progress="5000" />
+<Playback startTime="14382" endTime="14401" state="paused" progress="5000" />
+<Playback startTime="14401" endTime="14405" state="playing" progress="5000" />
+<Playback startTime="14405" endTime="14415" state="paused" progress="5000" />
+<Playback startTime="14415" endTime="14432" state="paused" progress="5000" />
+<Playback startTime="14432" endTime="14451" state="playing" progress="5000" />
+<Playback startTime="14451" endTime="14492" state="playing" progress="5000" />
+<Playback startTime="14492" endTime="14503" state="playing" progress="5000" />
+<Playback startTime="14503" endTime="14516" state="paused" progress="5000" />
+<Playback startTime="14516" endTime="14523" state="playing" progress="5000" />
+<Playback startTime="14523" endTime="14544" state="paused" progress="5000" />
+<Playback startTime="14544" endTime="14561" state="paused" progress="5000" />
+<Playback startTime="14561" endTime="14569" state="paused" progress="5000" />
+<Playback startTime="14569" endTime="14575" state="playing" progress="5000" />
+<Playback startTime="14575" endTime="14579" state="paused" progress="5000" />
+<Playback startTime="14579" endTime="14590" state="playing" progress="5000" />
+<Playback startTime="14590" endTime="14606" state="playing" progress="5000" />
+<Playback startTime="14606" endTime="14618" state="playing" progress="5000" />
+<Playback startTime="14618" endTime="14627" state="paused" progress="5000" />
+<Playback startTime="14627" endTime="14678" state="paused" progress="5000" />
+<Playback startTime="14678" endTime="14702" state="playing" progress="5000" />
+<Playback startTime="14702" endTime="14706" state="paused" progress="5000" />
+<Playback startTime="14706" endTime="14737" state="playing" progress="5000" />
+<Playback startTime="14737" endTime="14746" state="playing" progress="5000" />
+<Playback startTime="14746" endTime="14751" state="playing" progress="5000" />
+<Playback startTime="14751" endTime="14763" state="paused" progress="5000" />
+<Playback startTime="14763" endTime="14767" state="paused" progress="5000" />
+<Playback startTime="14767" endTime="14784" state="paused" progress="5000" />
+<Playback startTime="14784" endTime="14805" state="playing" progress="5000" />
+<Playback startTime="14805" endTime="14835" state="paused" progress="5000" />
+<Playback startTime="14835" endTime="14850" state="paused" progress="5000" />
+<Playback startTime="14850" endTime="14867" state="playing" progress="5000" />
+<Playback startTime="14867" endTime="14873" state="playing" progress="5000" />
+<Playback startTime="14873" endTime="14895" state="paused" progress="5000" />
+<Playback startTime="14895" endTime="14915" state="playing" progress="5000" />
+<Playback startTime="14915" endTime="14917" state="playing" progress="5000" />
+<Playback startTime="14917" endTime="14955" state="paused" progress="5000" />
+<Playback startTime="14955" endTime="14976" state="paused" progress="5000" />
+<Playback startTime="14976" endTime="14993" state="paused" progress="5000" />
+<Playback startTime="14993" endTime="15012" state="playing" progress="5000" />
+<Playback startTime="15012" endTime="15023" state="playing" progress="5000" />
+<Playback startTime="15023" endTime="15038" state="paused" progress="5000" />
+<Playback startTime="15038" endTime="15086" state="playing" progress="5000" />
+<Playback startTime="15086" endTime="15091" state="paused" progress="5000" />
+<Playback startTime="15091" endTime="15093" state="playing" progress="5000" />
+<Playback startTime="15093" endTime="15101" state="paused" progress="5000" />
+<Playback startTime="15101" endTime="15118" state="playing" progress="5000" />
+<Playback startTime="15118" endTime="15141" state="paused" progress="5000" />
+<Playback startTime="15141" endTime="15180" state="playing" progress="5000" />
+<Playback startTime="15180" endTime="15188" state="playing" progress="5000" />
+<Playback startTime="15188" endTime="15192" state="paused" progress="5000" />
+<Playback startTime="15192" endTime="15198" state="playing" progress="5000" />
+<Playback startTime="15198" endTime="15207" state="paused" progress="5000" />
+<Playback startTime="15207" endTime="15225" state="paused" progress="5000" />
+<Playback startTime="15225" endTime="15274" state="playing" progress="5000" />
+<Playback startTime="15274" endTime="15293" state="paused" progress="5000" />
+<Playback startTime="15293" endTime="15300" state="playing" progress="5000" />
+<Playback startTime="15300" endTime="15303" state="paused" progress="5000" />
+<Playback startTime="15303" endTime="15308" state="paused" progress="5000" />
+<Playback startTime="15308" endTime="15327" state="playing" progress="5000" />
+<Playback startTime="15327" endTime="15330" state="playing" progress="5000" />
+<Playback startTime="15330" endTime="15338" state="playing" progress="5000" />
+<Playback startTime="15338" endTime="15382" state="paused" progress="5000" />
+<Playback startTime="15382" endTime="15388" state="paused" progress="5000" />
+<Playback startTime="15388" endTime="15396" state="playing" progress="5000" />
+<Playback startTime="15396" endTime="15413" state="paused" progress="5000" />
+<Playback startTime="15413" endTime="15429" state="playing" progress="5000" />
+<Playback startTime="15429" endTime="15437" state="playing" progress="5000" />
+<Playback startTime="15437" endTime="15442" state="paused" progress="5000" />
+<Playback startTime="15442" endTime="15454" state="paused" progress="5000" />
+<Playback startTime="15454" endTime="15468" state="playing" progress="5000" />
+<Playback startTime="15468" endTime="15491" state="paused" progress="5000" />
+<Playback startTime="15491" endTime="15541" state="playing" progress="5000" />
+<Playback startTime="15541" endTime="15555" state="paused" progress="5000" />
+<Playback startTime="15555" endTime="15556" state="playing" progress="5000" />
+<Playback startTime="15556" endTime="15559" state="paused" progress="5000" />
+<Playback startTime="15559" endTime="15567" state="playing" progress="5000" />
+<Playback startTime="15567" endTime="15578" state="playing" progress="5000" />
+<Playback startTime="15578" endTime="15598" state="paused" progress="5000" />
+<Playback startTime="15598" endTime="15615" state="paused" progress="5000" />
+<Playback startTime="15615" endTime="15649" state="playing" progress="5000" />
+<Playback startTime="15649" endTime="15656" state="playing" progress="5000" />
+<Playback startTime="15656" endTime="15672" state="paused" progress="5000" />
+<Playback startTime="15672" endTime="15675" state="playing" progress="5000" />
+<Playback startTime="15675" endTime="15678" state="paused" progress="5000" />
+<Playback startTime="15678" endTime="15682" state="paused" progress="5000" />
+<Playback startTime="15682" endTime="15733" state="playing" progress="5000" />
+<Playback startTime="15733" endTime="15742" state="playing" progress="5000" />
+<Playback startTime="15742" endTime="15778" state="paused" progress="5000" />
+<Playback startTime="15778" endTime="15785" state="paused" progress="5000" />
+<Playback startTime="15785" endTime="15793" state="playing" progress="5000" />
+<Playback startTime="15793" endTime="15799" state="paused" progress="5000" />
+<Playback startTime="15799" endTime="15809" state="paused" progress="5000" />
+<Playback startTime="15809" endTime="15811" state="playing" progress="5000" />
+<Playback startTime="15811" endTime="15855" state="playing" progress="5000" />
+<Playback startTime="15855" endTime="15872" state="playing" progress="5000" />
+<Playback startTime="15872" endTime="15885" state="paused" progress="5000" />
+<Playback startTime="15885" endTime="15897" state="playing" progress="5000" />
+<Playback startTime="15897" endTime="15908" state="paused" progress="5000" />
+<Playback startTime="15908" endTime="15918" state="playing" progress="5000" />
+<Playback startTime="15918" endTime="15945" state="paused" progress="5000" />
+<Playback startTime="15945" endTime="15955" state="paused" progress="5000" />
+<Playback startTime="15955" endTime="15972" state="paused" progress="5000" />
+<Playback startTime="15972" endTime="15978" state="playing" progress="5000" />
+<Playback startTime="15978" endTime="16004" state="playing" progress="5000" />
+<Playback startTime="16004" endTime="16010" state="playing" progress="5000" />
+<Playback startTime="16010" endTime="16025" state="paused" progress="5000" />
+<Playback startTime="16025" endTime="16039" state="paused" progress="5000" />
+<Playback startTime="16039" endTime="16077" state="paused" progress="5000" />
+<Playback startTime="16077" endTime="16097" state="playing" progress="5000" />
+<Playback startTime="16097" endTime="16110" state="playing" progress="5000" />
+<Playback startTime="16110" endTime="16113" state="playing" progress="5000" />
+<Playback startTime="16113" endTime="16131" state="paused" progress="5000" />
+<Playback startTime="16131" endTime="16149" state="playing" progress="5000" />
+<Playback startTime="16149" endTime="16169" state="paused" progress="5000" />
+<Playback startTime="16169" endTime="16197" state="paused" progress="5000" />
+<Playback startTime="16197" endTime="16201" state="playing" progress="5000" />
+<Playback startTime="16201" endTime="16216" state="paused" progress="6000" />
+<Playback startTime="16216" endTime="16217" state="playing" progress="5000" />
+<Playback startTime="16217" endTime="16242" state="paused" progress="5000" />
+<Playback startTime="16242" endTime="16246" state="paused" progress="6000" />
+<Playback startTime="16246" endTime="16267" state="playing" progress="6000" />
+<Playback startTime="16267" endTime="16293" state="playing" progress="6000" />
+<Playback startTime="16293" endTime="16297" state="paused" progress="6000" />
+<Playback startTime="16297" endTime="16313" state="playing" progress="6000" />
+<Playback startTime="16313" endTime="16317" state="paused" progress="6000" />
+<Playback startTime="16317" endTime="16336" state="playing" progress="6000" />
+<Playback startTime="16336" endTime="16355" state="paused" progress="6000" />
+<Playback startTime="16355" endTime="16379" state="paused" progress="6000" />
+<Playback startTime="16379" endTime="16400" state="playing" progress="6000" />
+<Playback startTime="16400" endTime="16419" state="playing" progress="6000" />
+<Playback startTime="16419" endTime="16426" state="paused" progress="6000" />
+<Playback startTime="16426" endTime="16431" state="playing" progress="6000" />
+<Playback startTime="16431" endTime="16468" state="paused" progress="6000" />
+<Playback startTime="16468" endTime="16483" state="playing" progress="6000" />
+<Playback startTime="16483" endTime="16505" state="paused" progress="6000" />
+<Playback startTime="16505" endTime="16514" state="playing" progress="6000" />
+<Playback startTime="16514" endTime="16517" state="playing" progress="6000" />
+<Playback startTime="16517" endTime="16531" state="paused" progress="6000" />
+<Playback startTime="16531" endTime="16550" state="paused" progress="6000" />
+<Playback startTime="16550" endTime="16553" state="playing" progress="6000" />
+<Playback startTime="16553" endTime="16557" state="paused" progress="6000" />
+<Playback startTime="16557" endTime="16562" state="playing" progress="6000" />
+<Playback startTime="16562" endTime="16572" state="paused" progress="6000" />
+<Playback startTime="16572" endTime="16583" state="playing" progress="6000" />
+<Playback startTime="16583" endTime="16592" state="playing" progress="6000" />
+<Playback startTime="16592" endTime="16601" state="paused" progress="6000" />
+<Playback startTime="16601" endTime="16642" state="paused" progress="6000" />
+<Playback startTime="16642" endTime="16656" state="playing" progress="6000" />
+<Playback startTime="16656" endTime="16669" state="playing" progress="6000" />
+<Playback startTime="16669" endTime="16684" state="paused" progress="6000" />
+<Playback startTime="16684" endTime="16699" state="paused" progress="6000" />
+<Playback startTime="16699" endTime="16708" state="paused" progress="6000" />
+<Playback startTime="16708" endTime="16744" state="playing" progress="6000" />
+<Playback startTime="16744" endTime="16750" state="paused" progress="6000" />
+<Playback startTime="16750" endTime="16772" state="playing" progress="6000" />
+<Playback startTime="16772" endTime="16777" state="playing" progress="6000" />
+<Playback startTime="16777" endTime="16781" state="paused" progress="6000" />
+<Playback startTime="16781" endTime="16819" state="playing" progress="6000" />
+<Playback startTime="16819" endTime="16840" state="paused" progress="6000" />
+<Playback startTime="16840" endTime="16848" state="playing" progress="6000" />
+<Playback startTime="16848" endTime="16852" state="paused" progress="6000" />
+<Playback startTime="16852" endTime="16862" state="playing" progress="6000" />
+<Playback startTime="16862" endTime="16875" state="paused" progress="6000" />
+<Playback startTime="16875" endTime="16934" state="playing" progress="6000" />
+<Playback startTime="16934" endTime="16945" state="playing" progress="6000" />
+<Playback startTime="16945" endTime="16950" state="paused" progress="6000" />
+<Playback startTime="16950" endTime="16958" state="playing" progress="6000" />
+<Playback startTime="16958" endTime="16960" state="paused" progress="6000" />
+<Playback startTime="16960" endTime="16972" state="paused" progress="6000" />
+<Playback startTime="16972" endTime="17004" state="playing" progress="6000" />
+<Playback startTime="17004" endTime="17022" state="paused" progress="6000" />
+<Playback startTime="17022" endTime="17054" state="playing" progress="6000" />
+<Playback startTime="17054" endTime="17071" state="paused" progress="6000" />
+<Playback startTime="17071" endTime="17078" state="playing" progress="6000" />
+<Playback startTime="17078" endTime="17082" state="playing" progress="6000" />
+<Playback startTime="17082" endTime="17095" state="paused" progress="6000" />
+<Playback startTime="17095" endTime="17104" state="paused" progress="6000" />
+<Playback startTime="17104" endTime="17141" state="playing" progress="6000" />
+<Playback startTime="17141" endTime="17151" state="paused" progress="6000" />
+<Playback startTime="17151" endTime="17182" state="playing" progress="6000" />
+<Playback startTime="17182" endTime="17194" state="playing" progress="6000" />
+<Playback startTime="17194" endTime="17218" state="paused" progress="6000" />
+<Playback startTime="17218" endTime="17228" state="playing" progress="6000" />
+<Playback startTime="17228" endTime="17250" state="paused" progress="6000" />
+<Playback startTime="17250" endTime="17263" state="playing" progress="6000" />
+<Playback startTime="17263" endTime="17272" state="playing" progress="6000" />
+<Playback startTime="17272" endTime="17294" state="paused" progress="6000" />
+<Playback startTime="17294" endTime="17301" state="paused" progress="6000" />
+<Playback startTime="17301" endTime="17331" state="paused" progress="6000" />
+<Playback startTime="17331" endTime="17349" state="playing" progress="6000" />
+<Playback startTime="17349" endTime="17367" state="paused" progress="6000" />
+<Playback startTime="17367" endTime="17395" state="paused" progress="6000" />
+<Playback startTime="17395" endTime="17410" state="paused" progress="6000" />
+<Playback startTime="17410" endTime="17420" state="playing" progress="6000" />
+<Playback startTime="17420" endTime="17425" state="playing" progress="6000" />
+<Playback startTime="17425" endTime="17431" state="playing" progress="6000" />
+<Playback startTime="17431" endTime="17473" state="paused" progress="6000" />
+<Playback startTime="17473" endTime="17476" state="playing" progress="6000" />
+<Playback startTime="17476" endTime="17521" state="playing" progress="6000" />
+<Playback startTime="17521" endTime="17533" state="paused" progress="6000" />
+<Playback startTime="17533" endTime="17535" state="paused" progress="6000" />
+<Playback startTime="17535" endTime="17541" state="playing" progress="6000" />
+<Playback startTime="17541" endTime="17547" state="paused" progress="6000" />
+<Playback startTime="17547" endTime="17558" state="paused" progress="6000" />
+<Playback startTime="17558" endTime="17568" state="playing" progress="6000" />
+<Playback startTime="17568" endTime="17573" state="playing" progress="6000" />
+<Playback startTime="17573" endTime="17615" state="paused" progress="6000" />
+<Playback startTime="17615" endTime="17620" state="playing" progress="6000" />
+<Playback startTime="17620" endTime="17642" state="playing" progress="6000" />
+<Playback startTime="17642" endTime="17650" state="paused" progress="6000" />
+<Playback startTime="17650" endTime="17679" state="paused" progress="6000" />
+<Playback startTime="17679" endTime="17689" state="paused" progress="6000" />
+<Playback startTime="17689" endTime="17720" state="playing" progress="6000" />
+<Playback startTime="17720" endTime="17732" state="paused" progress="6000" />
+<Playback startTime="17732" endTime="17745" state="paused" progress="6000" />
+<Playback startTime="17745" endTime="17757" state="playing" progress="6000" />
+<Playback startTime="17757" endTime="17776" state="playing" progress="6000" />
+<Playback startTime="17776" endTime="17788" state="playing" progress="6000" />
+<Playback startTime="17788" endTime="17800" state="paused" progress="6000" />
+<Playback startTime="17800" endTime="17812" state="playing" progress="6000" />
+<Playback startTime="17812" endTime="17814" state="playing" progress="6000" />
+<Playback startTime="17814" endTime="17823" state="paused" progress="6000" />
+<Playback startTime="17823" endTime="198231" state="paused" progress="6000" />
 </PlaybackReports>
 <StateReports />
 <StateReports type="sloth">
-<State startTime="584" endTime="1151" slothMode="1" />
+<State startTime="21120" endTime="198231" slothMode="1" />
 </StateReports>
 </SessionReport>

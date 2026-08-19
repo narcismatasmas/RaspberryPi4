@@ -1,15 +1,7 @@
-Jun 28, 2026 15:52:02.187 [548244856312] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 28, 2026 15:52:02.188 [548244856312] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 28, 2026 15:52:02.188 [548244856312] INFO - Processor: 4-core ARM Cortex-A72
-Jun 28, 2026 15:52:02.188 [548244856312] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 2 --content-type=application/json
-Jun 28, 2026 15:52:02.188 [548340551736] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 28, 2026 15:52:02.494 [548340551736] DEBUG - Matcher: found 0 auxiliary files for Season 1
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E01 - We Is Us (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E02 - Pirate Lady (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E03 - Grenade (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E05 - Got Milk (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E06 - HDP (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E07 - The Gap (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E08 - Charm Offensive (1080p ATVP WEB-DL x265 Ghost).mkv
-Jun 28, 2026 15:52:02.535 [548340551736] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E09 - La Chica o El Mundo (1080p ATVP WEB-DL x265 Ghost).mkv
+Aug 10, 2026 03:56:14.608 [548490337784] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Aug 10, 2026 03:56:14.609 [548490337784] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Aug 10, 2026 03:56:14.609 [548490337784] INFO - Processor: 4-core ARM Cortex-A72
+Aug 10, 2026 03:56:14.609 [548490337784] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 18 --content-type=application/json
+Aug 10, 2026 03:56:14.555 [548586033208] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Aug 10, 2026 03:56:14.922 [548586033208] DEBUG - Matcher: found 0 auxiliary files for The Dune
+Aug 10, 2026 03:56:14.922 [548586033208] DEBUG - Matcher: no sidecar subtitle files found for /data/medios/Pelis/Dune (2021)/Dune (2026).mkv

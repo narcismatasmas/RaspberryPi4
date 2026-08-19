@@ -1,592 +1,76 @@
-Jun 28, 2026 15:52:08.307 [548091403768] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 28, 2026 15:52:08.307 [548091403768] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 28, 2026 15:52:08.307 [548091403768] INFO - Processor: 4-core ARM Cortex-A72
-Jun 28, 2026 15:52:08.307 [548091403768] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 13
-Jun 28, 2026 15:52:08.308 [548187050040] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 28, 2026 15:52:08.546 [548187050040] DEBUG - Analyzing media parts for item 13 (Awaken): 13
-Jun 28, 2026 15:52:08.548 [548187050040] DEBUG - [ID 13] Media part analysis: /data/medios/Otros/Awaken.mp4
-Jun 28, 2026 15:52:08.548 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:08.548 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:08.549 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:08.549 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:08.549 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:08.549 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:08.550 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:08.551 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:08.552 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:08.552 [548187050040] INFO - CodecManager: obtaining decoder 'h264'
-Jun 28, 2026 15:52:08.553 [548187050040] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=508aa91d-86a9-489b-ade7-715c571dba50&oldestPreviousVersion=1%2E43%2E2%2E10687-563d026ea&version=c75335c-a7cfb6836f3ed63280a7eb83
-Jun 28, 2026 15:52:08.967 [548080811512] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.4s) 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=508aa91d-86a9-489b-ade7-715c571dba50&oldestPreviousVersion=1%2E43%2E2%2E10687-563d026ea&version=c75335c-a7cfb6836f3ed63280a7eb83
-Jun 28, 2026 15:52:08.973 [548078550520] WARN - Already had matching file "/config/Library/Application Support/Plex Media Server/Codecs/c75335c-a7cfb6836f3ed63280a7eb83-linux-aarch64/libh264_decoder.so"
-Jun 28, 2026 15:52:08.973 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:08.976 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.977 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:08.978 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:08.998 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:08.998 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.009 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.009 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.021 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.021 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.033 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.033 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.040 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.040 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.046 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.046 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.052 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:09.055 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:09.055 [548187050040] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found trak atom of size 22595 at offset 140
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found trak atom of size 37590 at offset 22735
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found mdia atom of size 22459 at offset 276
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found minf atom of size 22355 at offset 380
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found stbl atom of size 22240 at offset 495
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found mdia atom of size 37454 at offset 22871
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found minf atom of size 37346 at offset 22979
-Jun 28, 2026 15:52:09.056 [548187050040] DEBUG - Mp4AtomParser: Found stbl atom of size 37235 at offset 23090
-Jun 28, 2026 15:52:09.068 [548187050040] DEBUG - [MI]  * 20f95e85034e3b69f642f0fc4bcafd92ce8af007 [mp4 h264/aac] Duration: 165417ms, 2048x858 (2.386946) 24.000fps, bitrate=8669kbps, audio channels=2, optimizedForStreaming=1 ("/data/medios/Otros/Awaken.mp4")
-Jun 28, 2026 15:52:09.069 [548187050040] DEBUG - [MI] Chapters had generic titles, clearing.
-Jun 28, 2026 15:52:09.069 [548187050040] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - [MI] Opening "/data/medios/Otros/Awaken.mp4" for MP4 atom parsing
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found moov atom of size 60359 at offset 24
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found udta atom of size 58 at offset 60325
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found ©TIM atom of size 23 at offset 60333
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found ©TSC atom of size 14 at offset 60356
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - Mp4AtomParser: Found ©TSZ atom of size 13 at offset 60370
-Jun 28, 2026 15:52:09.070 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:09.072 [548187050040] DEBUG - Updating media item 13, size=179258674, metadata_item_id=13
-Jun 28, 2026 15:52:09.072 [548187050040] DEBUG - Updating part with ID=13 [/data/medios/Otros/Awaken.mp4]
-Jun 28, 2026 15:52:09.072 [548080315896] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jun 28, 2026 15:52:09.072 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:09.073 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:09.073 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:09.073 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:09.073 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:09.073 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:09.074 [548080811512] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jun 28, 2026 15:52:09.074 [548080315896] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
-Jun 28, 2026 15:52:09.074 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:09.075 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:09.077 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:09.078 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.079 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.080 [548080811512] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.081 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.101 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.101 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.114 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.114 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.123 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.123 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.132 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.132 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.137 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.137 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.142 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.142 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.147 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:09.150 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:09.150 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Thumbnails/thumb1.jpg (25.0%, 720x512).
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.152 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.153 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.154 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.179 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:09.294 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.356 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.357 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.357 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.358 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.358 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.358 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.358 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.358 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.384 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:09.502 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:09.564 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.564 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.564 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.565 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.565 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.565 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.565 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.566 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.566 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.566 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.566 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.566 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.567 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.609 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:09.724 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:09.788 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:09.789 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:09.789 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:09.789 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:09.789 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:09.790 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:09.790 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:09.791 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:09.791 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:09.792 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:09.793 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:09.794 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.795 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.796 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.814 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.814 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.824 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.824 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.833 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.833 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.842 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.842 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.848 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.848 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.854 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.854 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.860 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:09.865 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:09.865 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Thumbnails/thumb2.jpg (50.0%, 720x512).
-Jun 28, 2026 15:52:09.866 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.866 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.866 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.868 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.868 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.868 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.868 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:09.870 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:09.925 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:10.040 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:10.103 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.103 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.103 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.104 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.104 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.104 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.105 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.106 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.106 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.106 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.106 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.106 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.107 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:10.162 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:10.277 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:10.340 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.340 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.341 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.342 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.342 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.342 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.342 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.344 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:10.401 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:10.517 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:10.623 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:10.623 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:10.623 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:10.623 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:10.624 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:10.624 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:10.624 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:10.625 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:10.626 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:10.627 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:10.628 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:10.629 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.629 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.629 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.630 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.630 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.630 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.630 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.631 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:10.650 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.650 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.659 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.659 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.668 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.668 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.678 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.678 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.683 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.683 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.688 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.688 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.695 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:10.698 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:10.698 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Thumbnails/thumb3.jpg (75.0%, 720x512).
-Jun 28, 2026 15:52:10.700 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.700 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.700 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.701 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.701 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.701 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.702 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.703 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.703 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.703 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.704 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.704 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.704 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:10.766 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:10.885 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:10.948 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.948 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.948 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.949 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.949 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.949 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.950 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.951 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:10.952 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.952 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.952 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:10.952 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:10.952 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:11.014 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:11.129 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:11.194 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.194 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.194 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.195 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.195 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.195 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.196 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.196 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.196 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.196 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.197 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.197 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.197 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:11.237 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:11.352 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:11.416 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:11.416 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:11.417 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:11.417 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:11.417 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:11.417 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:11.417 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:11.418 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:11.419 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:11.420 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:11.421 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.423 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.424 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.424 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.424 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.424 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.424 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.425 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:11.444 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.444 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.455 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.455 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.466 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.466 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.479 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.479 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.484 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.484 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.494 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:11.497 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:11.497 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Art/art1.jpg (25.0%, 1280x720).
-Jun 28, 2026 15:52:11.498 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.498 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.498 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.499 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.499 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.499 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.499 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.500 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:11.526 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:11.641 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:11.814 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.814 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.814 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.815 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.815 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.815 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.815 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:11.817 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:11.845 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:11.962 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:12.134 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.134 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.134 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.135 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.135 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.135 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.135 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.136 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.136 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.136 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.136 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.136 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.137 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:12.181 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:12.296 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:12.482 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:12.482 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:12.482 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:12.482 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:12.483 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:12.483 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:12.483 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:12.484 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:12.485 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:12.485 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:12.486 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.488 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.489 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:12.510 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.510 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.521 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.521 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.533 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.533 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.544 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.544 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.550 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.550 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.556 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.556 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.563 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:12.566 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:12.566 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Art/art2.jpg (50.0%, 1280x720).
-Jun 28, 2026 15:52:12.567 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.567 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.567 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.568 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.568 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.568 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.568 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.569 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.569 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.569 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.570 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.570 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.570 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:12.623 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:12.741 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:12.929 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.929 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.929 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.930 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.930 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.930 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.931 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.932 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:12.932 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.932 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.932 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:12.932 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:12.933 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:12.988 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:13.108 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:13.309 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.309 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.309 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.310 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.310 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.310 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.310 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.311 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.311 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.311 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.312 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.312 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.312 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:13.367 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:13.487 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:13.680 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:13.680 [548187050040] DEBUG - [MI] Opening input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:13.680 [548187050040] DEBUG - [FFMPEG] - Opening '/data/medios/Otros/Awaken.mp4' for reading
-Jun 28, 2026 15:52:13.680 [548187050040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 28, 2026 15:52:13.681 [548187050040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
-Jun 28, 2026 15:52:13.681 [548187050040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
-Jun 28, 2026 15:52:13.681 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:13.682 [548187050040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 3970000
-Jun 28, 2026 15:52:13.682 [548187050040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
-Jun 28, 2026 15:52:13.683 [548187050040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7940000
-Jun 28, 2026 15:52:13.684 [548187050040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 308792 bytes read:98304 seeks:1 nb_streams:2
-Jun 28, 2026 15:52:13.685 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.685 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.686 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.686 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.686 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.686 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.686 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.687 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:13.706 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.706 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.716 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.716 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.728 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.728 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.740 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.740 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.746 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.746 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.753 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.753 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.759 [548187050040] DEBUG - [FFMPEG] - All info found
-Jun 28, 2026 15:52:13.763 [548187050040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 310734 bytes read:98304 seeks:1 frames:11
-Jun 28, 2026 15:52:13.763 [548187050040] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/0f95e85034e3b69f642f0fc4bcafd92ce8af007.bundle/Contents/Art/art3.jpg (75.0%, 1280x720).
-Jun 28, 2026 15:52:13.765 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.765 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.765 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.766 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.766 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.766 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.767 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.768 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:13.768 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.768 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.769 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:13.769 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:13.769 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:13.829 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:13.948 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:14.113 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.113 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.113 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.114 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.114 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.114 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.114 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.115 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:14.115 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.115 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.115 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.115 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.116 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:14.175 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:14.290 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:14.485 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.485 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.485 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.486 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.486 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.486 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.486 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - Decoding VUI
-Jun 28, 2026 15:52:14.487 [548187050040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Jun 28, 2026 15:52:14.528 [548187050040] WARN - [FFMPEG] - No accelerated colorspace conversion found from yuv420p to rgb24.
-Jun 28, 2026 15:52:14.644 [548187050040] DEBUG - Loaded memory image of size 2048x858.
-Jun 28, 2026 15:52:14.829 [548187050040] DEBUG - [MI] Closing input file: "/data/medios/Otros/Awaken.mp4"
-Jun 28, 2026 15:52:14.831 [548187050040] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:14.831 [548187050040] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:14.832 [548080811512] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jun 28, 2026 15:52:14.833 [548187050040] DEBUG - Updating metadata item (save) (Awaken) with ID 13
-Jun 28, 2026 15:52:14.836 [548080315896] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jun 28, 2026 15:52:14.837 [548080811512] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=13&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jun 28, 2026 15:52:14.841 [548187050040] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:14.841 [548187050040] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jun 28, 2026 15:52:14.843 [548080811512] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jun 28, 2026 15:52:14.843 [548187050040] DEBUG - Updating metadata item (save) (Awaken) with ID 13
+Jul 10, 2026 19:12:26.489 [548360580600] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jul 10, 2026 19:12:26.490 [548360580600] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jul 10, 2026 19:12:26.490 [548360580600] INFO - Processor: 4-core ARM Cortex-A72
+Jul 10, 2026 19:12:26.490 [548360580600] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 18
+Jul 10, 2026 19:12:26.491 [548456276024] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jul 10, 2026 19:12:26.817 [548456276024] DEBUG - Analyzing media parts for item 18 (The Dune): 17
+Jul 10, 2026 19:12:26.819 [548456276024] DEBUG - [ID 17] Media part analysis: /data/medios/Pelis/Dune (2021)/Dune (2026).mkv
+Jul 10, 2026 19:12:26.820 [548456276024] DEBUG - [MI] Opening input file: "/data/medios/Pelis/Dune (2021)/Dune (2026).mkv"
+Jul 10, 2026 19:12:26.820 [548456276024] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Dune (2021)/Dune (2026).mkv' for reading
+Jul 10, 2026 19:12:26.820 [548456276024] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 10, 2026 19:12:26.820 [548456276024] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 5990
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6036
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6083
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6130
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6177
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6224
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6271
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6318
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6365
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6412
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6459
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6506
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6553
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6600
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6647
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6694
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6741
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.821 [548456276024] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jul 10, 2026 19:12:26.822 [548456276024] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6854 bytes read:34776 seeks:2 nb_streams:6
+Jul 10, 2026 19:12:26.824 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:26.824 [548456276024] DEBUG - [FFMPEG] - Decoding VUI
+Jul 10, 2026 19:12:26.824 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:26.825 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:26.826 [548456276024] DEBUG - [FFMPEG] - Decoding VUI
+Jul 10, 2026 19:12:26.826 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 10, 2026 19:12:26.827 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 10, 2026 19:12:26.827 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 10, 2026 19:12:26.827 [548456276024] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 10, 2026 19:12:26.833 [548456276024] DEBUG - [FFMPEG] - no picture 
+Jul 10, 2026 19:12:26.838 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:26.843 [548456276024] DEBUG - [FFMPEG] - no picture 
+Jul 10, 2026 19:12:26.849 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:26.862 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:26.877 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:26.891 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:26.897 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 10, 2026 19:12:26.906 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:26.915 [548456276024] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 10, 2026 19:12:26.925 [548456276024] DEBUG - [FFMPEG] - All info found
+Jul 10, 2026 19:12:26.929 [548456276024] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 79853 bytes read:133080 seeks:2 frames:42
+Jul 10, 2026 19:12:26.943 [548456276024] DEBUG - [MI]  * 7d78a12a530f7c78b78b450ff4ac4ea20d27c67b [mkv h264/ac3] Duration: 9355072ms, 1920x804 (2.388060) 23.976fps, bitrate=5075kbps, audio channels=6, optimizedForStreaming=0 ("/data/medios/Pelis/Dune (2021)/Dune (2026).mkv")
+Jul 10, 2026 19:12:26.943 [548456276024] DEBUG - [MI] Importing 17 media chapters.
+Jul 10, 2026 19:12:26.943 [548456276024] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 10, 2026 19:12:26.944 [548456276024] DEBUG - [MI] Closing input file: "/data/medios/Pelis/Dune (2021)/Dune (2026).mkv"
+Jul 10, 2026 19:12:26.945 [548456276024] DEBUG - Committing media stream changes for part 17
+Jul 10, 2026 19:12:26.949 [548456276024] DEBUG - Updating media item 17, size=5935021653, metadata_item_id=18
+Jul 10, 2026 19:12:26.950 [548456276024] DEBUG - Updating part with ID=17 [/data/medios/Pelis/Dune (2021)/Dune (2026).mkv]
+Jul 10, 2026 19:12:26.954 [548328168952] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=18&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 10, 2026 19:12:26.957 [548327157240] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=18&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 10, 2026 19:12:26.959 [548328168952] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=18&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 10, 2026 19:12:26.961 [548327157240] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=18&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 10, 2026 19:12:26.964 [548456276024] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:26.964 [548456276024] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:26.966 [548327157240] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 10, 2026 19:12:26.967 [548456276024] DEBUG - Updating metadata item (save) (The Dune) with ID 18
+Jul 10, 2026 19:12:26.976 [548456276024] DEBUG - Doing expensive tags write for 'The Dune' because something changed.
+Jul 10, 2026 19:12:26.981 [548456276024] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:26.981 [548456276024] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 10, 2026 19:12:26.983 [548327157240] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 10, 2026 19:12:26.984 [548456276024] DEBUG - Updating metadata item (save) (The Dune) with ID 18

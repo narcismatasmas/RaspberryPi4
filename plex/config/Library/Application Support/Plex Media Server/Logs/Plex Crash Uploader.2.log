@@ -1,4 +1,4 @@
-Jun 29, 2026 09:39:07.306 [547831102160] INFO - Crash Uploader - Platform: Linux ServerUUID: 852d69654ed685d07d2d7f072dec0b61ea7d12ba UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
-Jun 29, 2026 09:39:07.307 [547831102160] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.2.10687-563d026ea
-Jun 29, 2026 09:39:07.307 [547831102160] INFO - Post-processed minidump directory: /run/plex-temp
-Jun 29, 2026 09:39:07.332 [547862673552] INFO - Crash Uploader - Processing Complete.
+Aug 02, 2026 18:08:45.696 [548379638480] INFO - Crash Uploader - Platform: Linux ServerUUID: 852d69654ed685d07d2d7f072dec0b61ea7d12ba UserId: nmatas53@gmail.com Version: 1.43.2.10687-563d026ea
+Aug 02, 2026 18:08:45.696 [548379638480] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.2.10687-563d026ea
+Aug 02, 2026 18:08:45.696 [548379638480] INFO - Post-processed minidump directory: /run/plex-temp
+Aug 02, 2026 18:08:46.210 [548411209872] INFO - Crash Uploader - Processing Complete.

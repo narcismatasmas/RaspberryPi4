@@ -1,141 +1,159 @@
-Jun 29, 2026 02:06:15.588 [547839827448] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
-Jun 29, 2026 02:06:15.588 [547839827448] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
-Jun 29, 2026 02:06:15.589 [547839827448] INFO - Processor: 4-core ARM Cortex-A72
-Jun 29, 2026 02:06:15.589 [547839827448] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 6 --log-file-suffix  Deep Analysis
-Jun 29, 2026 02:06:15.589 [547935522872] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jun 29, 2026 02:06:15.843 [547935522872] DEBUG - [MI] Opening input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv"
-Jun 29, 2026 02:06:15.844 [547935522872] DEBUG - [FFMPEG] - Opening '/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv' for reading
-Jun 29, 2026 02:06:15.844 [547935522872] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jun 29, 2026 02:06:15.859 [547935522872] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jun 29, 2026 02:06:15.860 [547935522872] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11798
-Jun 29, 2026 02:06:15.860 [547935522872] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11853
-Jun 29, 2026 02:06:15.860 [547935522872] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11914
-Jun 29, 2026 02:06:15.860 [547935522872] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 11977
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.873 [547935522872] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:42 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:43 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.874 [547935522872] DEBUG - [FFMPEG] - st:44 removing common factor 1000000 from timebase
-Jun 29, 2026 02:06:15.875 [547935522872] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12092 bytes read:47374 seeks:2 nb_streams:45
-Jun 29, 2026 02:06:15.876 [547935522872] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Decoding VPS
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Decoding SPS
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Decoding VUI
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:06:15.884 [547935522872] DEBUG - [FFMPEG] - Decoding PPS
-Jun 29, 2026 02:06:15.885 [547935522872] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
-Jun 29, 2026 02:06:15.885 [547935522872] DEBUG - [FFMPEG] - Decoding SEI
-Jun 29, 2026 02:06:15.887 [547935522872] DEBUG - [FFMPEG] - All info found
-Jun 29, 2026 02:06:15.888 [547935522872] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 64425 bytes read:112910 seeks:2 frames:19
-Jun 29, 2026 02:06:18.520 [547935522872] DEBUG - Deep Analysis: Read 10000 packets at 181.056000
-Jun 29, 2026 02:06:21.694 [547935522872] DEBUG - Deep Analysis: Read 20000 packets at 359.840000
-Jun 29, 2026 02:06:24.501 [547935522872] DEBUG - Deep Analysis: Read 30000 packets at 539.488000
-Jun 29, 2026 02:06:28.581 [547935522872] DEBUG - Deep Analysis: Read 40000 packets at 716.704000
-Jun 29, 2026 02:06:31.618 [547935522872] DEBUG - Deep Analysis: Read 50000 packets at 871.904000
-Jun 29, 2026 02:06:34.267 [547935522872] DEBUG - Deep Analysis: Read 60000 packets at 1027.736000
-Jun 29, 2026 02:06:36.806 [547935522872] DEBUG - Deep Analysis: Read 70000 packets at 1179.552000
-Jun 29, 2026 02:06:39.594 [547935522872] DEBUG - Deep Analysis: Read 80000 packets at 1337.408000
-Jun 29, 2026 02:06:42.084 [547935522872] DEBUG - Deep Analysis: Read 90000 packets at 1497.184000
-Jun 29, 2026 02:06:44.650 [547935522872] DEBUG - Deep Analysis: Read 100000 packets at 1652.192000
-Jun 29, 2026 02:06:47.157 [547935522872] DEBUG - Deep Analysis: Read 110000 packets at 1812.160000
-Jun 29, 2026 02:06:50.249 [547935522872] DEBUG - Deep Analysis: Read 120000 packets at 1992.365000
-Jun 29, 2026 02:06:53.228 [547935522872] DEBUG - Deep Analysis: Read 130000 packets at 2157.197000
-Jun 29, 2026 02:06:56.257 [547935522872] DEBUG - Deep Analysis: Read 140000 packets at 2320.352000
-Jun 29, 2026 02:06:59.051 [547935522872] DEBUG - Deep Analysis: Read 150000 packets at 2475.648000
-Jun 29, 2026 02:07:02.753 [547935522872] DEBUG - Deep Analysis: Read 160000 packets at 2637.677000
-Jun 29, 2026 02:07:03.038 [547935522872] DEBUG - Deep Analysis: Sorting packets
-Jun 29, 2026 02:07:03.052 [547935522872] DEBUG - Deep Analysis: Performing file bitrate analysis
-Jun 29, 2026 02:07:03.109 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
-Jun 29, 2026 02:07:03.138 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
-Jun 29, 2026 02:07:03.158 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
-Jun 29, 2026 02:07:03.158 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
-Jun 29, 2026 02:07:03.159 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
-Jun 29, 2026 02:07:03.160 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
-Jun 29, 2026 02:07:03.160 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
-Jun 29, 2026 02:07:03.161 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
-Jun 29, 2026 02:07:03.162 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
-Jun 29, 2026 02:07:03.162 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
-Jun 29, 2026 02:07:03.163 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
-Jun 29, 2026 02:07:03.164 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
-Jun 29, 2026 02:07:03.164 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
-Jun 29, 2026 02:07:03.165 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
-Jun 29, 2026 02:07:03.166 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
-Jun 29, 2026 02:07:03.166 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
-Jun 29, 2026 02:07:03.167 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
-Jun 29, 2026 02:07:03.168 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
-Jun 29, 2026 02:07:03.168 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
-Jun 29, 2026 02:07:03.169 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
-Jun 29, 2026 02:07:03.170 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 20
-Jun 29, 2026 02:07:03.170 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 21
-Jun 29, 2026 02:07:03.171 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 22
-Jun 29, 2026 02:07:03.172 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 23
-Jun 29, 2026 02:07:03.172 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 24
-Jun 29, 2026 02:07:03.173 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 25
-Jun 29, 2026 02:07:03.174 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 26
-Jun 29, 2026 02:07:03.174 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 27
-Jun 29, 2026 02:07:03.175 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 28
-Jun 29, 2026 02:07:03.175 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 29
-Jun 29, 2026 02:07:03.176 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 30
-Jun 29, 2026 02:07:03.177 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 31
-Jun 29, 2026 02:07:03.177 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 32
-Jun 29, 2026 02:07:03.178 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 33
-Jun 29, 2026 02:07:03.179 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 34
-Jun 29, 2026 02:07:03.179 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 35
-Jun 29, 2026 02:07:03.180 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 36
-Jun 29, 2026 02:07:03.181 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 37
-Jun 29, 2026 02:07:03.181 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 38
-Jun 29, 2026 02:07:03.182 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 39
-Jun 29, 2026 02:07:03.182 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 40
-Jun 29, 2026 02:07:03.183 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 41
-Jun 29, 2026 02:07:03.184 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 42
-Jun 29, 2026 02:07:03.184 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 43
-Jun 29, 2026 02:07:03.185 [547935522872] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 44
-Jun 29, 2026 02:07:03.186 [547935522872] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
-Jun 29, 2026 02:07:03.187 [547935522872] DEBUG - Deep Analysis: Saving bitrate analysis
-Jun 29, 2026 02:07:03.188 [547935522872] DEBUG - Updating part with ID=4 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv]
-Jun 29, 2026 02:07:03.232 [547935522872] DEBUG - [MI] Closing input file: "/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv"
-Jun 29, 2026 02:07:03.234 [547935522872] DEBUG - Updating media item 4, size=1621457559, metadata_item_id=6
-Jun 29, 2026 02:07:03.234 [547935522872] DEBUG - Updating part with ID=4 [/data/medios/Series/Pluribus (2025)/Season 01/Pluribus (2025) - S01E04 - Please, Carol (1080p ATVP WEB-DL x265 Ghost).mkv]
+Jul 11, 2026 02:09:37.412 [548295347704] INFO - Plex Media Scanner v1.43.2.10687-563d026ea - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 02:00
+Jul 11, 2026 02:09:37.412 [548295347704] INFO - Linux version: 6.18.34+rpt-rpi-v8, language: en-US
+Jul 11, 2026 02:09:37.413 [548295347704] INFO - Processor: 4-core ARM Cortex-A72
+Jul 11, 2026 02:09:37.413 [548295347704] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 19 --log-file-suffix  Deep Analysis
+Jul 11, 2026 02:09:37.414 [548391067704] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jul 11, 2026 02:09:37.658 [548391067704] DEBUG - [MI] Opening input file: "/data/medios/Pelis/Michael (2026)/Michael (2026).mkv"
+Jul 11, 2026 02:09:37.658 [548391067704] DEBUG - [FFMPEG] - Opening '/data/medios/Pelis/Michael (2026)/Michael (2026).mkv' for reading
+Jul 11, 2026 02:09:37.658 [548391067704] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 11, 2026 02:09:37.658 [548391067704] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6065
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6117
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6169
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6222
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6275
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6328
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6381
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6434
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6487
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6540
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6593
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6646
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6699
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6752
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6805
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6858
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jul 11, 2026 02:09:37.659 [548391067704] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6970 bytes read:35660 seeks:2 nb_streams:7
+Jul 11, 2026 02:09:37.661 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 11, 2026 02:09:37.661 [548391067704] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:09:37.661 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 11, 2026 02:09:37.662 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 11, 2026 02:09:37.662 [548391067704] DEBUG - [FFMPEG] - Decoding VUI
+Jul 11, 2026 02:09:37.662 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 11, 2026 02:09:37.662 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 11, 2026 02:09:37.662 [548391067704] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 11, 2026 02:09:37.668 [548391067704] DEBUG - [FFMPEG] - no picture 
+Jul 11, 2026 02:09:37.674 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:09:37.679 [548391067704] DEBUG - [FFMPEG] - no picture 
+Jul 11, 2026 02:09:37.685 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:09:37.699 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:09:37.713 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:09:37.727 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:09:37.734 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 11, 2026 02:09:37.742 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:09:37.751 [548391067704] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jul 11, 2026 02:09:37.760 [548391067704] DEBUG - [FFMPEG] - All info found
+Jul 11, 2026 02:09:37.764 [548391067704] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 130994 bytes read:166732 seeks:2 frames:58
+Jul 11, 2026 02:09:40.111 [548391067704] DEBUG - Deep Analysis: Read 10000 packets at 84.768000
+Jul 11, 2026 02:09:43.324 [548391067704] DEBUG - Deep Analysis: Read 20000 packets at 169.169000
+Jul 11, 2026 02:09:47.050 [548391067704] DEBUG - Deep Analysis: Read 30000 packets at 253.984000
+Jul 11, 2026 02:09:50.768 [548391067704] DEBUG - Deep Analysis: Read 40000 packets at 338.336000
+Jul 11, 2026 02:09:53.751 [548391067704] DEBUG - Deep Analysis: Read 50000 packets at 422.880000
+Jul 11, 2026 02:09:56.194 [548391067704] DEBUG - Deep Analysis: Read 60000 packets at 507.296000
+Jul 11, 2026 02:09:57.476 [548391067704] DEBUG - Deep Analysis: Read 70000 packets at 591.674000
+Jul 11, 2026 02:10:00.200 [548391067704] DEBUG - Deep Analysis: Read 80000 packets at 676.342000
+Jul 11, 2026 02:10:03.252 [548391067704] DEBUG - Deep Analysis: Read 90000 packets at 761.248000
+Jul 11, 2026 02:10:06.601 [548391067704] DEBUG - Deep Analysis: Read 100000 packets at 845.595000
+Jul 11, 2026 02:10:09.844 [548391067704] DEBUG - Deep Analysis: Read 110000 packets at 930.012000
+Jul 11, 2026 02:10:13.305 [548391067704] DEBUG - Deep Analysis: Read 120000 packets at 1015.008000
+Jul 11, 2026 02:10:16.645 [548391067704] DEBUG - Deep Analysis: Read 130000 packets at 1099.392000
+Jul 11, 2026 02:10:20.254 [548391067704] DEBUG - Deep Analysis: Read 140000 packets at 1184.000000
+Jul 11, 2026 02:10:23.701 [548391067704] DEBUG - Deep Analysis: Read 150000 packets at 1268.225000
+Jul 11, 2026 02:10:27.203 [548391067704] DEBUG - Deep Analysis: Read 160000 packets at 1353.056000
+Jul 11, 2026 02:10:30.829 [548391067704] DEBUG - Deep Analysis: Read 170000 packets at 1437.504000
+Jul 11, 2026 02:10:34.374 [548391067704] DEBUG - Deep Analysis: Read 180000 packets at 1522.208000
+Jul 11, 2026 02:10:37.995 [548391067704] DEBUG - Deep Analysis: Read 190000 packets at 1607.008000
+Jul 11, 2026 02:10:41.522 [548391067704] DEBUG - Deep Analysis: Read 200000 packets at 1691.392000
+Jul 11, 2026 02:10:44.976 [548391067704] DEBUG - Deep Analysis: Read 210000 packets at 1775.968000
+Jul 11, 2026 02:10:46.066 [548391067704] DEBUG - Deep Analysis: Read 220000 packets at 1860.416000
+Jul 11, 2026 02:10:46.628 [548391067704] DEBUG - Deep Analysis: Read 230000 packets at 1945.184000
+Jul 11, 2026 02:10:49.926 [548391067704] DEBUG - Deep Analysis: Read 240000 packets at 2029.528000
+Jul 11, 2026 02:10:53.518 [548391067704] DEBUG - Deep Analysis: Read 250000 packets at 2114.195000
+Jul 11, 2026 02:10:57.111 [548391067704] DEBUG - Deep Analysis: Read 260000 packets at 2198.912000
+Jul 11, 2026 02:11:00.609 [548391067704] DEBUG - Deep Analysis: Read 270000 packets at 2283.328000
+Jul 11, 2026 02:11:04.236 [548391067704] DEBUG - Deep Analysis: Read 280000 packets at 2367.872000
+Jul 11, 2026 02:11:07.821 [548391067704] DEBUG - Deep Analysis: Read 290000 packets at 2452.480000
+Jul 11, 2026 02:11:11.455 [548391067704] DEBUG - Deep Analysis: Read 300000 packets at 2537.280000
+Jul 11, 2026 02:11:14.945 [548391067704] DEBUG - Deep Analysis: Read 310000 packets at 2621.728000
+Jul 11, 2026 02:11:18.430 [548391067704] DEBUG - Deep Analysis: Read 320000 packets at 2706.208000
+Jul 11, 2026 02:11:22.121 [548391067704] DEBUG - Deep Analysis: Read 330000 packets at 2790.454000
+Jul 11, 2026 02:11:25.690 [548391067704] DEBUG - Deep Analysis: Read 340000 packets at 2875.328000
+Jul 11, 2026 02:11:29.215 [548391067704] DEBUG - Deep Analysis: Read 350000 packets at 2959.744000
+Jul 11, 2026 02:11:32.805 [548391067704] DEBUG - Deep Analysis: Read 360000 packets at 3044.352000
+Jul 11, 2026 02:11:36.355 [548391067704] DEBUG - Deep Analysis: Read 370000 packets at 3129.024000
+Jul 11, 2026 02:11:39.965 [548391067704] DEBUG - Deep Analysis: Read 380000 packets at 3213.210000
+Jul 11, 2026 02:11:43.550 [548391067704] DEBUG - Deep Analysis: Read 390000 packets at 3298.016000
+Jul 11, 2026 02:11:47.219 [548391067704] DEBUG - Deep Analysis: Read 400000 packets at 3382.045000
+Jul 11, 2026 02:11:50.686 [548391067704] DEBUG - Deep Analysis: Read 410000 packets at 3466.592000
+Jul 11, 2026 02:11:54.156 [548391067704] DEBUG - Deep Analysis: Read 420000 packets at 3551.360000
+Jul 11, 2026 02:11:57.988 [548391067704] DEBUG - Deep Analysis: Read 430000 packets at 3635.616000
+Jul 11, 2026 02:12:01.411 [548391067704] DEBUG - Deep Analysis: Read 440000 packets at 3719.799000
+Jul 11, 2026 02:12:04.887 [548391067704] DEBUG - Deep Analysis: Read 450000 packets at 3804.342000
+Jul 11, 2026 02:12:08.309 [548391067704] DEBUG - Deep Analysis: Read 460000 packets at 3889.152000
+Jul 11, 2026 02:12:11.820 [548391067704] DEBUG - Deep Analysis: Read 470000 packets at 3973.536000
+Jul 11, 2026 02:12:15.410 [548391067704] DEBUG - Deep Analysis: Read 480000 packets at 4057.952000
+Jul 11, 2026 02:12:18.985 [548391067704] DEBUG - Deep Analysis: Read 490000 packets at 4142.496000
+Jul 11, 2026 02:12:22.513 [548391067704] DEBUG - Deep Analysis: Read 500000 packets at 4227.008000
+Jul 11, 2026 02:12:26.072 [548391067704] DEBUG - Deep Analysis: Read 510000 packets at 4311.744000
+Jul 11, 2026 02:12:29.478 [548391067704] DEBUG - Deep Analysis: Read 520000 packets at 4396.256000
+Jul 11, 2026 02:12:33.061 [548391067704] DEBUG - Deep Analysis: Read 530000 packets at 4480.768000
+Jul 11, 2026 02:12:36.723 [548391067704] DEBUG - Deep Analysis: Read 540000 packets at 4565.436000
+Jul 11, 2026 02:12:40.243 [548391067704] DEBUG - Deep Analysis: Read 550000 packets at 4649.952000
+Jul 11, 2026 02:12:43.848 [548391067704] DEBUG - Deep Analysis: Read 560000 packets at 4734.355000
+Jul 11, 2026 02:12:47.402 [548391067704] DEBUG - Deep Analysis: Read 570000 packets at 4818.856000
+Jul 11, 2026 02:12:51.002 [548391067704] DEBUG - Deep Analysis: Read 580000 packets at 4903.744000
+Jul 11, 2026 02:12:54.513 [548391067704] DEBUG - Deep Analysis: Read 590000 packets at 4987.900000
+Jul 11, 2026 02:12:58.047 [548391067704] DEBUG - Deep Analysis: Read 600000 packets at 5072.526000
+Jul 11, 2026 02:13:01.611 [548391067704] DEBUG - Deep Analysis: Read 610000 packets at 5156.943000
+Jul 11, 2026 02:13:05.156 [548391067704] DEBUG - Deep Analysis: Read 620000 packets at 5241.528000
+Jul 11, 2026 02:13:08.605 [548391067704] DEBUG - Deep Analysis: Read 630000 packets at 5326.144000
+Jul 11, 2026 02:13:12.169 [548391067704] DEBUG - Deep Analysis: Read 640000 packets at 5410.784000
+Jul 11, 2026 02:13:15.781 [548391067704] DEBUG - Deep Analysis: Read 650000 packets at 5495.360000
+Jul 11, 2026 02:13:19.255 [548391067704] DEBUG - Deep Analysis: Read 660000 packets at 5579.904000
+Jul 11, 2026 02:13:22.774 [548391067704] DEBUG - Deep Analysis: Read 670000 packets at 5664.288000
+Jul 11, 2026 02:13:26.340 [548391067704] DEBUG - Deep Analysis: Read 680000 packets at 5748.768000
+Jul 11, 2026 02:13:29.842 [548391067704] DEBUG - Deep Analysis: Read 690000 packets at 5833.328000
+Jul 11, 2026 02:13:33.391 [548391067704] DEBUG - Deep Analysis: Read 700000 packets at 5918.176000
+Jul 11, 2026 02:13:36.875 [548391067704] DEBUG - Deep Analysis: Read 710000 packets at 6002.720000
+Jul 11, 2026 02:13:40.547 [548391067704] DEBUG - Deep Analysis: Read 720000 packets at 6087.164000
+Jul 11, 2026 02:13:44.101 [548391067704] DEBUG - Deep Analysis: Read 730000 packets at 6171.582000
+Jul 11, 2026 02:13:47.658 [548391067704] DEBUG - Deep Analysis: Read 740000 packets at 6256.288000
+Jul 11, 2026 02:13:51.326 [548391067704] DEBUG - Deep Analysis: Read 750000 packets at 6340.960000
+Jul 11, 2026 02:13:55.232 [548391067704] DEBUG - Deep Analysis: Read 760000 packets at 6425.696000
+Jul 11, 2026 02:13:58.976 [548391067704] DEBUG - Deep Analysis: Read 770000 packets at 6510.368000
+Jul 11, 2026 02:14:02.717 [548391067704] DEBUG - Deep Analysis: Read 780000 packets at 6594.755000
+Jul 11, 2026 02:14:06.261 [548391067704] DEBUG - Deep Analysis: Read 790000 packets at 6679.464000
+Jul 11, 2026 02:14:09.745 [548391067704] DEBUG - Deep Analysis: Read 800000 packets at 6764.448000
+Jul 11, 2026 02:14:13.306 [548391067704] DEBUG - Deep Analysis: Read 810000 packets at 6849.056000
+Jul 11, 2026 02:14:16.868 [548391067704] DEBUG - Deep Analysis: Read 820000 packets at 6933.472000
+Jul 11, 2026 02:14:20.533 [548391067704] DEBUG - Deep Analysis: Read 830000 packets at 7018.240000
+Jul 11, 2026 02:14:23.032 [548391067704] DEBUG - Deep Analysis: Read 840000 packets at 7102.848000
+Jul 11, 2026 02:14:23.886 [548391067704] DEBUG - Deep Analysis: Read 850000 packets at 7187.488000
+Jul 11, 2026 02:14:25.216 [548391067704] DEBUG - Deep Analysis: Read 860000 packets at 7272.512000
+Jul 11, 2026 02:14:27.779 [548391067704] DEBUG - Deep Analysis: Read 870000 packets at 7356.808000
+Jul 11, 2026 02:14:29.935 [548391067704] DEBUG - Deep Analysis: Read 880000 packets at 7441.824000
+Jul 11, 2026 02:14:32.663 [548391067704] DEBUG - Deep Analysis: Read 890000 packets at 7526.496000
+Jul 11, 2026 02:14:35.009 [548391067704] DEBUG - Deep Analysis: Read 900000 packets at 7611.168000
+Jul 11, 2026 02:14:35.877 [548391067704] DEBUG - Deep Analysis: Read 910000 packets at 7696.128000
+Jul 11, 2026 02:14:36.087 [548391067704] DEBUG - Deep Analysis: Sorting packets
+Jul 11, 2026 02:14:36.179 [548391067704] DEBUG - Deep Analysis: Performing file bitrate analysis
+Jul 11, 2026 02:14:36.569 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Jul 11, 2026 02:14:36.667 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Jul 11, 2026 02:14:36.722 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Jul 11, 2026 02:14:36.782 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Jul 11, 2026 02:14:36.837 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Jul 11, 2026 02:14:36.841 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Jul 11, 2026 02:14:36.845 [548391067704] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Jul 11, 2026 02:14:36.852 [548391067704] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Jul 11, 2026 02:14:36.860 [548391067704] DEBUG - Deep Analysis: Saving bitrate analysis
+Jul 11, 2026 02:14:36.861 [548391067704] DEBUG - Updating part with ID=18 [/data/medios/Pelis/Michael (2026)/Michael (2026).mkv]
+Jul 11, 2026 02:14:36.863 [548391067704] DEBUG - [MI] Closing input file: "/data/medios/Pelis/Michael (2026)/Michael (2026).mkv"
+Jul 11, 2026 02:14:36.865 [548391067704] DEBUG - Updating media item 18, size=10674410264, metadata_item_id=19
+Jul 11, 2026 02:14:36.865 [548391067704] DEBUG - Updating part with ID=18 [/data/medios/Pelis/Michael (2026)/Michael (2026).mkv]
