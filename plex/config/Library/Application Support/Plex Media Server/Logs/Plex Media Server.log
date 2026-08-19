@@ -1030,3 +1030,4 @@ Aug 19, 2026 22:38:58.659 [548476276960] DEBUG - [NSB/SSDP] Parsing SSDP schema 
 Aug 19, 2026 22:39:13.673 [548497625312] DEBUG - [HttpClient/HCl#af] HTTP simulating 408 after curl timeout
 Aug 19, 2026 22:40:00.658 [548476276960] DEBUG - [NSB/SSDP] Parsing SSDP schema for http://192.168.1.1:49152/wps_device.xml
 Aug 19, 2026 22:40:15.673 [548497625312] DEBUG - [HttpClient/HCl#b0] HTTP simulating 408 after curl timeout
+Aug 19, 2026 22:40:58.667 [548476276960] DEBUG - [NSB/SSDP] Parsing SSDP schema for http://192.168.1.1:49152/wps_device.xml
