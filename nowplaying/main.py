@@ -3,7 +3,9 @@ import requests
 from core.recorder import record_audio
 from core.shazam_client import recognize_song
 
-API_URL = "http://127.0.0.1:8000/update-track"
+DEVICE_ID = "RaspberryBCN" 
+
+API_URL = f"http://127.0.0.1:8000/update-track?device_id={DEVICE_ID}"
 RECORD_DEVICE = 1  # Tu micrófono USB
 
 async def loop_reconocimiento():

@@ -1,112 +1,169 @@
 import json
+import sqlite3
 import os
 from datetime import datetime, timezone
+from contextlib import contextmanager
 
-DB_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "current_track.json"))
-DB_HISTORY_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "history.json"))
+DB_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "nowplaying.db"))
 MARGEN_MINUTOS = 1
+
+@contextmanager
+def get_conn():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    try:
+        yield conn
+        conn.commit()
+    finally:
+        conn.close()
+
+def init_db():
+    """Crea las tablas si no existen. Llamar una vez al arrancar la API."""
+    with get_conn() as conn:
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS tracks (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                device_id TEXT NOT NULL,
+                title TEXT NOT NULL,
+                artist TEXT NOT NULL,
+                album_art TEXT,
+                detected_at TEXT NOT NULL
+            )
+        """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS current_state (
+                device_id TEXT PRIMARY KEY,
+                success INTEGER NOT NULL,
+                title TEXT,
+                artist TEXT,
+                album_art TEXT,
+                updated_at TEXT NOT NULL
+            )
+        """)
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_tracks_device ON tracks(device_id)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_tracks_detected_at ON tracks(detected_at)")
+
 
 # ==========================================
 # GESTIÓN DE LA CANCIÓN ACTUAL
 # ==========================================
 
-def save_current_track(track_data):
-    """Guarda la canción o el fallo. Si es un éxito, lo añade al historial."""
-    track_data["timestamp"] = datetime.now(timezone.utc).isoformat()
-    
+def save_current_track(track_data, device_id="default"):
+    now = datetime.now(timezone.utc).isoformat()
 
-    if track_data.get("success") is True:
-        with open(DB_FILE, "w", encoding="utf-8") as f:
-            json.dump(track_data, f, indent=4, ensure_ascii=False)
-        add_to_history(track_data)
-        return
 
-    if not os.path.exists(DB_FILE):
-        with open(DB_FILE, "w", encoding="utf-8") as f:
-            json.dump(track_data, f, indent=4, ensure_ascii=False)
-        return
+    with get_conn() as conn:
+        if track_data.get("success") is True:
+            conn.execute("""
+                INSERT INTO current_state (device_id, success, title, artist, album_art, updated_at)
+                VALUES (?, 1, ?, ?, ?, ?)
+                ON CONFLICT(device_id) DO UPDATE SET
+                    success=1, title=excluded.title, artist=excluded.artist,
+                    album_art=excluded.album_art, updated_at=excluded.updated_at
+            """, (device_id, track_data.get("title"), track_data.get("artist"),
+                  track_data.get("album_art"), now))
 
-    # Leemos la última canción registrada
-    with open(DB_FILE, "r", encoding="utf-8") as f:
-        data_actual = json.load(f)
+            _add_to_history(conn, device_id, track_data, now)
+            return
 
-    # Si lo que hay guardado ya era un fallo, no hacemos nada
-    if data_actual.get("success") is False:
-        return
+        row = conn.execute(
+            "SELECT * FROM current_state WHERE device_id = ?", (device_id,)
+        ).fetchone()
 
-    # Si hay una canción real en el JSON, medimos cuánto tiempo lleva sonando
-    last_time_str = data_actual.get("timestamp")
-    if last_time_str:
-        last_time = datetime.fromisoformat(last_time_str)
-        ahora = datetime.now(timezone.utc)
-        diferencia = (ahora - last_time).total_seconds() / 60
+        if row is None:
+            conn.execute("""
+                INSERT INTO current_state (device_id, success, title, artist, album_art, updated_at)
+                VALUES (?, 0, ?, ?, ?, ?)
+            """, (device_id, track_data.get("title"), track_data.get("artist"),
+                  track_data.get("album_art"), now))
+            return
 
-        # Solo marcamos como Unknown si ha pasado el tiempo de gracia
+        if row["success"] == 0:
+            return  # ya estaba marcado como "nada sonando"
+
+        last_time = datetime.fromisoformat(row["updated_at"])
+        diferencia = (datetime.now(timezone.utc) - last_time).total_seconds() / 60
+
         if diferencia > MARGEN_MINUTOS:
-            with open(DB_FILE, "w", encoding="utf-8") as f:
-                json.dump(track_data, f, indent=4, ensure_ascii=False)
+            conn.execute("""
+                UPDATE current_state
+                SET success=0, title=?, artist=?, album_art=?, updated_at=?
+                WHERE device_id=?
+            """, (track_data.get("title"), track_data.get("artist"),
+                  track_data.get("album_art"), now, device_id))
 
 
 
 
+def get_current_track(device_id="default"):
+    with get_conn() as conn:
+        row = conn.execute(
+            "SELECT * FROM current_state WHERE device_id = ?", (device_id,)
+        ).fetchone()
 
-def get_current_track():
-    """Lee la canción actual y aplica el margen si no se detecta nada"""
-    estado_vacio = {
-        "success": False,
-        "title": "Ninguna canción",
-        "artist": "Esperando música...",
-        "album_art": None,
-        "timestamp": None
-    }
+    if row is None:
+        return {
+            "success": False,
+            "title": "Ninguna canción",
+            "artist": "Esperando música...",
+            "album_art": None,
+            "timestamp": None,
+        }
 
-    if not os.path.exists(DB_FILE):
-        return estado_vacio
+    return {
+            "success": bool(row["success"]),
+            "title": row["title"],
+            "artist": row["artist"],
+            "album_art": row["album_art"],
+            "timestamp": row["updated_at"],    
+        }
 
-    with open(DB_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-
-    return data
 
 # ==========================================
-# 🆕 GESTIÓN DEL HISTORIAL (Últimas 10)
+# 🆕 GESTIÓN DEL HISTORIAL
 # ==========================================
 
-def get_history():
-    """Devuelve la lista del historial. Crea el archivo si no existe."""
-    if not os.path.exists(DB_HISTORY_FILE):
-        with open(DB_HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump([], f)
-        return []
-        
-    with open(DB_HISTORY_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
 
-def add_to_history(track_data):
-    """Añade la canción al historial sin duplicar la última y manteniendo máximo 10."""
-    history = get_history()
-    
-    # Comprobar que no sea exactamente la misma que la última añadida
-    if len(history) > 0:
-        last_track = history[0]
-        if last_track.get("title") == track_data.get("title") and last_track.get("artist") == track_data.get("artist"):
-            return # Es la misma, no la duplicamos
-            
-    # Preparamos los datos limpios para el historial
-    historial_entry = {
-        "title": track_data.get("title"),
-        "artist": track_data.get("artist"),
-        "album_art": track_data.get("album_art"),
-        "timestamp": track_data.get("timestamp")
-    }
-    
-    # Insertar al principio de la lista
-    history.insert(0, historial_entry)
-    
-    # Recortar a las últimas 10
-    history = history[:10]
-    
-    # Guardar en el archivo JSON
-    with open(DB_HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(history, f, indent=4, ensure_ascii=False)
+def _add_to_history(conn, device_id, track_data, timestamp):
+    """Evita duplicar si es la misma canción que la última registrada para ese dispositivo."""
+    last = conn.execute("""
+        SELECT title, artist FROM tracks
+        WHERE device_id = ? ORDER BY id DESC LIMIT 1
+    """, (device_id,)).fetchone()
+
+    if last and last["title"] == track_data.get("title") and last["artist"] == track_data.get("artist"):
+        return
+
+    conn.execute("""
+        INSERT INTO tracks (device_id, title, artist, album_art, detected_at)
+        VALUES (?, ?, ?, ?, ?)
+    """, (device_id, track_data.get("title"), track_data.get("artist"),
+          track_data.get("album_art"), timestamp))
+
+
+def get_history(device_id=None, since=None, until=None, limit=50, offset=0):
+    """
+    Filtros pensados para la futura app:
+    - device_id: filtrar por dispositivo
+    - since / until: timestamps ISO, para rango de fechas
+    - limit / offset: paginación
+    """
+    query = "SELECT * FROM tracks WHERE 1=1"
+    params = []
+    if device_id:
+        query += " AND device_id = ?"
+        params.append(device_id)
+    if since:
+        query += " AND detected_at >= ?"
+        params.append(since)
+    if until:
+        query += " AND detected_at <= ?"
+        params.append(until)
+
+    query += " ORDER BY detected_at DESC LIMIT ? OFFSET ?"
+    params.extend([limit, offset])
+
+    with get_conn() as conn:
+        rows = conn.execute(query, params).fetchall()
+
+    return [dict(r) for r in rows]

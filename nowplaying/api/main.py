@@ -3,10 +3,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from api.database import get_current_track, save_current_track
+from api.database import get_current_track, save_current_track, get_history, init_db
 import os
 
 app = FastAPI(title="Now Playing API")
+
+@app.on_event("startup")
+def startup():
+    init_db()
 
 app.add_middleware(
     CORSMiddleware,
@@ -35,10 +39,14 @@ def read_root(request: Request):
 
 # --- RUTAS DE DATOS ---
 @app.get("/now-playing")
-def now_playing():
-    return get_current_track()
+def now_playing(device_id: str = "default"):
+    return get_current_track(device_id)
 
 @app.post("/update-track")
-def update_track(track: dict):
-    save_current_track(track)
-    return {"status": "success", "updated_at": track.get("timestamp")}
+def update_track(track: dict, device_id: str = "default"):
+    save_current_track(track, device_id)
+    return {"status": "success", "device_id": device_id, "updated_at": track.get("timestamp")}
+
+@app.get("/history")
+def history(device_id: str = None, since: str = None, until: str = None, limit: int = 50, offset: int = 0):
+    return get_history(device_id=device_id, since=since, until=until, limit=limit, offset=offset)
