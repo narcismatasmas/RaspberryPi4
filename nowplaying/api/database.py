@@ -48,12 +48,30 @@ def init_db():
 # GESTIÓN DE LA CANCIÓN ACTUAL
 # ==========================================
 
+def _should_log_to_history(prev, track_data):
+    """Decide si esta detección debe crear un nuevo registro en el historial."""
+    if prev is None:
+        return True
+    if prev["success"] == 0:
+        return True
+    if prev["title"] != track_data.get("title") or prev["artist"] != track_data.get("artist"):
+        return True
+    return False
+
+
 def save_current_track(track_data, device_id="default"):
     now = datetime.now(timezone.utc).isoformat()
 
 
     with get_conn() as conn:
+        # Leemos el estado ANTERIOR antes de tocar nada
+        prev = conn.execute(
+            "SELECT * FROM current_state WHERE device_id = ?", (device_id,)
+        ).fetchone()
+
         if track_data.get("success") is True:
+            debe_registrar = _should_log_to_history(prev, track_data)
+            
             conn.execute("""
                 INSERT INTO current_state (device_id, success, title, artist, album_art, updated_at)
                 VALUES (?, 1, ?, ?, ?, ?)
@@ -63,14 +81,12 @@ def save_current_track(track_data, device_id="default"):
             """, (device_id, track_data.get("title"), track_data.get("artist"),
                   track_data.get("album_art"), now))
 
-            _add_to_history(conn, device_id, track_data, now)
+            if debe_registrar:
+                _add_to_history(conn, device_id, track_data, now)
             return
 
-        row = conn.execute(
-            "SELECT * FROM current_state WHERE device_id = ?", (device_id,)
-        ).fetchone()
-
-        if row is None:
+        # --- Caso: no se detecta música ---
+        if prev is None:
             conn.execute("""
                 INSERT INTO current_state (device_id, success, title, artist, album_art, updated_at)
                 VALUES (?, 0, ?, ?, ?, ?)
@@ -78,10 +94,10 @@ def save_current_track(track_data, device_id="default"):
                   track_data.get("album_art"), now))
             return
 
-        if row["success"] == 0:
-            return  # ya estaba marcado como "nada sonando"
+        if prev["success"] == 0:
+            return
 
-        last_time = datetime.fromisoformat(row["updated_at"])
+        last_time = datetime.fromisoformat(prev["updated_at"])
         diferencia = (datetime.now(timezone.utc) - last_time).total_seconds() / 60
 
         if diferencia > MARGEN_MINUTOS:
@@ -125,15 +141,6 @@ def get_current_track(device_id="default"):
 
 
 def _add_to_history(conn, device_id, track_data, timestamp):
-    """Evita duplicar si es la misma canción que la última registrada para ese dispositivo."""
-    last = conn.execute("""
-        SELECT title, artist FROM tracks
-        WHERE device_id = ? ORDER BY id DESC LIMIT 1
-    """, (device_id,)).fetchone()
-
-    if last and last["title"] == track_data.get("title") and last["artist"] == track_data.get("artist"):
-        return
-
     conn.execute("""
         INSERT INTO tracks (device_id, title, artist, album_art, detected_at)
         VALUES (?, ?, ?, ?, ?)
