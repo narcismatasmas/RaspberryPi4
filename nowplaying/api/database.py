@@ -174,3 +174,12 @@ def get_history(device_id=None, since=None, until=None, limit=50, offset=0):
         rows = conn.execute(query, params).fetchall()
 
     return [dict(r) for r in rows]
+
+def get_devices():
+    """Devuelve la lista de device_id distintos que aparecen en el histórico."""
+    with get_conn() as conn:
+        rows = conn.execute(
+            "SELECT DISTINCT device_id FROM tracks ORDER BY device_id"
+        ).fetchall()
+
+    return [row["device_id"] for row in rows]

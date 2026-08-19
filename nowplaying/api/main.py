@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from api.database import get_current_track, save_current_track, get_history, init_db
+from api.database import get_current_track, save_current_track, get_history, init_db, get_devices
 import os
 
 app = FastAPI(title="Now Playing API")
@@ -50,3 +50,7 @@ def update_track(track: dict, device_id: str = "default"):
 @app.get("/history")
 def history(device_id: str = None, since: str = None, until: str = None, limit: int = 50, offset: int = 0):
     return get_history(device_id=device_id, since=since, until=until, limit=limit, offset=offset)
+
+@app.get("/devices")
+def devices():
+    return get_devices()
