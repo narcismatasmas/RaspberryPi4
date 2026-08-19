@@ -1,4 +1,4 @@
-const API_URL = '/now-playing';
+const API_URL = '/now-playing?device_id=RaspberryBCN';
 const colorThief = new ColorThief();
 
 
