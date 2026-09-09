@@ -120,6 +120,7 @@ def get_current_track(device_id="default"):
     if row is None:
         return {
             "success": False,
+            "device_id": device_id,
             "title": "Ninguna canción",
             "artist": "Esperando música...",
             "album_art": None,
@@ -128,6 +129,7 @@ def get_current_track(device_id="default"):
 
     return {
             "success": bool(row["success"]),
+            "device_id": row["device_id"],
             "title": row["title"],
             "artist": row["artist"],
             "album_art": row["album_art"],
